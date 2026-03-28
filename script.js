@@ -3,44 +3,50 @@ const quizzes = {
     name: "Đề 1 - Kiến thức máy tính cơ bản",
     file: "question/de1.txt",
     difficulty: "Cơ bản",
-    questions: []
+    questions: [],
   },
   de2: {
     name: "Đề 2 - Kiến thức máy tính",
     file: "question/de2.txt",
     difficulty: "Cơ bản",
-    questions: []
+    questions: [],
   },
   de3: {
     name: "Đề 3 - Kiến thức máy tính",
     file: "question/de3.txt",
     difficulty: "Trung bình",
-    questions: []
+    questions: [],
   },
   de4: {
     name: "Đề 4 - Kiến thức máy tính",
     file: "question/de4.txt",
     difficulty: "Trung bình",
-    questions: []
+    questions: [],
   },
   de5: {
     name: "Đề 5 - Kiến thức máy tính",
     file: "question/de5.txt",
     difficulty: "Nâng cao",
-    questions: []
+    questions: [],
   },
   de_120_cau_bao_tri: {
     name: "Đề 120 câu - Bảo trì máy tính",
     file: "question/de_120_cau_bao_tri.txt",
     difficulty: "Nâng cao",
-    questions: []
+    questions: [],
   },
   de_120_cau_bao_tri_v2: {
     name: "Đề 120 câu - Bảo trì máy tính V2",
     file: "question/de_120_cau_bao_tri_v2.txt",
     difficulty: "Nâng cao",
-    questions: []
-  }
+    questions: [],
+  },
+  de_mau: {
+    name: "Đề Giữa Kỳ - Bảo trì máy tính",
+    file: "question/deMau.txt",
+    difficulty: "Advanced",
+    questions: [],
+  },
 };
 
 // QUIZ STATE
@@ -94,32 +100,32 @@ async function loadAllQuizzes() {
       }
     }
   });
-  
+
   await Promise.all(loadPromises);
   renderQuizMenu();
 }
 
 // ===== RENDER QUIZ MENU =====
 function renderQuizMenu() {
-  const quizGrid = document.querySelector('.quiz-selector-grid');
+  const quizGrid = document.querySelector(".quiz-selector-grid");
   if (!quizGrid) return;
-  
-  quizGrid.innerHTML = '';
-  
+
+  quizGrid.innerHTML = "";
+
   // Add all quiz options
   Object.keys(quizzes).forEach((quizId) => {
     const quiz = quizzes[quizId];
     const questionCount = quiz.questions.length;
-    
-    const card = document.createElement('div');
-    card.className = 'quiz-option-card';
+
+    const card = document.createElement("div");
+    card.className = "quiz-option-card";
     card.innerHTML = `
       <div class="quiz-option-header">
-        <div class="quiz-badge ${quizId}">${quiz.name.split(' - ')[0]}</div>
-        <span class="difficulty">${quiz.difficulty || 'Cơ bản'}</span>
+        <div class="quiz-badge ${quizId}">${quiz.name.split(" - ")[0]}</div>
+        <span class="difficulty">${quiz.difficulty || "Cơ bản"}</span>
       </div>
       <p class="quiz-option-desc">
-        ${questionCount} câu hỏi - ${quiz.name.split(' - ')[1] || quiz.name}
+        ${questionCount} câu hỏi - ${quiz.name.split(" - ")[1] || quiz.name}
       </p>
       <button class="btn btn-primary" onclick="selectQuiz('${quizId}')">
         Bắt đầu
@@ -127,10 +133,10 @@ function renderQuizMenu() {
     `;
     quizGrid.appendChild(card);
   });
-  
+
   // Add random quiz option
-  const randomCard = document.createElement('div');
-  randomCard.className = 'quiz-option-card random-quiz';
+  const randomCard = document.createElement("div");
+  randomCard.className = "quiz-option-card random-quiz";
   randomCard.innerHTML = `
     <div class="quiz-option-header">
       <div class="quiz-badge random">🎲 Random</div>
@@ -176,7 +182,10 @@ function setupKeyboardShortcuts() {
       }
     }
     // Enter to submit
-    else if (e.key === "Enter" && currentQuestionIndex === currentQuiz.questions.length - 1) {
+    else if (
+      e.key === "Enter" &&
+      currentQuestionIndex === currentQuiz.questions.length - 1
+    ) {
       e.preventDefault();
       submitQuiz();
     }
@@ -234,10 +243,10 @@ function formatTime(seconds) {
 async function selectQuiz(quizId) {
   // Check if quiz exists and has questions
   if (!quizzes[quizId] || quizzes[quizId].questions.length === 0) {
-    alert('Đề thi chưa sẵn sàng hoặc không có câu hỏi!');
+    alert("Đề thi chưa sẵn sàng hoặc không có câu hỏi!");
     return;
   }
-  
+
   startQuiz(quizId);
 }
 
@@ -347,14 +356,14 @@ function renderQuestion(index) {
     li.setAttribute("role", "button");
     li.setAttribute("tabindex", "0");
     li.setAttribute("aria-label", `Đáp án ${optIndex + 1}: ${opt.text}`);
-    
+
     const optionNumber = document.createElement("span");
     optionNumber.classList.add("option-number");
     optionNumber.textContent = optIndex + 1;
-    
+
     const optionText = document.createElement("span");
     optionText.textContent = opt.text;
-    
+
     li.appendChild(optionNumber);
     li.appendChild(optionText);
 
@@ -418,7 +427,7 @@ function updateProgressText() {
   const answered = userAnswers.filter((a) => a !== null).length;
   const percent = Math.round((answered / total) * 100);
   progressTextEl.textContent = `Đã trả lời ${answered}/${total} câu`;
-  
+
   if (progressFillEl) {
     progressFillEl.style.width = `${percent}%`;
   }
@@ -459,7 +468,7 @@ function submitQuiz() {
   // Update result icon and title based on score
   const resultIcon = document.getElementById("result-icon");
   const resultTitle = document.getElementById("result-title");
-  
+
   if (percent >= 80) {
     resultIcon.textContent = "🎉";
     resultTitle.textContent = "Xuất sắc!";
@@ -484,7 +493,8 @@ function submitQuiz() {
   // Update stats
   document.getElementById("correct-count").textContent = correctCount;
   document.getElementById("incorrect-count").textContent = incorrectCount;
-  document.getElementById("time-taken").textContent = formatTime(elapsedSeconds);
+  document.getElementById("time-taken").textContent =
+    formatTime(elapsedSeconds);
 
   // Generate review list
   let reviewHtml = "";
@@ -518,14 +528,18 @@ function submitQuiz() {
         </div>
         <div class="review-question">${q.text}</div>
         <div class="review-answer">
-          <div class="answer-row ${chosenIndex === null ? 'not-answered' : (chosenOption && chosenOption.correct ? 'correct-answer' : 'wrong-answer')}">
+          <div class="answer-row ${chosenIndex === null ? "not-answered" : chosenOption && chosenOption.correct ? "correct-answer" : "wrong-answer"}">
             <strong>Bạn chọn:</strong> ${chosenText}
           </div>
-          ${chosenIndex === null || !chosenOption.correct ? `
+          ${
+            chosenIndex === null || !chosenOption.correct
+              ? `
             <div class="answer-row correct-answer">
               <strong>Đáp án đúng:</strong> ${correctText}
             </div>
-          ` : ''}
+          `
+              : ""
+          }
         </div>
       </div>
     `;
@@ -536,25 +550,25 @@ function submitQuiz() {
 
 // ===== RENDER QUIZ MENU =====
 function renderQuizMenu() {
-  const quizGrid = document.querySelector('.quiz-selector-grid');
+  const quizGrid = document.querySelector(".quiz-selector-grid");
   if (!quizGrid) return;
-  
-  quizGrid.innerHTML = '';
-  
+
+  quizGrid.innerHTML = "";
+
   // Add all quiz options
   Object.keys(quizzes).forEach((quizId) => {
     const quiz = quizzes[quizId];
     const questionCount = quiz.questions.length;
-    
-    const card = document.createElement('div');
-    card.className = 'quiz-option-card';
+
+    const card = document.createElement("div");
+    card.className = "quiz-option-card";
     card.innerHTML = `
       <div class="quiz-option-header">
-        <div class="quiz-badge ${quizId}">${quiz.name.split(' - ')[0]}</div>
-        <span class="difficulty">${quiz.difficulty || 'Cơ bản'}</span>
+        <div class="quiz-badge ${quizId}">${quiz.name.split(" - ")[0]}</div>
+        <span class="difficulty">${quiz.difficulty || "Cơ bản"}</span>
       </div>
       <p class="quiz-option-desc">
-        ${questionCount} câu hỏi - ${quiz.name.split(' - ')[1] || quiz.name}
+        ${questionCount} câu hỏi - ${quiz.name.split(" - ")[1] || quiz.name}
       </p>
       <button class="btn btn-primary" onclick="selectQuiz('${quizId}')">
         Bắt đầu
@@ -562,10 +576,10 @@ function renderQuizMenu() {
     `;
     quizGrid.appendChild(card);
   });
-  
+
   // Add random quiz option
-  const randomCard = document.createElement('div');
-  randomCard.className = 'quiz-option-card random-quiz';
+  const randomCard = document.createElement("div");
+  randomCard.className = "quiz-option-card random-quiz";
   randomCard.innerHTML = `
     <div class="quiz-option-header">
       <div class="quiz-badge random">🎲 Random</div>
@@ -583,8 +597,8 @@ function renderQuizMenu() {
 
 // ===== RANDOM QUIZ =====
 function showRandomQuizModal() {
-  const modal = document.createElement('div');
-  modal.className = 'modal-overlay';
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay";
   modal.innerHTML = `
     <div class="modal-content">
       <h3>🎲 Tạo đề thi ngẫu nhiên</h3>
@@ -612,11 +626,11 @@ function showRandomQuizModal() {
       </button>
     </div>
   `;
-  
+
   document.body.appendChild(modal);
-  
+
   // Close on overlay click
-  modal.addEventListener('click', (e) => {
+  modal.addEventListener("click", (e) => {
     if (e.target === modal) {
       closeRandomQuizModal();
     }
@@ -624,7 +638,7 @@ function showRandomQuizModal() {
 }
 
 function closeRandomQuizModal() {
-  const modal = document.querySelector('.modal-overlay');
+  const modal = document.querySelector(".modal-overlay");
   if (modal) {
     modal.remove();
   }
@@ -638,81 +652,83 @@ function createRandomQuiz(count) {
       allQuestions = allQuestions.concat(quizzes[quizId].questions);
     }
   });
-  
+
   if (allQuestions.length === 0) {
-    alert('Chưa có câu hỏi nào được tải!');
+    alert("Chưa có câu hỏi nào được tải!");
     return;
   }
-  
+
   // Validate count
   if (!count || count < 1) {
-    alert('Vui lòng nhập số câu hợp lệ (tối thiểu 1 câu)!');
+    alert("Vui lòng nhập số câu hợp lệ (tối thiểu 1 câu)!");
     return;
   }
-  
+
   if (count > allQuestions.length) {
-    alert(`Chỉ có ${allQuestions.length} câu hỏi. Sẽ tạo đề với tất cả câu hỏi có sẵn.`);
+    alert(
+      `Chỉ có ${allQuestions.length} câu hỏi. Sẽ tạo đề với tất cả câu hỏi có sẵn.`,
+    );
     count = allQuestions.length;
   }
-  
+
   // Shuffle and pick random questions
   const shuffled = shuffleArray([...allQuestions]);
   const selectedQuestions = shuffled.slice(0, count);
-  
+
   // Create temporary random quiz
   quizzes.random = {
     name: `Đề Random - ${count} câu`,
     difficulty: "Random",
-    questions: selectedQuestions
+    questions: selectedQuestions,
   };
-  
+
   closeRandomQuizModal();
-  startQuiz('random');
+  startQuiz("random");
 }
 
 function parseQuizFile(text) {
   const questions = [];
-  const lines = text.split('\n').filter(line => line.trim() !== '');
-  
+  const lines = text.split("\n").filter((line) => line.trim() !== "");
+
   let currentQuestion = null;
   let currentOptions = [];
-  
+
   for (let line of lines) {
     line = line.trim();
-    
+
     // Check if it's a question line (starts with "Câu")
     if (line.match(/^Câu\s+\d+:/)) {
       // Save previous question if exists
       if (currentQuestion && currentOptions.length > 0) {
         questions.push({
           text: currentQuestion,
-          options: currentOptions
+          options: currentOptions,
         });
       }
-      
+
       // Start new question
-      currentQuestion = line.replace(/^Câu\s+\d+:\s*/, '');
+      currentQuestion = line.replace(/^Câu\s+\d+:\s*/, "");
       currentOptions = [];
     }
     // Check if it's an option line (starts with A., B., C., D. or *A., *B., etc.)
     else if (line.match(/^\*?[A-D]\./)) {
-      const isCorrect = line.startsWith('*');
-      const optionText = line.replace(/^\*?[A-D]\.\s*/, '');
-      
+      const isCorrect = line.startsWith("*");
+      const optionText = line.replace(/^\*?[A-D]\.\s*/, "");
+
       currentOptions.push({
         text: optionText,
-        correct: isCorrect
+        correct: isCorrect,
       });
     }
   }
-  
+
   // Don't forget the last question
   if (currentQuestion && currentOptions.length > 0) {
     questions.push({
       text: currentQuestion,
-      options: currentOptions
+      options: currentOptions,
     });
   }
-  
+
   return questions;
 }

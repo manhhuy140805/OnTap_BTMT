@@ -1273,6 +1273,11 @@ button:focus-visible,
   font-size: 11px;
 }
 
+.quiz-badge.de_mau {
+  background: linear-gradient(135deg, #a044ff 0%, #667eea 100%);
+  font-size: 11px;
+}
+
 @media (max-width: 480px) {
   .modal-content {
     padding: 24px;

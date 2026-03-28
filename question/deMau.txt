@@ -1,0 +1,299 @@
+Câu 1: Tốc độ 1x chuẩn của ổ đĩa CD-ROM thường có giá trị là:
+A. 1024 KBps
+B. 1500 KBps
+*C. 150 KBps
+D. 2048 KBps
+
+Câu 2: Tìm phát biểu sai nhất: Đơn vị xử lý trung tâm của máy tính (CPU):
+*A. Là những thiết bị vật lý để điều khiển lập trình
+B. Thực hiện các phép logic
+C. Thực hiện các phép toán số học
+D. Điều khiển toàn bộ các hoạt động của máy tính
+
+Câu 3: Đối với các thanh ghi, phát biểu nào sau đây là sai:
+*A. Người lập trình có thể thay đổi nội dung của mọi thanh ghi
+B. Là mức đầu tiên của hệ thống nhớ
+C. Chứa các thông tin tạm thời
+D. Nằm trong bộ xử lý
+
+Câu 4: Căn cứ vào sơ đồ chipset của Mainboard dùng vi xử lý Intel, chip cầu Bắc được kết nối với các thiết bị nào sau đây?
+A. CPU, RAM, HDD
+B. Sound, LAN Card
+C. I/O, RAM
+*D. CPU, RAM, VGA
+
+Câu 5: Case của máy PC là:
+*A. Thùng máy
+B. Gần giống với máy in
+C. Một tên gọi khác của ổ cứng
+D. Mạch chính của máy tính
+
+Câu 6: Tìm phát biểu sai nhất: Đơn vị số học và logic (ALU):
+*A. Là những thiết bị vật lý để điều khiển lập trình
+B. Thực hiện các phép logic
+C. Arithmetic and logical unit
+D. Thực hiện các phép toán số học
+
+Câu 7: Để đo tốc độ xử lý của CPU, ta dùng đơn vị:
+A. Watt
+B. MB
+C. RPM
+*D. MHz
+
+Câu 8: Chức năng của khối CU trong kiến trúc vi xử lý 16bits là:
+A. Thực hiện các phép tính số học
+*B. Giải mã các lệnh đã đọc vào từ bộ nhớ
+C. Thực hiện việc điều khiển đọc lệnh và dữ liệu
+D. Thực hiện các phép tính logic
+
+Câu 9: Tham số nào đặc trưng cho tốc độ truyền dữ liệu của Bus?
+A. Tần số của Bus
+B. Dải thông của Bus
+C. Độ rộng của Bus
+*D. Cả 3 câu trên
+
+Câu 10: Chức năng chính của công nghệ Dual BIOS là?
+A. POST nhanh hơn
+*B. Dự phòng
+C. Tăng tốc
+D. Tối ưu hệ thống
+
+Câu 11: Màn hình và máy in là:
+A. Bộ nhớ ngoài
+*B. Thiết bị xuất
+C. Bộ xử lý
+D. Thiết bị nhập
+
+Câu 12: Tham số nào của Bus cho biết đường dây của nó?
+A. Độ rộng của Bus
+B. Tần số của Bus
+*C. Dải thông của Bus
+D. Cả 3 câu trên
+
+Câu 13: Trong máy tính số, bộ nhớ SRAM được coi là:
+A. Bộ nhớ cache của máy tính số
+B. Bộ nhớ ngoài
+*C. Bộ nhớ bán dẫn tĩnh
+D. Bộ nhớ bán dẫn động
+
+Câu 14: Hệ thống nhớ của máy tính bao gồm:
+A. Đĩa quang, Bộ nhớ trong
+*B. Bộ nhớ trong, Bộ nhớ ngoài
+C. Bộ nhớ ngoài, ROM
+D. Cache, Bộ nhớ ngoài
+
+Câu 15: Công nghệ Hyper-Threading (HT) được phát triển cho thiết bị nào sau đây?
+A. Mainboard
+*B. CPU
+C. RAM
+D. HDD
+
+Câu 16: Chức năng của case (thùng máy):
+A. Dùng để gắn các thành phần phần cứng
+B. Một hộp máy có vai trò như là bộ khung
+C. Mục đích bảo vệ khỏi bụi bẩn, hơi ẩm và va chạm
+*D. Tất cả các câu trên đều đúng
+
+Câu 17: Thiết bị lưu trữ nào sau đây có thể Đọc – Ghi – Xóa nhiều lần?
+A. CD-ROM
+B. ROM
+C. HDD
+*D. RAM
+
+Câu 18: Đối với bộ nhớ RAM, phát biểu nào sau đây là sai:
+*A. Là bộ nhớ đọc ghi tùy ý (chỉ đọc)
+B. Có hai loại RAM
+C. Là nơi lưu giữ thông tin tạm thời
+D. Là loại bộ nhớ không khả biến
+
+Câu 19: Ổ đĩa cứng hiện nay được phân loại theo những chuẩn giao tiếp nào?
+A. IDE, SATA, ATAPI
+*B. ATA (PATA), SATA, SCSI
+C. SCSI, SATA, IDE
+D. ATA, PATA, SATA
+
+Câu 20: Con số 7200rpm trong hệ thống máy tính có nghĩa là gì:
+*A. Tốc độ quay của HDD 7200 vòng/1 phút
+B. Tốc độ xử lý của CPU
+C. HDD có dung lượng là 7200rpm
+D. Tốc độ quay của FDD 7200 vòng/1 phút
+
+Câu 21: Bộ nhớ cache:
+A. Không cùng CPU
+B. RAM nhanh hơn cache
+C. Giữa bộ nhớ chính và ngoài
+*D. Có thể cùng chip CPU
+
+Câu 22: Chức năng của cache:
+A. Lưu hệ thống
+B. Mở rộng bộ nhớ
+C. Lưu hằng số
+*D. Lưu dữ liệu CPU hay dùng
+
+Câu 23: Tăng dần tốc độ:
+A. Chính, phụ, cache
+B. Cache, phụ, chính
+*C. Cache, chính, phụ
+D. Phụ, chính, cache
+
+Câu 24: Chọn đúng:
+A. HDD lớn chạy nhanh
+B. RAM nhiều chạy nhanh
+*C. Cấu hình tương thích chạy ổn định
+D. CPU cao luôn nhanh
+
+Câu 25: PSU:
+A. Cấp điện
+B. Chuyển đổi điện
+C. Cấp mainboard
+*D. Tất cả đúng
+
+Câu 26: Cache cấu trúc:
+A. Flash ROM
+B. ROM
+C. DRAM
+*D. SRAM
+
+Câu 27: RAM đúng:
+A. Read Access Memory
+*B. Lưu dữ liệu đang xử lý
+C. SRAM từ tụ điện
+D. Không khả biến
+
+Câu 28: Xóa CMOS:
+A. Fdisk
+*B. Tháo pin hoặc jumper
+C. Cài lại OS
+D. Format HDD
+
+Câu 29: Bus là:
+A. Trung tâm điều hành
+*B. Truyền dữ liệu
+C. Bộ xử lý
+D. Chip hỗ trợ
+
+Câu 30: Dual Channel:
+A. HDD
+B. CPU
+*C. Mainboard
+D. RAM
+
+Câu 31: Beep dài:
+A. VGA
+*B. RAM
+C. CPU
+D. Main
+
+Câu 32: Track chia:
+A. Cylinder
+B. Cluster
+*C. Sector
+D. Head
+
+Câu 33: Celeron:
+*A. Người dùng phổ thông
+B. Server
+C. Cao cấp
+D. Cao cấp
+
+Câu 34: Core 2 Duo:
+A. 3
+B. 1
+*C. 4
+D. 2
+
+Câu 35: Bộ nhớ vật lý:
+A. RAM, cache
+*B. Bán dẫn, từ, quang
+C. Cache, từ
+D. Bán dẫn
+
+Câu 36: Khóa CMOS:
+A. Safe Mode
+B. Last Good
+C. Cài lại
+*D. Clear CMOS
+
+Câu 37: Bus sai:
+*A. Nhiều dây nhanh hơn
+B. Luồng dữ liệu
+C. Tập dây
+D. Phụ thuộc bus
+
+Câu 38: Jumper master:
+A. Mặc định
+B. Tăng tốc
+*C. Xác định ổ chính
+D. Ổ phụ
+
+Câu 39: Chức năng máy tính:
+A. Trao đổi, điều khiển
+B. Điều khiển, internet
+C. Lưu, chạy
+*D. Lưu, xử lý, trao đổi, điều khiển
+
+Câu 40: Cache CPU:
+A. RAM
+B. ROM
+C. Buffer
+*D. Cache
+
+Câu 41: Lưu cấu hình:
+*A. CMOS RAM
+B. Cache
+C. HDD
+D. RAM
+
+Câu 42: Boot đầu:
+*A. POST
+B. Kernel
+C. Driver
+D. OS
+
+Câu 43: HDD:
+A. Bộ nhớ trong
+*B. Bộ nhớ ngoài
+C. Cả 2
+D. Sai
+
+Câu 44: Quy trình CPU:
+*A. Lệnh→Giải mã→Dữ liệu→Xử lý→Ghi
+B. Sai
+C. Sai
+D. Sai
+
+Câu 45: DRAM:
+A. Ngoài
+*B. Bán dẫn động
+C. Cache
+D. Bán dẫn tĩnh
+
+Câu 46: Bus gồm:
+A. Bus địa chỉ
+B. Bus dữ liệu
+C. Bus điều khiển
+*D. Cả 3
+
+Câu 47: Dual Graphics:
+*A. VGA
+B. Mainboard
+C. Memory
+D. CPU
+
+Câu 48: SRAM:
+*A. Không cần làm tươi
+B. Phải làm tươi
+C. Rẻ
+D. Chậm
+
+Câu 49: ROM sai:
+*A. Tất cả ROM
+B. Khả biến
+C. Chứa chương trình
+D. BIOS
+
+Câu 50: Độ rộng Bus:
+A. Bits/time
+*B. Số dây dữ liệu
+C. Số thành phần
+D. Byte/time
