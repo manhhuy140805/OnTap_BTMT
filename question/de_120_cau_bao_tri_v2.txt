@@ -1,0 +1,719 @@
+Câu 1: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 2: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 3: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 4: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 5: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 6: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 7: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 8: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 9: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 10: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 11: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 12: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 13: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 14: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 15: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 16: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 17: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 18: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 19: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 20: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 21: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 22: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 23: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 24: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 25: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 26: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 27: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 28: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 29: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 30: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 31: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 32: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 33: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 34: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 35: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 36: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 37: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 38: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 39: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 40: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 41: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 42: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 43: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 44: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 45: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 46: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 47: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 48: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 49: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 50: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 51: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 52: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 53: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 54: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 55: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 56: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 57: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 58: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 59: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 60: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 61: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 62: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 63: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 64: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 65: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 66: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 67: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 68: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 69: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 70: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 71: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 72: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 73: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 74: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 75: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 76: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 77: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 78: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 79: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 80: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 81: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 82: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 83: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 84: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 85: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 86: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 87: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 88: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 89: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 90: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 91: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 92: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 93: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 94: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 95: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 96: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 97: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 98: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 99: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 100: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 101: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 102: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 103: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 104: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 105: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 106: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 107: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 108: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 109: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 110: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 111: RAM dùng để làm gì?
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Kết nối mạng
+D. In dữ liệu
+
+Câu 112: ROM có đặc điểm gì?
+*A. Không mất dữ liệu khi mất điện
+B. Ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 113: Ổ cứng HDD là gì?
+*A. Bộ nhớ lưu trữ
+B. CPU
+C. RAM
+D. Cache
+
+Câu 114: SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Rẻ hơn
+C. Nặng hơn
+D. Chậm hơn
+
+Câu 115: BIOS dùng để làm gì?
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 116: PSU có chức năng gì?
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Hiển thị
+
+Câu 117: Mainboard là gì?
+*A. Bo mạch chính
+B. RAM
+C. CPU
+D. HDD
+
+Câu 118: Cache là gì?
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. RAM
+D. HDD
+
+Câu 119: Driver là gì?
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 120: CPU có chức năng gì?
+*A. Xử lý dữ liệu
+B. Lưu trữ dữ liệu
+C. Hiển thị
+D. In ấn

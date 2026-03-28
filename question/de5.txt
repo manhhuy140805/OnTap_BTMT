@@ -1,0 +1,239 @@
+Câu 1: Bảo trì máy tính nhằm mục đích:
+*A. Duy trì hoạt động ổn định
+B. Tăng kích thước máy
+C. Giảm dung lượng ổ cứng
+D. Xóa hệ điều hành
+
+Câu 2: CPU là:
+*A. Bộ xử lý trung tâm
+B. Bộ nhớ
+C. Thiết bị nhập
+D. Thiết bị xuất
+
+Câu 3: RAM có đặc điểm:
+*A. Mất dữ liệu khi mất điện
+B. Lưu vĩnh viễn
+C. Không ghi được
+D. Không đọc được
+
+Câu 4: ROM dùng để:
+*A. Lưu firmware
+B. Lưu tạm
+C. Xóa dữ liệu
+D. Hiển thị
+
+Câu 5: Mainboard có chức năng:
+*A. Kết nối các linh kiện
+B. Lưu dữ liệu
+C. In ấn
+D. Nhập liệu
+
+Câu 6: PSU có nhiệm vụ:
+*A. Cung cấp điện
+B. Lưu dữ liệu
+C. Xử lý dữ liệu
+D. Hiển thị
+
+Câu 7: Quạt tản nhiệt dùng để:
+*A. Giảm nhiệt độ
+B. Tăng tốc CPU
+C. Lưu dữ liệu
+D. Xuất dữ liệu
+
+Câu 8: Bụi bẩn gây:
+*A. Giảm hiệu quả tản nhiệt
+B. Tăng tốc máy
+C. Tăng RAM
+D. Giảm điện
+
+Câu 9: BIOS nằm trong:
+*A. ROM
+B. RAM
+C. HDD
+D. USB
+
+Câu 10: POST là:
+*A. Kiểm tra phần cứng
+B. Tắt máy
+C. Lưu dữ liệu
+D. Cài phần mềm
+
+Câu 11: HDD là:
+*A. Bộ nhớ ngoài
+B. RAM
+C. CPU
+D. Cache
+
+Câu 12: SSD nhanh hơn HDD vì:
+*A. Không có bộ phận cơ
+B. Dung lượng lớn hơn
+C. Giá rẻ hơn
+D. Nặng hơn
+
+Câu 13: Khi máy nóng bất thường nên:
+*A. Kiểm tra tản nhiệt
+B. Tăng RAM
+C. Xóa dữ liệu
+D. Thay màn hình
+
+Câu 14: Driver là:
+*A. Phần mềm điều khiển thiết bị
+B. Phần cứng
+C. RAM
+D. CPU
+
+Câu 15: Virus có thể:
+*A. Làm chậm hệ thống
+B. Tăng tốc máy
+C. Tăng RAM
+D. Làm mát CPU
+
+Câu 16: Khi máy không lên nguồn:
+*A. Kiểm tra PSU
+B. Kiểm tra RAM trước
+C. Kiểm tra HDD
+D. Kiểm tra VGA
+
+Câu 17: UPS dùng để:
+*A. Cung cấp điện tạm thời
+B. Tăng CPU
+C. Tăng RAM
+D. Lưu dữ liệu
+
+Câu 18: RAM đầy sẽ:
+*A. Làm máy chậm
+B. Làm máy nhanh
+C. Tăng CPU
+D. Giảm nhiệt
+
+Câu 19: Defragment áp dụng cho:
+*A. HDD
+B. SSD
+C. RAM
+D. CPU
+
+Câu 20: Không nên đặt laptop trên:
+*A. Bề mặt mềm
+B. Bàn cứng
+C. Kệ
+D. Bàn gỗ
+
+Câu 21: CMOS dùng để:
+*A. Lưu cấu hình BIOS
+B. Lưu dữ liệu người dùng
+C. Lưu game
+D. Lưu video
+
+Câu 22: Khi thay RAM cần:
+*A. Tắt nguồn
+B. Bật máy
+C. Kết nối mạng
+D. Mở phần mềm
+
+Câu 23: SATA dùng để:
+*A. Kết nối ổ cứng
+B. Kết nối CPU
+C. Kết nối RAM
+D. Kết nối chuột
+
+Câu 24: Cache giúp:
+*A. Tăng tốc truy xuất
+B. Lưu lâu dài
+C. Giảm CPU
+D. Giảm điện
+
+Câu 25: ALU thực hiện:
+*A. Phép toán logic và số học
+B. Lưu dữ liệu
+C. Hiển thị
+D. Nhập dữ liệu
+
+Câu 26: Khi máy bị treo:
+*A. Restart
+B. Đập máy
+C. Tăng RAM
+D. Tắt mạng
+
+Câu 27: Ổ cứng hỏng có thể:
+*A. Mất dữ liệu
+B. Tăng tốc
+C. Tăng RAM
+D. Giảm nhiệt
+
+Câu 28: Windows update giúp:
+*A. Vá lỗi
+B. Tăng RAM
+C. Tăng CPU
+D. Xóa dữ liệu
+
+Câu 29: Laptop nóng do:
+*A. Tản nhiệt kém
+B. RAM lớn
+C. SSD nhanh
+D. Màn hình lớn
+
+Câu 30: PCIe dùng để:
+*A. Gắn card mở rộng
+B. Gắn RAM
+C. Gắn CPU
+D. Gắn ổ cứng
+
+Câu 31: CPU clock đo bằng:
+*A. GHz
+B. MB
+C. Volt
+D. Watt
+
+Câu 32: Khi máy tự restart:
+*A. Nguồn không ổn định
+B. Chuột lỗi
+C. Bàn phím lỗi
+D. USB lỗi
+
+Câu 33: Quạt kêu to do:
+*A. Bụi nhiều
+B. RAM lớn
+C. CPU mới
+D. SSD nhanh
+
+Câu 34: BIOS lỗi có thể:
+*A. Không boot được
+B. Mất RAM
+C. Hỏng chuột
+D. Hỏng loa
+
+Câu 35: SSD không cần defrag vì:
+*A. Cơ chế khác HDD
+B. Không lưu dữ liệu
+C. Không dùng điện
+D. Không có RAM
+
+Câu 36: Card mạng dùng để:
+*A. Kết nối mạng
+B. Hiển thị
+C. Lưu trữ
+D. Xử lý
+
+Câu 37: Khi máy chậm nên:
+*A. Dọn rác hệ thống
+B. Đập máy
+C. Tăng nhiệt
+D. Tắt nguồn
+
+Câu 38: Phần mềm antivirus:
+*A. Bảo vệ hệ thống
+B. Tăng RAM
+C. Tăng CPU
+D. Lưu dữ liệu
+
+Câu 39: Thermal throttling là:
+*A. Giảm xung CPU khi nóng
+B. Tăng xung CPU
+C. Tăng RAM
+D. Giảm điện
+
+Câu 40: Bảo trì định kỳ giúp:
+*A. Tăng tuổi thọ máy
+B. Giảm hiệu năng
+C. Tăng lỗi
+D. Hỏng nhanh

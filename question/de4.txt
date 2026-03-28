@@ -1,0 +1,239 @@
+Câu 1: Bảo trì máy tính KHÔNG bao gồm:
+A. Vệ sinh phần cứng
+B. Cập nhật phần mềm
+*C. Tăng tốc internet nhà mạng
+D. Kiểm tra hệ thống
+
+Câu 2: Keo tản nhiệt có tác dụng:
+*A. Tăng khả năng truyền nhiệt
+B. Làm mát trực tiếp CPU
+C. Giảm điện năng
+D. Tăng xung nhịp CPU
+
+Câu 3: Khi CPU quá nóng, hệ thống sẽ:
+A. Tăng tốc
+*B. Tự tắt hoặc treo
+C. Tăng RAM
+D. Không ảnh hưởng
+
+Câu 4: Dấu hiệu quạt hỏng là:
+A. Máy chạy nhanh
+*B. Nhiệt độ cao bất thường
+C. RAM tăng
+D. HDD đầy
+
+Câu 5: Bụi bẩn trong máy gây:
+*A. Giảm tản nhiệt
+B. Tăng tốc độ
+C. Tăng RAM
+D. Giảm điện
+
+Câu 6: Phần mềm dọn rác KHÔNG giúp:
+A. Xóa file tạm
+B. Giải phóng dung lượng
+*C. Tăng dung lượng RAM vật lý
+D. Tăng hiệu năng
+
+Câu 7: Ổ cứng bị bad sector sẽ:
+*A. Mất dữ liệu
+B. Tăng tốc
+C. Tăng RAM
+D. Giảm CPU
+
+Câu 8: Khi máy không lên nguồn, kiểm tra đầu tiên:
+*A. PSU
+B. RAM
+C. HDD
+D. VGA
+
+Câu 9: RAM lỗi thường gây:
+A. Máy nóng
+*B. Màn hình xanh
+C. Tăng tốc
+D. Giảm điện
+
+Câu 10: BIOS lỗi có thể do:
+*A. Cập nhật sai
+B. RAM lớn
+C. CPU mạnh
+D. HDD mới
+
+Câu 11: Khi thay RAM cần:
+A. Tắt màn hình
+*B. Tắt nguồn hoàn toàn
+C. Rút chuột
+D. Xóa dữ liệu
+
+Câu 12: UPS dùng để:
+*A. Duy trì điện tạm thời
+B. Tăng CPU
+C. Lưu RAM
+D. Tăng tốc mạng
+
+Câu 13: Dấu hiệu ổ cứng hỏng:
+A. Máy nhanh
+*B. Phát tiếng lạ
+C. RAM tăng
+D. CPU giảm
+
+Câu 14: Phần mềm antivirus dùng để:
+*A. Bảo vệ hệ thống
+B. Tăng RAM
+C. Tăng CPU
+D. Lưu dữ liệu
+
+Câu 15: Khi máy chậm, KHÔNG nên:
+A. Dọn rác
+B. Tắt app nền
+*C. Đập máy
+D. Quét virus
+
+Câu 16: Nhiệt độ CPU lý tưởng:
+A. 90°C
+*B. 30–70°C
+C. 100°C
+D. 0°C
+
+Câu 17: Khi máy tự restart:
+A. Chuột lỗi
+*B. Nguồn không ổn định
+C. Bàn phím lỗi
+D. USB lỗi
+
+Câu 18: Driver là:
+*A. Phần mềm điều khiển thiết bị
+B. RAM
+C. CPU
+D. HDD
+
+Câu 19: Khi mất CMOS pin:
+*A. Mất cấu hình BIOS
+B. Mất RAM
+C. Mất HDD
+D. Mất CPU
+
+Câu 20: Laptop nóng do:
+*A. Tản nhiệt kém
+B. RAM lớn
+C. SSD nhanh
+D. Màn hình lớn
+
+Câu 21: Không nên đặt laptop:
+A. Bàn cứng
+*B. Nệm mềm
+C. Bàn gỗ
+D. Kệ
+
+Câu 22: Khi vệ sinh máy cần:
+*A. Ngắt điện
+B. Bật máy
+C. Chạy phần mềm
+D. Kết nối mạng
+
+Câu 23: Thermal throttling là:
+*A. CPU giảm xung khi nóng
+B. CPU tăng xung
+C. RAM giảm
+D. HDD tăng
+
+Câu 24: Phần mềm chạy nền nhiều gây:
+*A. Chậm máy
+B. Nhanh máy
+C. Tăng RAM
+D. Giảm CPU
+
+Câu 25: Defragment dùng cho:
+*A. HDD
+B. SSD
+C. RAM
+D. CPU
+
+Câu 26: SSD không cần defrag vì:
+*A. Cơ chế khác HDD
+B. Nhanh hơn CPU
+C. Không lưu dữ liệu
+D. Không dùng điện
+
+Câu 27: Máy không nhận RAM có thể do:
+*A. Lắp sai khe
+B. CPU mạnh
+C. HDD lỗi
+D. VGA lỗi
+
+Câu 28: Nguồn yếu gây:
+*A. Tắt máy đột ngột
+B. Tăng tốc
+C. Tăng RAM
+D. Giảm nhiệt
+
+Câu 29: Virus có thể:
+*A. Làm chậm máy
+B. Tăng RAM
+C. Tăng CPU
+D. Làm mát máy
+
+Câu 30: Khi cài lại Windows cần:
+*A. Backup dữ liệu
+B. Xóa RAM
+C. Tăng CPU
+D. Thay PSU
+
+Câu 31: Driver sai gây:
+*A. Lỗi thiết bị
+B. Tăng tốc
+C. Tăng RAM
+D. Giảm nhiệt
+
+Câu 32: Laptop sập nguồn khi rút sạc do:
+*A. Pin hỏng
+B. RAM lỗi
+C. HDD lỗi
+D. VGA lỗi
+
+Câu 33: BIOS reset giúp:
+*A. Khôi phục mặc định
+B. Xóa RAM
+C. Tăng CPU
+D. Tăng điện
+
+Câu 34: Nhiệt độ GPU cao gây:
+*A. Giật lag
+B. Tăng tốc
+C. Tăng RAM
+D. Giảm điện
+
+Câu 35: Quạt kêu to do:
+*A. Bụi nhiều
+B. RAM lớn
+C. CPU mới
+D. SSD nhanh
+
+Câu 36: Windows update giúp:
+*A. Vá lỗi bảo mật
+B. Tăng RAM
+C. Tăng CPU
+D. Giảm điện
+
+Câu 37: Khi máy treo nên:
+*A. Restart
+B. Đập máy
+C. Tăng RAM
+D. Tắt mạng
+
+Câu 38: Kiểm tra nhiệt độ dùng:
+*A. Phần mềm monitoring
+B. Word
+C. Excel
+D. Paint
+
+Câu 39: SSD nhanh hơn HDD vì:
+*A. Không có bộ phận cơ
+B. Dung lượng lớn
+C. Giá rẻ
+D. Nặng hơn
+
+Câu 40: Bảo trì định kỳ giúp:
+*A. Tăng tuổi thọ máy
+B. Giảm hiệu năng
+C. Tăng lỗi
+D. Hỏng nhanh

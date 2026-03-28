@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ứng dụng ôn tập trắc nghiệm trực tuyến hiệu quả" />
+    <title>Quiz Master - Ôn tập trắc nghiệm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header-content">
+          <div class="logo-section">
+            <div class="logo">📝</div>
+            <div>
+              <h1 class="app-title">Quiz Master</h1>
+              <p class="app-subtitle">Ôn tập trắc nghiệm trực tuyến</p>
+            </div>
+          </div>
+          <div class="header-info">
+            <span id="header-score" style="display: none"
+              >Điểm cao nhất: --</span
+            >
+          </div>
+        </div>
+      </header>
+
+      <!-- MAIN CONTENT -->
+      <main class="main-container">
+        <!-- MENU CHỌN ĐỀ -->
+        <section id="quiz-menu" class="quiz-menu">
+          <div class="menu-card">
+            <h2>Chọn mã đề để bắt đầu</h2>
+            <p class="menu-subtitle">Hãy lựa chọn một đề thi mà bạn muốn làm</p>
+
+            <div class="quiz-selector-grid">
+              <!-- Quiz cards will be dynamically generated here -->
+            </div>
+
+            <!-- LỊCH SỬ ĐỀ ĐÃ LÀM -->
+            <div
+              id="history-section"
+              class="history-section"
+              style="display: none"
+            >
+              <h3>📊 Lịch sử đề đã làm</h3>
+              <div id="history-list" class="history-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- QUIZ AREA -->
+        <section id="quiz-area" class="quiz-area hidden">
+          <div class="quiz-container">
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+              <div class="sidebar-header">
+                <h3>Danh sách câu</h3>
+                <button class="btn-small" onclick="backToMenu()">
+                  ← Quay lại
+                </button>
+              </div>
+
+              <div id="question-list" class="question-list"></div>
+
+              <div class="legend">
+                <p class="legend-title">Chú thích:</p>
+                <div class="legend-item">
+                  <span class="dot unanswered"></span> Chưa làm
+                </div>
+                <div class="legend-item">
+                  <span class="dot answered"></span> Đã làm
+                </div>
+                <div class="legend-item">
+                  <span class="dot current"></span> Đang xem
+                </div>
+              </div>
+            </aside>
+
+            <!-- MAIN QUIZ CONTENT -->
+            <div class="quiz-main">
+              <!-- QUIZ HEADER -->
+              <div class="quiz-header">
+                <div>
+                  <h2 id="quiz-title"></h2>
+                  <p id="progress-text" class="progress-text"></p>
+                  <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                  </div>
+                </div>
+                <div class="timer-section">
+                  <div class="timer-icon">⏱️</div>
+                  <p id="timer-text" class="timer-text">00:00</p>
+                </div>
+              </div>
+
+              <!-- QUESTION CONTENT -->
+              <div class="question-content">
+                <div id="question-text" class="question-text"></div>
+                <ul id="options-list" class="options-list"></ul>
+              </div>
+
+              <!-- CONTROLS -->
+              <div class="controls">
+                <button id="prev-btn" class="btn btn-secondary" aria-label="Câu trước">
+                  ← Câu trước
+                </button>
+                <button id="next-btn" class="btn btn-secondary" aria-label="Câu sau">
+                  Câu sau →
+                </button>
+                <button id="submit-btn" class="btn btn-danger" aria-label="Nộp bài">
+                  ✓ Nộp bài
+                </button>
+              </div>
+              <div class="keyboard-hint">
+                💡 Phím tắt: ← → để chuyển câu, 1-4 để chọn đáp án
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- RESULT PAGE -->
+        <section id="result-page" class="result-page hidden">
+          <div class="result-container">
+            <div class="result-header">
+              <div class="result-icon" id="result-icon">🎉</div>
+              <h2 id="result-title">Hoàn thành bài thi!</h2>
+              <div id="result-summary" class="result-summary-box"></div>
+            </div>
+
+            <div class="result-stats">
+              <div class="stat-card">
+                <div class="stat-icon">✓</div>
+                <div class="stat-value" id="correct-count">0</div>
+                <div class="stat-label">Câu đúng</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">✗</div>
+                <div class="stat-value" id="incorrect-count">0</div>
+                <div class="stat-label">Câu sai</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-value" id="time-taken">00:00</div>
+                <div class="stat-label">Thời gian</div>
+              </div>
+            </div>
+
+            <div class="result-review">
+              <h3>📋 Chi tiết từng câu hỏi</h3>
+              <div id="review-list" class="review-list"></div>
+            </div>
+
+            <div class="result-actions">
+              <button class="btn btn-secondary" onclick="backToMenu()">
+                ← Về trang chủ
+              </button>
+              <button class="btn btn-primary" onclick="retryQuiz()">
+                🔄 Làm lại
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-content">
+          <p>
+            &copy; 2026 Quiz Master. Một công cụ ôn tập trắc nghiệm hiệu quả.
+          </p>
+          <p class="footer-note">Tạo từ HTML, CSS, JavaScript thuần</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
