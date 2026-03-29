@@ -1,0 +1,299 @@
+Câu 1: Thiết bị nào sau đây thuộc bộ nhớ trong của máy tính?
+*A. RAM
+B. HDD
+C. USB
+D. CD-ROM
+
+Câu 2: Bộ nhớ ROM có đặc điểm gì?
+A. Có thể ghi xóa dễ dàng
+*B. Chỉ đọc, không mất dữ liệu khi mất điện
+C. Tốc độ nhanh hơn RAM
+D. Dùng để chạy chương trình
+
+Câu 3: Thành phần nào thực hiện phép toán số học và logic?
+A. CU
+*B. ALU
+C. RAM
+D. Cache
+
+Câu 4: Thành phần nào điều khiển toàn bộ hoạt động CPU?
+*A. CU
+B. ALU
+C. Cache
+D. Bus
+
+Câu 5: Đơn vị đo dung lượng bộ nhớ là:
+A. Hz
+B. Watt
+*C. Byte
+D. RPM
+
+Câu 6: RAM thuộc loại bộ nhớ:
+A. Không khả biến
+*B. Khả biến
+C. Chỉ đọc
+D. Ngoài
+
+Câu 7: Cache thường được đặt ở đâu?
+A. HDD
+B. RAM
+*C. Trong CPU
+D. Mainboard
+
+Câu 8: Bus dữ liệu có chức năng:
+*A. Truyền dữ liệu
+B. Truyền địa chỉ
+C. Điều khiển
+D. Lưu trữ
+
+Câu 9: Bus địa chỉ dùng để:
+A. Truyền dữ liệu
+*B. Xác định vị trí dữ liệu
+C. Điều khiển thiết bị
+D. Tăng tốc CPU
+
+Câu 10: Bộ nhớ nào có tốc độ nhanh nhất?
+*A. Cache
+B. RAM
+C. HDD
+D. USB
+
+Câu 11: BIOS được lưu ở đâu?
+A. RAM
+*B. ROM
+C. HDD
+D. Cache
+
+Câu 12: POST là gì?
+*A. Kiểm tra phần cứng khi khởi động
+B. Cài hệ điều hành
+C. Format ổ cứng
+D. Tắt máy
+
+Câu 13: Thiết bị nào là thiết bị nhập?
+A. Màn hình
+*B. Bàn phím
+C. Máy in
+D. Loa
+
+Câu 14: Thiết bị nào là thiết bị xuất?
+A. Chuột
+B. Bàn phím
+*C. Máy in
+D. Scanner
+
+Câu 15: Ổ SSD khác HDD ở điểm nào?
+*A. Không có bộ phận cơ
+B. Dung lượng nhỏ
+C. Giá rẻ hơn
+D. Chậm hơn
+
+Câu 16: RAM mất dữ liệu khi:
+*A. Tắt nguồn
+B. Khởi động lại
+C. Đọc dữ liệu
+D. Ghi dữ liệu
+
+Câu 17: Đơn vị đo tốc độ CPU là:
+A. Byte
+*B. GHz
+C. Volt
+D. RPM
+
+Câu 18: Chipset cầu Nam quản lý:
+A. CPU
+B. RAM
+*C. Thiết bị ngoại vi
+D. VGA
+
+Câu 19: Thiết bị lưu trữ ngoài là:
+A. RAM
+B. Cache
+*C. HDD
+D. Register
+
+Câu 20: Thanh ghi có đặc điểm:
+*A. Rất nhanh
+B. Rất chậm
+C. Dung lượng lớn
+D. Lưu lâu dài
+
+Câu 21: Bus điều khiển dùng để:
+A. Truyền dữ liệu
+B. Truyền địa chỉ
+*C. Điều khiển hoạt động
+D. Lưu trữ
+
+Câu 22: CPU gồm:
+A. RAM + ROM
+*B. CU + ALU
+C. HDD + RAM
+D. Bus + Cache
+
+Câu 23: Công nghệ Hyper-Threading giúp:
+*A. Tăng hiệu năng xử lý
+B. Tăng dung lượng RAM
+C. Tăng dung lượng HDD
+D. Tăng điện áp
+
+Câu 24: Dual Channel giúp:
+A. Tăng CPU
+*B. Tăng băng thông RAM
+C. Tăng HDD
+D. Tăng VGA
+
+Câu 25: Thiết bị nào dùng lưu BIOS?
+A. RAM
+*B. ROM
+C. HDD
+D. Cache
+
+Câu 26: Đĩa CD-ROM có thể:
+A. Ghi nhiều lần
+*B. Chỉ đọc
+C. Xóa dữ liệu
+D. Ghi 1 lần
+
+Câu 27: USB là:
+A. Bộ nhớ trong
+*B. Bộ nhớ ngoài
+C. CPU
+D. Bus
+
+Câu 28: Mainboard có chức năng:
+*A. Kết nối linh kiện
+B. Lưu dữ liệu
+C. Xử lý dữ liệu
+D. In dữ liệu
+
+Câu 29: PSU có chức năng:
+*A. Cung cấp điện
+B. Lưu trữ
+C. Xử lý
+D. Truyền dữ liệu
+
+Câu 30: Khi RAM lỗi, máy sẽ:
+A. Không có hình
+*B. Phát tiếng beep
+C. Không lên nguồn
+D. Chạy chậm
+
+Câu 31: GPU dùng để:
+*A. Xử lý đồ họa
+B. Lưu dữ liệu
+C. Điều khiển CPU
+D. Truyền dữ liệu
+
+Câu 32: HDD hoạt động dựa trên:
+*A. Đĩa từ quay
+B. Chip điện tử
+C. Tín hiệu quang
+D. Sóng điện
+
+Câu 33: SSD hoạt động dựa trên:
+A. Đĩa quay
+*B. Chip nhớ flash
+C. Băng từ
+D. Sóng
+
+Câu 34: RAM DDR là:
+*A. Bộ nhớ động
+B. Bộ nhớ tĩnh
+C. ROM
+D. Cache
+
+Câu 35: SRAM có đặc điểm:
+*A. Không cần refresh
+B. Cần refresh
+C. Chậm
+D. Rẻ
+
+Câu 36: DRAM có đặc điểm:
+A. Không refresh
+*B. Cần refresh
+C. Nhanh
+D. Đắt
+
+Câu 37: BIOS có nhiệm vụ:
+*A. Khởi động hệ thống
+B. Lưu file
+C. Chạy game
+D. Tăng tốc CPU
+
+Câu 38: Bus càng rộng thì:
+*A. Truyền nhiều dữ liệu hơn
+B. Chậm hơn
+C. Ít dữ liệu hơn
+D. Không ảnh hưởng
+
+Câu 39: Cache dùng để:
+*A. Tăng tốc CPU
+B. Lưu lâu dài
+C. Lưu file
+D. Thay RAM
+
+Câu 40: Đơn vị của Bus là:
+A. Volt
+*B. Bit
+C. Watt
+D. Hz
+
+Câu 41: CMOS dùng để:
+*A. Lưu cấu hình BIOS
+B. Lưu file
+C. Lưu chương trình
+D. Lưu RAM
+
+Câu 42: Jumper dùng để:
+*A. Thiết lập phần cứng
+B. Lưu dữ liệu
+C. Xử lý
+D. Tăng tốc
+
+Câu 43: FSB là:
+*A. Bus hệ thống
+B. Bộ nhớ
+C. CPU
+D. HDD
+
+Câu 44: CPU xử lý theo chu trình:
+*A. Fetch - Decode - Execute
+B. Read - Write
+C. Load - Save
+D. Input - Output
+
+Câu 45: Thiết bị nào nhanh hơn?
+A. HDD
+B. USB
+*C. SSD
+D. CD
+
+Câu 46: RAM có dung lượng lớn giúp:
+*A. Chạy đa nhiệm tốt hơn
+B. Tăng CPU
+C. Tăng HDD
+D. Tăng VGA
+
+Câu 47: CPU càng nhiều nhân:
+*A. Xử lý song song tốt hơn
+B. Chậm hơn
+C. Tốn RAM
+D. Không đổi
+
+Câu 48: Bus tốc độ cao giúp:
+*A. Tăng hiệu năng
+B. Giảm tốc độ
+C. Không đổi
+D. Tăng dung lượng
+
+Câu 49: Thiết bị lưu trữ quang:
+A. HDD
+B. SSD
+*C. DVD
+D. RAM
+
+Câu 50: Máy tính có 4 chức năng chính:
+A. Lưu, chạy, in, kết nối
+*B. Lưu trữ, xử lý, trao đổi, điều khiển
+C. Xử lý, lưu, chơi game, internet
+D. Lưu, in, đọc, ghi

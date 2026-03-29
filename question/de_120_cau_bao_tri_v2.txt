@@ -1,719 +1,720 @@
-Câu 1: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 2: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 3: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 4: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 5: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 6: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 7: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 8: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 9: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 10: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 11: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 12: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 13: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 14: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 15: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 16: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 17: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 18: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 19: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 20: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 21: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 22: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 23: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 24: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 25: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 26: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 27: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 28: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 29: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 30: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 31: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 32: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 33: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 34: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 35: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 36: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 37: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 38: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 39: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 40: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 41: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 42: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 43: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 44: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 45: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 46: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 47: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 48: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 49: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 50: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 51: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 52: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 53: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 54: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 55: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 56: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 57: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 58: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 59: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 60: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 61: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 62: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 63: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 64: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 65: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 66: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 67: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 68: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 69: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 70: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 71: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 72: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 73: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 74: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 75: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 76: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 77: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 78: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 79: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 80: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 81: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 82: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 83: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 84: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 85: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 86: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 87: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 88: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 89: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 90: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 91: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 92: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 93: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 94: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 95: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 96: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 97: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 98: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 99: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 100: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 101: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 102: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 103: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 104: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 105: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 106: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 107: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 108: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 109: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 110: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 111: RAM dùng để làm gì?
-*A. Lưu tạm dữ liệu
-B. Lưu vĩnh viễn
-C. Kết nối mạng
-D. In dữ liệu
-
-Câu 112: ROM có đặc điểm gì?
-*A. Không mất dữ liệu khi mất điện
-B. Ghi xóa dễ dàng
-C. Là bộ nhớ tạm
-D. Tốc độ chậm
-
-Câu 113: Ổ cứng HDD là gì?
-*A. Bộ nhớ lưu trữ
-B. CPU
-C. RAM
-D. Cache
-
-Câu 114: SSD khác HDD ở điểm nào?
-*A. Không có bộ phận cơ
-B. Rẻ hơn
-C. Nặng hơn
-D. Chậm hơn
-
-Câu 115: BIOS dùng để làm gì?
-*A. Khởi động hệ thống
-B. Lưu dữ liệu
-C. Hiển thị
-D. In ấn
-
-Câu 116: PSU có chức năng gì?
-*A. Cung cấp điện
-B. Lưu trữ
-C. Xử lý
-D. Hiển thị
-
-Câu 117: Mainboard là gì?
-*A. Bo mạch chính
-B. RAM
-C. CPU
-D. HDD
-
-Câu 118: Cache là gì?
-*A. Bộ nhớ đệm
-B. Bộ nhớ ngoài
-C. RAM
-D. HDD
-
-Câu 119: Driver là gì?
-*A. Phần mềm điều khiển thiết bị
-B. Phần cứng
-C. RAM
-D. CPU
-
-Câu 120: CPU có chức năng gì?
-*A. Xử lý dữ liệu
-B. Lưu trữ dữ liệu
-C. Hiển thị
-D. In ấn
+Câu 1: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 2: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 3: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 4: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 5: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 6: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 7: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 8: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 9: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 10: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 11: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 12: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 13: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 14: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 15: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 16: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 17: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 18: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 19: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 20: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 21: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 22: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 23: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 24: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 25: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 26: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 27: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 28: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 29: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 30: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 31: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 32: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 33: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 34: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 35: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 36: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 37: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 38: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 39: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 40: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 41: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 42: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 43: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 44: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 45: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 46: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 47: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 48: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 49: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 50: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 51: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 52: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 53: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 54: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 55: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 56: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 57: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 58: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 59: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 60: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 61: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 62: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 63: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 64: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 65: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 66: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 67: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 68: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 69: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 70: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 71: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 72: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 73: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 74: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 75: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 76: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 77: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 78: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 79: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 80: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 81: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 82: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 83: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 84: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 85: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 86: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 87: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 88: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 89: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 90: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 91: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 92: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 93: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 94: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 95: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 96: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 97: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 98: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 99: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 100: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 101: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 102: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 103: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 104: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 105: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 106: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 107: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 108: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 109: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 110: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 111: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 112: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 113: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 114: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 115: Tìm phát biểu sai nhất về RAM:
+A. Là bộ nhớ truy cập ngẫu nhiên
+B. Lưu dữ liệu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Là bộ nhớ không khả biến
+
+Câu 116: Khi máy không lên hình nhưng quạt vẫn quay, nguyên nhân có thể:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột hỏng
+D. Loa hỏng
+
+Câu 117: Hãy chọn câu đúng nhất:
+A. CPU càng cao thì máy luôn nhanh
+B. RAM càng nhiều thì máy luôn nhanh
+*C. Cấu hình cân bằng giúp hệ thống ổn định
+D. HDD càng lớn thì càng nhanh
+
+Câu 118: Tìm phát biểu sai nhất về Cache:
+A. Tăng tốc truy xuất dữ liệu
+B. Có tốc độ cao
+C. Dung lượng nhỏ
+*D. Lưu trữ dữ liệu lâu dài
+
+Câu 119: Thiết bị nào sau đây là bộ nhớ ngoài:
+A. Cache
+B. Register
+*C. HDD
+D. RAM
+
+Câu 120: Khi máy phát tiếng beep dài liên tục, lỗi thường do:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+

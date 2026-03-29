@@ -47,6 +47,12 @@ const quizzes = {
     difficulty: "Advanced",
     questions: [],
   },
+  de_mau_2: {
+    name: "Đề Mẫu 2 - Bảo trì máy tính",
+    file: "question/deMau2.txt",
+    difficulty: "Advanced",
+    questions: [],
+  },
 };
 
 // QUIZ STATE
