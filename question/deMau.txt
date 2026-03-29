@@ -205,7 +205,7 @@ C. 4
 Câu 35: Đối với hệ thống nhớ, có các kiểu vật lý như sau:
 A. Bộ nhớ từ, RAM, bộ nhớ cache
 *B. Bộ nhớ bán dẫn, bộ nhớ từ, bộ nhớ quang
-C. Bộ nhớ bán dẫn, bộ nhớ từ, bộ nhớ quang
+C. Bộ nhớ bán dẫn, RAM, bộ nhớ cache
 D. Bộ nhớ bán dẫn, bộ nhớ từ, bộ nhớ cache
 
 Câu 36: Bạn sẽ làm gì khi máy tính bị khóa bằng mật khẩu CMOS?

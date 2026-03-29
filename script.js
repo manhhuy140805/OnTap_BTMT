@@ -651,10 +651,11 @@ function closeRandomQuizModal() {
 }
 
 function createRandomQuiz(count) {
-  // Collect all questions from all quizzes
+  // Collect questions only from the two 120-question exams
   let allQuestions = [];
-  Object.keys(quizzes).forEach((quizId) => {
-    if (quizzes[quizId].questions.length > 0) {
+  const randomQuizSources = ["de_120_cau_bao_tri", "de_120_cau_bao_tri_v2"];
+  randomQuizSources.forEach((quizId) => {
+    if (quizzes[quizId] && quizzes[quizId].questions.length > 0) {
       allQuestions = allQuestions.concat(quizzes[quizId].questions);
     }
   });
