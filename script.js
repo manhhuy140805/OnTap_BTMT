@@ -289,7 +289,7 @@ function formatTime(seconds) {
 async function selectQuiz(quizId) {
   // Check if quiz exists and has questions
   if (!quizzes[quizId] || quizzes[quizId].questions.length === 0) {
-    alert("Đề thi chưa sẵn sàng hoặc không có câu hỏi!");
+    showCustomAlert("Thông báo", "Đề ôn tập trắc nghiệm này hiện chưa sẵn sàng hoặc không có câu hỏi nào!");
     return;
   }
 
@@ -303,10 +303,20 @@ function quickRetry(quizId) {
 function backToMenu() {
   // If actively doing a quiz (currentQuiz is set and result page is hidden), request confirmation
   if (currentQuiz && resultPageEl.classList.contains("hidden")) {
-    const confirmExit = confirm("Bạn có chắc chắn muốn thoát bài thi? Tiến trình và bộ đếm giờ sẽ bị hủy.");
-    if (!confirmExit) return;
+    showCustomConfirm(
+      "Xác nhận thoát",
+      "Bạn có chắc chắn muốn thoát bài thi? Toàn bộ tiến trình làm bài và thời gian đếm giờ của bạn sẽ bị hủy bỏ.",
+      () => {
+        exitQuiz();
+      }
+    );
+    return;
   }
   
+  exitQuiz();
+}
+
+function exitQuiz() {
   if (timerInterval) clearInterval(timerInterval);
   currentQuiz = null; // Clear quiz state
   quizMenuEl.style.display = "block";
@@ -702,7 +712,7 @@ function createRandomQuiz(count) {
   const subject = subjects[currentSubjectId];
   const randomQuizSources = subject ? subject.randomQuizSources : [];
   if (randomQuizSources.length === 0) {
-    alert("Môn học này chưa hỗ trợ tạo đề ngẫu nhiên!");
+    showCustomAlert("Thông báo", "Môn học này chưa hỗ trợ tạo đề ngẫu nhiên!");
     return;
   }
 
@@ -713,32 +723,40 @@ function createRandomQuiz(count) {
   const quizData = quizzes[selectedSource];
 
   if (!quizData || quizData.questions.length === 0) {
-    alert("Chưa có câu hỏi nào được tải!");
+    showCustomAlert("Thông báo", "Chưa có câu hỏi nào được tải!");
     return;
   }
 
   // Validate count
   if (!count || count < 1) {
-    alert("Vui lòng nhập số câu hợp lệ (tối thiểu 1 câu)!");
+    showCustomAlert("Lỗi số lượng", "Vui lòng nhập số lượng câu hỏi hợp lệ (tối thiểu 1 câu)!");
     return;
   }
 
   let allQuestions = quizData.questions;
 
   if (count > allQuestions.length) {
-    alert(
-      `Đề này chỉ có ${allQuestions.length} câu hỏi. Sẽ tạo đề với tất cả câu hỏi.`,
+    showCustomAlert(
+      "Thông báo",
+      `Đề ôn tập này chỉ có tối đa ${allQuestions.length} câu hỏi. Hệ thống sẽ tự động tạo đề thi với toàn bộ ${allQuestions.length} câu hỏi.`,
+      () => {
+        generateAndStartRandomQuiz(allQuestions.length, allQuestions);
+      }
     );
-    count = allQuestions.length;
+    return;
   }
 
+  generateAndStartRandomQuiz(count, allQuestions);
+}
+
+function generateAndStartRandomQuiz(count, allQuestions) {
   // Shuffle and pick random questions from selected exam
   const shuffled = shuffleArray([...allQuestions]);
   const selectedQuestions = shuffled.slice(0, count);
 
   // Create temporary random quiz
   quizzes.random = {
-    name: `Đề Random - ${subject.name} - ${count} câu`,
+    name: `Đề Random - ${subjects[currentSubjectId].name} - ${count} câu`,
     difficulty: "Random",
     questions: selectedQuestions,
   };
@@ -929,4 +947,61 @@ function closeSidebarDrawer() {
   const overlay = document.querySelector(".drawer-overlay");
   if (sidebar) sidebar.classList.remove("drawer-active");
   if (overlay) overlay.classList.remove("active");
+}
+
+// ===== CUSTOM MONOCHROME DIALOG POPUPS (ALERT / CONFIRM) =====
+function showCustomAlert(title, message, callback) {
+  // Close any existing custom modal overlay first
+  const existingModal = document.querySelector(".custom-modal-overlay");
+  if (existingModal) existingModal.remove();
+
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay custom-modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content custom-alert-content" style="max-width: 400px; padding: 28px 24px;">
+      <h3 style="font-size: 19px; margin-bottom: 12px; text-align: center;">${title}</h3>
+      <p class="modal-subtitle" style="margin-bottom: 24px; text-align: center; font-size: 13.5px; line-height: 1.5; color: var(--text-secondary);">${message}</p>
+      <button class="btn btn-primary alert-close-btn" style="width: 100%; min-height: 44px; font-weight: 700;">Đồng ý</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const closeBtn = modal.querySelector(".alert-close-btn");
+  closeBtn.addEventListener("click", () => {
+    modal.remove();
+    if (callback) callback();
+  });
+}
+
+function showCustomConfirm(title, message, onConfirm, onCancel) {
+  // Close any existing custom modal overlay first
+  const existingModal = document.querySelector(".custom-modal-overlay");
+  if (existingModal) existingModal.remove();
+
+  const modal = document.createElement("div");
+  modal.className = "modal-overlay custom-modal-overlay";
+  modal.innerHTML = `
+    <div class="modal-content custom-confirm-content" style="max-width: 400px; padding: 28px 24px;">
+      <h3 style="font-size: 19px; margin-bottom: 12px; text-align: center;">${title}</h3>
+      <p class="modal-subtitle" style="margin-bottom: 24px; text-align: center; font-size: 13.5px; line-height: 1.5; color: var(--text-secondary);">${message}</p>
+      <div style="display: flex; gap: 12px; width: 100%;">
+        <button class="btn btn-secondary confirm-cancel-btn" style="flex: 1; min-height: 44px; font-weight: 700;">Hủy</button>
+        <button class="btn btn-primary confirm-ok-btn" style="flex: 1; min-height: 44px; font-weight: 700;">Đồng ý</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const cancelBtn = modal.querySelector(".confirm-cancel-btn");
+  const okBtn = modal.querySelector(".confirm-ok-btn");
+
+  cancelBtn.addEventListener("click", () => {
+    modal.remove();
+    if (onCancel) onCancel();
+  });
+
+  okBtn.addEventListener("click", () => {
+    modal.remove();
+    if (onConfirm) onConfirm();
+  });
 }
