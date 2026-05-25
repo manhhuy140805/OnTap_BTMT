@@ -1,0 +1,299 @@
+Câu 1: Chuẩn IEEE 802.11ax còn được biết đến rộng rãi với tên thương mại là gì?
+A. Wi-Fi 5
+*B. Wi-Fi 6
+C. Wi-Fi 6E
+D. Wi-Fi 7
+
+Câu 2: Trong kiến trúc bảo mật của mạng WLAN, điểm khác biệt cốt lộ giữa chế độ WPA3 và WPA2 là gì?
+*A. WPA3 thay thế cơ chế bắt tay 4 bước (4-way handshake) bằng giao thức SAE nhằm chống tấn công từ điển ngoại tuyến (offline dictionary attacks)
+B. WPA3 loại bỏ hoàn toàn thuật toán mã hóa AES
+C. WPA3 bắt buộc sử dụng khóa chia sẻ PSK có độ dài tối thiểu 64 ký tự
+D. WPA3 không hỗ trợ môi trường xác thực Enterprise
+
+Câu 3: Giao thức SAE (Simultaneous Authentication of Equals) trong chuẩn bảo mật WPA3-Personal dựa trên nguyên lý của cấu trúc mật mã nào?
+A. Mã hóa dòng RC4
+B. Hàm băm MD5 truyền thống
+*C. Trao đổi khóa Diffie-Hellman dựa trên đường cong elliptic (ECDH)
+D. Hệ thống mật mã đối xứng DES
+
+Câu 4: Khi triển khai giải pháp nâng cao tính an toàn cho mạng WLAN doanh nghiệp, chuẩn IEEE 802.1X thường kết hợp với giao thức nào sau đây để truyền tải thông tin xác thực giữa Client và máy chủ RADIUS?
+A. Giao thức RIP
+*B. Giao thức EAP (Extensible Authentication Protocol)
+C. Giao thức SNMP
+D. Giao thức ICMP
+
+Câu 5: Trong các chuẩn IEEE 802.11, kỹ thuật MIMO (Multiple-Input Multiple-Output) hỗ trợ giải quyết vấn đề gì của kênh truyền vô tuyến?
+*A. Tận dụng hiện tượng đa đường (multipath) để tăng dung lượng và tốc độ truyền dữ liệu bằng nhiều anten
+B. Làm giảm vùng phủ sóng để tiết kiệm năng lượng
+C. Chuyển đổi toàn bộ tín hiệu vô tuyến thành tín hiệu quang học
+D. Loại bỏ hoàn toàn quá trình mã hóa lớp liên kết dữ liệu
+
+Câu 6: Giao thức định tuyến nào sau đây thuộc nhóm định tuyến chủ động (Proactive/Table-driven) trong mạng di động ad-hoc MANET?
+A. AODV
+B. DSR
+*C. DSDV (Destination-Sequenced Distance-Vector)
+D. TORA
+
+Câu 7: Điểm đặc trưng của nhóm giao thức định tuyến phản ứng (Reactive/On-Demand) như AODV trong mạng MANET là gì?
+A. Liên tục cập nhật và duy trì bảng định tuyến toàn mạng theo chu kỳ định sẵn
+*B. Chỉ thiết lập và tìm đường đi khi có nhu cầu gửi dữ liệu từ nguồn đến đích nhằm tiết kiệm băng thông và năng lượng
+C. Bắt buộc phải sử dụng định vị GPS tại tất cả các nút mạng
+D. Chỉ cho phép các nút mạng đứng yên liên lạc với nhau
+
+Câu 8: Trong giao thức định tuyến phản ứng DSR (Dynamic Source Routing), thông tin về toàn bộ đường đi (route) được lưu trữ ở đâu?
+*A. Được đặt ngay trong phần tiêu đề (header) của mỗi gói tin dữ liệu
+B. Chỉ được lưu tại một nút Gateway cố định
+C. Được phân tán tại tất cả các nút trung gian trên mạng
+D. Lưu trữ tập trung tại máy chủ RADIUS
+
+Câu 9: Kiểu tấn công bảo mật nào trong mạng MANET xảy ra khi một nút độc hại cố tình tuyên bố nó có đường đi ngắn nhất, tối ưu nhất đến đích để thu hút toàn bộ lưu lượng gói tin, sau đó lặng lẽ hủy bỏ (drop) các gói tin đó?
+A. Tấn công Sybil
+*B. Tấn công hố đen (Blackhole attack)
+C. Tấn công mạo danh địa chỉ MAC
+D. Tấn công phần mềm độc hại Ransomware
+
+Câu 10: Hình thức tấn công "Sybil attack" trong mạng MANET được định nghĩa là gì?
+*A. Một nút độc hại tạo ra nhiều danh tính giả (hoặc mạo danh nhiều nút khác nhau) cùng một lúc để thao túng hệ thống
+B. Kẻ tấn công thu giữ phần cứng nút mạng và trích xuất khóa bí mật
+C. Gửi liên tục các gói tin nhiễu tần số lớp vật lý
+D. Tạo liên kết đường ống tốc độ cao giữa hai vùng mạng từ xa để làm sai lệch cấu trúc định tuyến
+
+Câu 11: Khi thiết kế giải pháp nâng cao chất lượng dịch vụ (QoS) trong mạng MANET, thách thức lớn nhất đến từ đặc điểm nào của cấu trúc mạng?
+A. Băng thông có dây quá lớn
+B. Độ lợi anten cố định
+*C. Tô-pô mạng thay đổi liên tục do tính di động của các nút và tài nguyên năng lượng hạn chế
+D. Các nút mạng luôn có cấu hình phần cứng đồng nhất
+
+Câu 12: Đâu là một giải pháp cải tiến định tuyến trong MANET nhằm tối ưu hóa năng lượng tiêu thụ của hệ thống?
+A. Tăng tối đa công suất phát sóng của tất cả các nút trong mọi chu kỳ
+*B. Áp dụng các thuật toán tối ưu (như GSA, GA) hoặc định tuyến dựa trên mức năng lượng còn lại của nút (Energy-Aware Routing)
+C. Ép buộc các nút mạng không được di chuyển
+D. Chuyển đổi toàn bộ mạng MANET sang sử dụng cấu trúc cáp quang
+
+Câu 13: Giao thức định tuyến phân cấp (Hybrid Routing) như ZRP (Zone Routing Protocol) trong MANET kết hợp các đặc tính nào?
+A. Định tuyến tĩnh và định tuyến động có dây
+*B. Sử dụng định tuyến chủ động (Proactive) trong phạm vi vùng (zone) cận kề và định tuyến phản ứng (Reactive) ngoài vùng
+C. Chỉ định tuyến bằng định vị vệ tinh và sóng radio ngắn
+D. Kết nối trực tiếp giữa lớp ứng dụng và lớp vật lý không qua lớp mạng
+
+Câu 14: Thành phần cốt lõi đảm nhận vai trò thu thập dữ liệu từ các nút cảm biến trong mạng WSN và chuyển tiếp thông tin về hệ thống máy chủ trung tâm được gọi là gì?
+A. Nút Sensor đầu cuối
+*B. Nút Sink (hoặc Base Station)
+C. Nút Mã hóa dòng
+D. Nút Chuyển mạch nhãn
+
+Câu 15: Thách thức lớn nhất trong việc thiết kế các giao thức định tuyến và bảo mật cho mạng cảm biến không dây (WSN) là gì?
+A. Thiếu các chuẩn tần số vô tuyến toàn cầu
+*B. Hạn chế nghiêm trọng về năng lượng (pin), dung lượng bộ nhớ và năng lực tính toán của các nút cảm biến
+C. Các nút cảm biến di chuyển với vận tốc siêu thanh
+D. Chi phí mua phần mềm bản quyền quá cao
+
+Câu 16: Giao thức LEACH (Low-Energy Adaptive Clustering Hierarchy) trong mạng WSN áp dụng kỹ thuật gì để cải tiến việc tiết kiệm năng lượng toàn mạng?
+A. Định tuyến theo đường thẳng cố định từ đầu đến cuối
+*B. Phân chia mạng thành các cụm (clusters) và thay đổi ngẫu nhiên vai trò nút trưởng cụm (Cluster Head) theo chu kỳ
+C. Tắt hoàn toàn tính năng thu phát sóng của nút Sink
+D. Sử dụng cấu trúc liên kết mạng vòng Token Ring
+
+Câu 17: Trong mạng WSN, hiện tượng tấn công "Wormhole attack" (Tấn công lỗ sâu) hoạt động dựa trên cơ chế nào?
+A. Kẻ tấn công gửi mã độc làm cạn kiệt pin của nút cảm biến
+*B. Kẻ tấn công sử dụng một liên kết ngầm tốc độ cao (out-of-band) giữa hai nút độc hại ở khoảng cách xa để dịch chuyển gói tin và làm sai lệch sơ đồ mạng
+C. Kẻ tấn công thay đổi nội dung gói tin dữ liệu cảm biến nhiệt độ
+D. Kẻ tấn công giả mạo làm nút Sink để nhận dữ liệu
+
+Câu 18: Để giải quyết vấn đề bảo mật và nâng cao chất lượng dịch vụ (QoS) cho mạng WSN, cơ chế gom cụm dữ liệu (Data Aggregation) tại nút trưởng cụm giúp mang lại lợi ích gì?
+A. Làm tăng kích thước file truyền dẫn lên nhiều lần
+*B. Loại bỏ dữ liệu dư thừa, giảm số lượng gói tin phải truyền về Sink, từ đó tiết kiệm năng lượng và giảm tắc nghẽn kênh truyền
+C. Cho phép nút cảm biến tự động sạc pin từ xa không dây
+D. Tăng độ trễ truyền dẫn để bảo mật gói tin
+
+Câu 19: Kiểu tấn công "Hello Flood" trong mạng WSN lợi dụng đặc tính nào của kẻ tấn công?
+A. Kẻ tấn công có cấu hình bộ nhớ cực nhỏ
+*B. Kẻ tấn công sử dụng thiết bị có công suất phát sóng cực lớn để gửi gói tin chào hỏi đến tất cả các nút, khiến các nút tưởng rằng kẻ tấn công ở rất gần chúng
+C. Kẻ tấn công làm giả địa chỉ IP của máy chủ quản trị mạng
+D. Kẻ tấn công chiếm đoạt hệ thống giải mã khóa công khai
+
+Câu 20: Các cải tiến mới về định tuyến trong mạng WSN hiện nay thường hướng tới mục tiêu tối ưu hóa đa mục tiêu nào sau đây?
+A. Tối đa hóa kích thước nút cảm biến và dung lượng lưu trữ cục bộ
+*B. Cân bằng năng lượng tiêu thụ giữa các nút, giảm độ trễ truyền dẫn và tăng tỷ lệ truyền gói tin thành công (PDR)
+C. Loại bỏ hoàn toàn lớp liên kết dữ liệu trong mô hình OSI
+D. Tăng số lượng nút trưởng cụm lên bằng với số lượng nút cảm biến hiện có
+
+Câu 21: Mạng VANET (Vehicular Ad-hoc Network) là một nhánh ứng dụng đặc thù của mạng MANET, trong đó các nút mạng chính là:
+A. Các vệ tinh quỹ đạo thấp
+*B. Các phương tiện giao thông di chuyển trên đường (ô tô, xe máy) và các thiết bị hạ tầng ven đường
+C. Các cảm biến đo địa chấn cố định dưới lòng đất
+D. Các thiết bị đeo tay theo dõi sức khỏe con người
+
+Câu 22: Thành phần hạ tầng cố định được lắp đặt dọc theo các tuyến đường để giao tiếp với phương tiện trong mạng VANET được gọi tắt là:
+A. OBU (On-Board Unit)
+*B. RSU (Road-Side Unit)
+C. AU (Application Unit)
+D. TA (Trusted Authority)
+
+Câu 23: Thiết bị phần cứng được tích hợp sẵn trên các phương tiện giao thông nhằm thực hiện chức năng xử lý thông tin và truyền thông không dây trong VANET là:
+*A. OBU (On-Board Unit)
+B. RSU (Road-Side Unit)
+C. Base Station
+D. Access Point cố định
+
+Câu 24: Đặc điểm nào sau đây tạo nên thách thức lớn nhất cho việc định tuyến và đảm bảo chất lượng dịch vụ (QoS) trong mạng VANET?
+A. Các nút mạng di chuyển cực kỳ chậm chạp
+*B. Tốc độ di chuyển cao của phương tiện dẫn đến tô-pô mạng thay đổi nhanh chóng, liên kết mạng dễ bị đứt gãy và phân mảnh
+C. Các phương tiện giao thông bị giới hạn nghiêm trọng về nguồn năng lượng pin điện tích hợp
+D. Chỉ hoạt động được vào ban đêm khi đường thông thoáng
+
+Câu 25: Trong mạng VANET, hai kịch bản truyền thông cơ bản nhất được định nghĩa là gì?
+A. Giao tiếp giữa các vệ tinh (S2S) và giao tiếp giữa các Router lõi (R2R)
+*B. Giao tiếp giữa phương tiện với phương tiện (V2V) và giữa phương tiện với hạ tầng ven đường (V2I)
+C. Giao tiếp nội bộ xe (In-vehicle) và giao tiếp xuyên đại dương
+D. Giao tiếp giữa các nút cảm biến ngầm dưới lòng đường
+
+Câu 26: Kiểu định tuyến dựa trên vị trí địa lý (Position-based/Geographic routing) như GPSR (Greedy Perimeter Stateless Routing) rất phổ biến trong VANET vì lý do nào?
+A. Nó không yêu cầu các phương tiện biết vị trí hiện tại của mình
+*B. Nó không cần duy trì hay cập nhật bảng định tuyến toàn mạng, mà chọn nút chuyển tiếp tiếp theo dựa trên tọa độ địa lý của nút gần đích nhất
+C. Nó bắt buộc các phương tiện phải đi theo một hàng dọc duy nhất
+D. Nó sử dụng thuật toán mã hóa dòng RC4 để định tuyến đường đi
+
+Câu 27: Một trong những mối đe dọa bảo mật nghiêm trọng nhất trong VANET là tấn công tạo "Thông tin giả mạo" (False Information). Mục đích của kẻ tấn công là gì?
+A. Làm sập nguồn điện ắc quy của ô tô
+*B. Phát tán các cảnh báo giả về tai nạn hoặc tắc đường để làm thay đổi lộ trình di chuyển của các xe khác nhằm trục lợi hoặc gây hỗn loạn giao thông
+C. Thay đổi màu sơn của xe trên hệ thống định vị
+D. Đánh cắp dữ liệu bài hát đang phát trên radio của xe
+
+Câu 28: Để đảm bảo "Tính riêng tư" (Privacy) cho người điều khiển phương tiện trong mạng VANET mà vẫn đảm bảo khả năng truy vết của cơ quan chức năng, giải pháp nào sau đây được áp dụng?
+A. Cấm tuyệt đối việc truyền gói tin an toàn ra không trung
+*B. Sử dụng các chứng thư định danh giả ngẫu nhiên thay đổi liên tục (Pseudonyms/Chữ ký nặc danh thay đổi theo chu kỳ)
+C. Công khai toàn bộ họ tên, địa chỉ nhà của chủ xe trong tiêu đề gói tin
+D. Sử dụng một mật khẩu chung cố định cho tất cả các phương tiện trên toàn thế giới
+
+Câu 29: Các chỉ số chất lượng dịch vụ (QoS) quan trọng nhất cần nâng cao trong các ứng dụng an toàn giao thông của mạng VANET là gì?
+*A. Độ trễ cực thấp (End-to-End Latency) và độ tin cậy truyền gói tin cực cao để kịp thời xử lý tình huống khẩn cấp
+B. Dung lượng lưu trữ ổ cứng của thiết bị OBU
+C. Khả năng tương thích với mạng điện thoại nội bộ analog
+D. Tốc độ tải tệp phim độ phân giải cao từ Internet
+
+Câu 30: Thành phần mạng truy cập vô tuyến trong kiến trúc mạng di động 4G LTE được gọi là gì?
+A. NodeB
+*B. eNodeB (Evolved NodeB)
+C. gNodeB
+D. Base Station Controller (BSC)
+
+Câu 31: Trong kiến trúc mạng di động thế hệ thứ 5 (5G), trạm phát sóng thế hệ mới chịu trách nhiệm xử lý kết nối vô tuyến được gọi tên là gì?
+A. eNodeB
+*B. gNodeB (Next Generation NodeB)
+C. RNC
+D. Access Point 5G
+
+Câu 32: Công nghệ nào sau đây là một trong những trụ cột cốt lõi của mạng 5G, cho phép chia nhỏ một hạ tầng mạng vật lý duy nhất thành nhiều mạng ảo độc lập có các thông số QoS khác nhau tùy theo nhu cầu dịch vụ?
+A. Kỹ thuật nhảy tần liên tục
+*B. Lát cắt mạng (Network Slicing)
+C. Kỹ thuật mã hóa WEP-24bit
+D. Cơ chế phân cụm LEACH
+
+Câu 33: Mạng di động 5G hỗ trợ 3 nhóm dịch vụ chính, trong đó nhóm dịch vụ yêu cầu độ trễ cực thấp và độ tin cậy siêu cao (như phẫu thuật từ xa, xe tự lái) được viết tắt là:
+A. eMBB (Enhanced Mobile Broadband)
+*B. URLLC (Ultra-Reliable Low-Latency Communications)
+C. mMTC (Massive Machine Type Communications)
+D. D2D (Device-to-Device)
+
+Câu 34: Nhóm dịch vụ nào của mạng 5G được thiết kế chuyên biệt nhằm phục vụ cho hàng triệu thiết bị Internet vạn vật (IoT) kết nối đồng thời với mật độ cực cao?
+A. eMBB
+B. URLLC
+*C. mMTC (Massive Machine Type Communications)
+D. LTE-Advanced
+
+Câu 35: Trong bảo mật mạng 5G, kiến trúc an ninh đã cải tiến cơ chế bảo mật trên giao diện vô tuyến bằng cách thực hiện điều gì đối với định danh thuê bao?
+A. Truyền mã định danh IMSI gốc dưới dạng văn bản rõ không mã hóa
+*B. Mã hóa mã định danh thường trú của thuê bao thành SUCI (Subscription Concealed Identifier) trước khi gửi qua không trung để chống nghe lén vị trí
+C. Sử dụng khóa chia sẻ chung PSK của mạng Wi-Fi
+D. Loại bỏ hoàn toàn thẻ SIM vật lý và SIM điện tử
+
+Câu 36: Công nghệ 6LoWPAN được thiết kế nhằm mục đích cốt lõi nào sau đây?
+A. Truyền dữ liệu video 4K giữa các máy tính cấu hình mạnh
+*B. Cho phép truyền tải các gói tin IPv6 trực tiếp qua các mạng không dây công suất thấp, băng thông hẹp dựa trên chuẩn IEEE 802.15.4
+C. Thay thế hoàn toàn mạng lõi cáp quang toàn cầu
+D. Định tuyến đường đi cho các phương tiện giao thông vận tốc siêu thanh
+
+Câu 37: Để truyền tải được gói tin IPv6 (có kích thước tiêu đề tối thiểu 40 byte) qua khung dữ liệu giới hạn của chuẩn IEEE 802.15.4, tầng thích ứng 6LoWPAN phải thực hiện kỹ thuật cải tiến quan trọng nào?
+*A. Nén tiêu đề (Header Compression) và phân đoạn/tái hợp gói tin (Fragmentation and Reassembly)
+B. Mã hóa gói tin bằng thuật toán AES-256 bit hai lần
+C. Tăng băng thông kênh truyền lên 1 Gbps
+D. Chuyển đổi gói tin IPv6 thành gói tin IPv4
+
+Câu 38: Giao thức định tuyến tiêu chuẩn được thiết kế bởi IETF dành riêng cho các mạng không dây công suất thấp và tổn hao nhiều (LLNs) như WSN chạy 6LoWPAN là gì?
+A. OSPF
+B. BGP
+*C. RPL (Routing Protocol for Low-Power and Lossy Networks)
+D. RIPv2
+
+Câu 39: Mạng FANET (Flying Ad-hoc Network) là một dạng mạng tự tổ chức không dây đặc thù, trong đó các nút mạng di động là các thiết bị nào?
+A. Các tàu ngầm dưới biển sâu
+B. Các xe ô tô tự lái di chuyển trên cao tốc
+*C. Các thiết bị bay không người lái (UAVs/Drones) bay trên không trung
+D. Các cảm biến đo lưu lượng nước cố định
+
+Câu 40: Điểm khác biệt lớn nhất về đặc tính di động của nút mạng trong FANET so với mạng MANET và VANET truyền thống là gì?
+A. Các nút mạng di động hoàn toàn trong không gian một chiều cố định
+B. Các nút mạng đứng yên tuyệt đối
+*C. Các nút mạng di động với tốc độ rất cao trong không gian ba chiều (3D không gian tự do)
+D. Các nút mạng di chuyển theo các tuyến đường ray cố định sẵn
+
+Câu 41: Thách thức lớn nhất đối với việc duy trì chất lượng dịch vụ (QoS) và liên kết định tuyến trong mạng FANET là gì?
+A. Dung lượng pin của UAV quá lớn không thể cạn kiệt
+*B. Khoảng cách giữa các UAV thay đổi quá nhanh dẫn đến liên kết vô tuyến không ổn định, dễ bị ảnh hưởng bởi thời tiết và nhiễu khí động học
+C. Không thể tích hợp anten phát sóng lên UAV
+D. Thiếu giao thức định tuyến IP lớp 3
+
+Câu 42: Các giải pháp cải tiến mới về định tuyến mạng FANET hiện nay thường ứng dụng công nghệ nào để dự đoán và tối ưu hóa đường truyền giữa các thiết bị bay?
+*A. Học máy (Machine Learning) và trí tuệ nhân tạo để dự đoán quỹ đạo di chuyển của UAV và hướng định tuyến trước khi liên kết đứt gãy
+B. Thuật toán mã hóa lỗi thời WEP-24bit
+C. Kỹ thuật định tuyến tĩnh thiết lập bằng tay trước khi bay
+D. Loại bỏ hoàn toàn định vị GPS toàn cầu
+
+Câu 43: Trong bảo mật mạng FANET, kiểu tấn công chèn ép tín hiệu (Jamming attack) can thiệp vào tầng nào của mô hình mạng?
+*A. Tầng vật lý (Physical Layer) bằng cách phát sóng nhiễu công suất cao đè lên tần số điều khiển của UAV
+B. Tầng ứng dụng (Application Layer) bằng SQL Injection
+C. Tầng phiên (Session Layer)
+D. Tầng trình diễn (Presentation Layer)
+
+Câu 44: Điểm cải tiến quan trọng của kiến trúc mạng 6LoWPAN giúp nó trở thành một thành phần cốt lõi của Internet vạn vật (IoT) là gì?
+A. Nó yêu cầu phần cứng đắt tiền cấu hình mạnh
+*B. Nó cho phép mọi thiết bị cảm biến nhỏ bé có thể sở hữu một địa chỉ IP định danh duy nhất và kết nối trực tiếp vào mạng Internet toàn cầu
+C. Nó loại bỏ hoàn toàn việc sử dụng sóng radio trung gian
+D. Nó tăng độ dài khóa mật mã lên vô hạn bit
+
+Câu 45: Nhằm nâng cao chất lượng dịch vụ (QoS) mạng WSN và 6LoWPAN, giao thức RPL xây dựng cấu trúc định tuyến dựa trên mô hình đồ thị nào sau đây?
+A. Đồ thị vòng tròn khép kín (Loop Topology)
+*B. Đồ thị có hướng không chu trình hướng đích DODAG (Destination-Oriented Directed Acyclic Graph)
+C. Đồ thị lưới ma trận hai chiều cố định
+D. Đồ thị hình sao tập trung tuyệt đối
+
+Câu 46: Trong mạng VANET, cấu trúc định tuyến dựa trên cấu trúc liên kết mạng (Topology-based routing) được chia làm hai phân nhóm chính tương tự như MANET, đó là:
+*A. Định tuyến chủ động (Proactive) và định tuyến phản ứng (Reactive)
+B. Định tuyến tĩnh cố định và định tuyến cáp quang
+C. Định tuyến một chặng (Single-hop) và định tuyến chuyển mạch mạch
+D. Định tuyến quảng bá vệ tinh và định tuyến hồng ngoại
+
+Câu 47: Việc nâng cao chất lượng dịch vụ (QoS) cho mạng cảm biến không dây WSN phục vụ giám sát y tế yêu cầu phải ưu tiên tối ưu hóa tham số nào hàng đầu?
+A. Tốc độ tải tệp dung lượng lớn
+*B. Độ tin cậy cao, độ trễ thấp và tính bảo mật của dữ liệu dấu hiệu sinh tồn của bệnh nhân
+C. Tăng tần suất đổi màu sắc hiển thị của cảm biến
+D. Giảm tối đa số lượng nút Sink trong phòng bệnh
+
+Câu 48: Hình thức bảo mật nào giúp chống lại tấn công "Eavesdropping" (Nghe lén) dữ liệu trên không trung của các mạng MANET/WSN/VANET một cách triệt để nhất?
+A. Tắt nguồn thiết bị thu phát sóng định kỳ
+*B. Mã hóa toàn bộ dữ liệu (Data Encryption) bằng thuật toán mã hóa mạnh trước khi truyền đi
+C. Ẩn tên định danh SSID của trạm phát sóng
+D. Đổi địa chỉ IP của thiết bị liên tục mỗi giây
+
+Câu 49: Đâu là một cải tiến định tuyến của mạng FANET nhằm đáp ứng các nhiệm vụ cứu hộ khẩn cấp tai nạn?
+A. Sử dụng thuật toán tìm đường dài nhất có thể để kéo dài thời gian
+*B. Định tuyến dựa trên độ ưu tiên của dữ liệu khẩn cấp (Priority-Aware Routing) và duy trì liên kết động đa hướng
+C. Bắt buộc các UAV phải hạ cánh liên tục xuống đất để trao đổi bảng định tuyến qua dây cáp
+D. Chuyển đổi toàn bộ luồng gói tin sang dạng analog thoại truyền thống
+
+Câu 50: Mục tiêu cơ bản nhất của việc nghiên cứu, cải tiến tổng quan các mạng không dây thế hệ mới (WSN, MANET, VANET, FANET) hiện nay là gì?
+A. Biến tất cả các mạng không dây trở thành cấu trúc mạng có dây cố định ổn định hơn
+*B. Tối ưu hóa hiệu suất năng lượng, nâng cao độ bảo mật hệ thống, tăng tốc độ truyền tải và đảm bảo chất lượng dịch vụ (QoS) thích ứng linh hoạt với môi trường thực tế
+C. Tăng giá thành thiết bị phần cứng để nâng cao lợi nhuận thương mại
+D. Giới hạn số lượng người dùng kết nối tối đa dưới 5 thiết bị toàn mạng

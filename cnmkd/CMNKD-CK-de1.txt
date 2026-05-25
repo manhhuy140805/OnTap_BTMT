@@ -1,0 +1,299 @@
+Câu 1: Thuật ngữ "Wireless LAN" (WLAN) dùng để chỉ loại mạng nào sau đây?
+*A. Mạng cục bộ không dây
+B. Mạng diện rộng không dây
+C. Mạng đô thị không dây
+D. Mạng cá nhân không dây
+
+Câu 2: Chuẩn mạng không dây nào sau đây thường được gọi là tên thương mại Wi-Fi?
+A. IEEE 802.15
+B. IEEE 802.16
+*C. IEEE 802.11
+D. IEEE 802.3
+
+Câu 3: Công nghệ mạng không dây nào sau đây thuộc phân loại mạng diện rộng vô tuyến (WWAN)?
+A. Bluetooth
+B. Wi-Fi
+C. WiMAX
+*D. GSM / UMTS / LTE
+
+Câu 4: Theo phân loại mạng không dây, mạng Bluetooth thuộc nhóm nào sau đây?
+*A. WPAN (Wireless Personal Area Network)
+B. WLAN (Wireless Local Area Network)
+C. WMAN (Wireless Metropolitan Area Network)
+D. WWAN (Wireless Wide Area Network)
+
+Câu 5: Chế độ hoạt động nào của mạng WLAN mà trong đó các nút di động truyền thông trực tiếp với nhau không qua một điểm truy cập trung tâm (Access Point)?
+A. Infrastructure mode
+*B. Ad-hoc mode (IBSS)
+C. Extended Service Set (ESS)
+D. Roaming mode
+
+Câu 6: Trong mô hình mạng cơ sở hạ tầng (Infrastructure), thiết bị trung tâm đóng vai trò kết nối các trạm không dây vào mạng có dây truyền thống được gọi là:
+A. Router
+*B. Access Point (AP)
+C. Switch
+D. Hub
+
+Câu 7: Chuẩn kết nối nào hoạt động ở tần số 2.4 GHz và có tốc độ truyền dữ liệu tối đa là 11 Mbps?
+A. IEEE 802.11a
+*B. IEEE 802.11b
+C. IEEE 802.11g
+D. IEEE 802.11n
+
+Câu 8: Chuẩn IEEE 802.11g hoạt động ở dải tần nào và hỗ trợ tốc độ tối đa bao nhiêu?
+A. Tần số 5.0 GHz, tốc độ 54 Mbps
+*B. Tần số 2.4 GHz, tốc độ 54 Mbps
+C. Tần số 2.4 GHz, tốc độ 11 Mbps
+D. Tần số 5.0 GHz, tốc độ 11 Mbps
+
+Câu 9: Kỹ thuật điều chế OFDM (Orthogonal Frequency Division Multiplexing) được sử dụng bắt đầu từ các chuẩn nào của 802.11?
+*A. 802.11a và 802.11g
+B. 802.11b và 802.11
+C. Chỉ duy nhất chuẩn 802.11b
+D. Không chuẩn nào sử dụng
+
+Câu 10: Khái niệm "Roaming" trong mạng cục bộ không dây WLAN được hiểu là gì?
+A. Quá trình mã hóa gói tin khi di chuyển
+B. Quá trình lọc địa chỉ MAC giữa các thiết bị
+*C. Khả năng di chuyển liên tục từ một cell (vùng phủ sóng AP) này sang một cell khác mà không mất kết nối
+D. Khả năng tăng băng thông tự động của Access Point
+
+Câu 11: Mạng MANET (Mobile Ad-hoc Network) có đặc điểm cốt lõi nào sau đây?
+A. Cần có trạm gốc cố định định tuyến
+*B. Các nút mạng tự cấu hình, có tính di động cao và kết nối ad-hoc không hạ tầng
+C. Bắt buộc phải kết nối trực tiếp với Internet qua cáp quang
+D. Chỉ hoạt động trong phạm vi dưới 2 mét
+
+Câu 12: Mạng VANET (Vehicular Ad-hoc Network) là một dạng ứng dụng đặc thù của MANET dành cho đối tượng nào?
+A. Các thiết bị cảm biến môi trường
+B. Các thiết bị điện thoại thông minh cố định
+*C. Các phương tiện giao thông (ô tô, xe máy) di chuyển trên đường
+D. Các thiết bị y tế trong bệnh viện
+
+Câu 13: Mạng cảm biến không dây WSN (Wireless Sensor Network) thường bao gồm thành phần nào đảm nhận thu thập dữ liệu và chuyển tiếp về trung tâm?
+A. Các trạm phát sóng WiMAX công suất lớn
+*B. Tập hợp các nút cảm biến (Sensor nodes) kết nối không dây và nút gốc (Sink)
+C. Các tổng đài di động MSC
+D. Các thiết bị Router lõi lớn
+
+Câu 14: Mục tiêu bảo mật nào đảm bảo thông tin không bị tiết lộ cho những thực thể không được phép truy cập?
+*A. Tính bảo mật (Confidentiality)
+B. Tính toàn vẹn (Integrity)
+C. Tính sẵn sàng (Availability)
+D. Tính xác thực (Authentication)
+
+Câu 15: Hình thức tấn công nào mà kẻ phá hoại gửi liên tục các gói tin giả mạo nhằm cắt đứt kết nối hợp lệ giữa Client và Access Point?
+A. Tấn công lọc địa chỉ MAC
+*B. Tấn công từ chối dịch vụ bằng gói tin De-authentication (De-auth flood)
+C. Tấn công làm sai lệch SSID
+D. Tấn công thụ động Sniffing
+
+Câu 16: Điểm yếu lớn nhất của hình thức bảo mật bằng cách "Ẩn SSID" (Lọc SSID) là gì?
+A. Làm giảm tốc độ đường truyền xuống một nửa
+B. Không cho phép các máy tính chạy Windows kết nối
+*C. SSID vẫn được truyền đi dưới dạng rõ (không mã hóa) trong các gói tin Beacon hoặc Probe Request/Response
+D. Làm cho Access Point dễ bị cháy phần cứng
+
+Câu 17: Thuật toán mã hóa WEP (Wired Equivalent Privacy) sử dụng thuật toán mật mã nào làm nền tảng?
+A. AES
+*B. RC4
+C. DES
+D. RSA
+
+Câu 18: Trong cơ chế WEP, giá trị IV (Initialization Vector) có độ dài bao nhiêu bit, dẫn đến việc dễ bị trùng lặp và bị bẻ khóa nhanh chóng?
+A. 12 bit
+*B. 24 bit
+C. 64 bit
+D. 128 bit
+
+Câu 19: Để kiểm tra tính toàn vẹn của dữ liệu và chống sửa đổi gói tin, cơ chế WEP sử dụng trường kiểm tra lỗi nào?
+A. MIC (Michael)
+*B. ICV (Integrity Check Value) dựa trên CRC-32
+C. CCMP
+D. SHA-256
+
+Câu 20: Giải pháp bảo mật WPA (Wi-Fi Protected Access) ra đời nhằm vá lỗi tạm thời cho WEP bằng cách sử dụng giao thức mã hóa nào?
+*A. TKIP (Temporal Key Integrity Protocol)
+B. AES-CCMP
+C. WEP2
+D. RSA 1024-bit
+
+Câu 21: Giao thức TKIP cải tiến cơ chế WEP bằng cách thực hiện điều gì để tránh lặp lại khóa?
+A. Đổi Access Point liên tục
+*B. Thay đổi khóa mã hóa theo từng gói tin (Per-packet key) và tăng độ dài IV lên 48 bit
+C. Loại bỏ hoàn toàn thuật toán RC4
+D. Chuyển sang dùng mã hóa khóa công khai
+
+Câu 22: Chuẩn bảo mật WPA2 (IEEE 802.11i) bắt buộc sử dụng thuật toán mã hóa mạnh mẽ nào sau đây?
+A. RC4 nâng cao
+B. DES cải tiến
+*C. AES (Advanced Encryption Standard) kết hợp cơ chế CCMP
+D. MD5 kết hợp SHA-1
+
+Câu 23: Cơ chế xác thực WPA/WPA2 Personal (còn gọi là WPA-PSK) sử dụng phương thức nào để thiết lập kết nối ban đầu?
+*A. Sử dụng một chuỗi mật khẩu chia sẻ trước (Pre-Shared Key) cấu hình chung trên AP và Client
+B. Sử dụng một máy chủ xác thực RADIUS độc lập
+C. Sử dụng chứng thư số kỹ thuật số (Digital Certificate) cho từng máy
+D. Xác thực qua vân tay hệ thống
+
+Câu 24: Đối với môi trường doanh nghiệp lớn, WPA/WPA2 Enterprise yêu cầu thành phần nào để quản lý tài khoản và xác thực tập trung?
+A. Khóa chia sẻ PSK đơn giản
+B. Card mạng không dây chuẩn a/b/g
+*C. Máy chủ xác thực RADIUS (theo chuẩn IEEE 802.1X)
+D. Hệ thống định tuyến tĩnh
+
+Câu 25: Chức năng lọc địa chỉ MAC (MAC Filtering) trên Access Point hoạt động dựa trên nguyên lý nào?
+*A. Người quản trị xây dựng danh sách các địa chỉ MAC được phép (hoặc bị cấm) truy cập vào mạng
+B. AP tự động thay đổi địa chỉ vật lý của các máy trạm theo chu kỳ
+C. Mã hóa toàn bộ địa chỉ lớp 2 bằng thuật toán AES
+D. Chặn các gói tin có IP lạ
+
+Câu 26: Điểm hạn chế lớn của việc lọc địa chỉ MAC là gì?
+A. Làm tốn băng thông đường truyền vô tuyến
+*B. Kẻ tấn công có thể dễ dàng "ngửi" (sniff) thấy địa chỉ MAC hợp lệ trên không trung và fake địa chỉ MAC của mình
+C. Chỉ áp dụng được cho mạng có dây
+D. AP sẽ tự động reset nếu có quá 10 địa chỉ MAC
+
+Câu 27: Kiểu tấn công "Rogue Access Point" trong bảo mật mạng không dây được hiểu là:
+A. Kẻ tấn công chiếm quyền điều khiển Router core
+*B. Một Access Point bất hợp pháp được lắp đặt lén lút vào mạng nội bộ mà không được sự cho phép của quản trị viên
+C. Việc người dùng đổi mật khẩu Wi-Fi liên tục
+D. Tấn công bẻ khóa mật mã bằng từ điển trực tuyến
+
+Câu 28: Tấn công "Phản xạ/Cảm nhận sóng mang lớp vật lý" dựa trên việc lợi dụng cơ chế nào của giao thức CSMA/CA?
+A. Thay đổi cường độ dòng điện nguồn AP
+B. Gửi liên tục gói tin IP lỗi
+*C. Lợi dụng việc thiết bị phải lắng nghe kênh truyền, gửi các tín hiệu làm giả trạng thái kênh bận khiến các nút khác liên tục chờ đợi
+D. Tấn công vào thuật toán băm mật khẩu
+
+Câu 29: Thuật ngữ WiMAX viết tắt của cụm từ tiếng Anh nào sau đây?
+A. Wireless Internet Maximum Access
+*B. Worldwide Interoperability for Microwave Access
+C. Wide Metropolitan Access Network
+D. Wireless Microwave Architecture Exchange
+
+Câu 30: Công nghệ WiMAX được chuẩn hóa và phát triển dựa trên bộ tiêu chuẩn nào của IEEE?
+A. IEEE 802.11
+B. IEEE 802.15
+*C. IEEE 802.16
+D. IEEE 802.3
+
+Câu 31: WiMAX được thiết kế chủ yếu với mục tiêu cung cấp dịch vụ không dây dạng nào?
+A. Mạng nội bộ trong một căn phòng hẹp dưới 5 mét
+*B. Kết nối mạng không dây băng thông rộng phạm vi đô thị (WMAN), hỗ trợ cả cố định và di động
+C. Thay thế hoàn toàn sóng truyền hình cáp vệ tinh toàn cầu
+D. Chỉ truyền dẫn tín hiệu âm thanh thoại analog
+
+Câu 32: Trong truyền dẫn WiMAX, phương thức kết nối giữa các trạm Anten điểm - điểm (Point-to-Point) dùng để liên kết các Hotspot với nhau được gọi là:
+*A. Backhaul
+B. Last mile
+C. Peer-to-peer
+D. Infrastructure
+
+Câu 33: Phương thức kết nối "Last mile" (Chặng cuối) của WiMAX sử dụng để làm gì?
+A. Kết nối trực tiếp giữa các nhà mạng viễn thông quốc tế
+*B. Sử dụng anten điểm - đa điểm để kết nối các thuê bao tại nhà riêng hoặc doanh nghiệp tới trạm gốc (BS)
+C. Đồng bộ hóa đồng hồ nội bộ của các thiết bị Slave
+D. Kết nối Bluetooth giữa điện thoại và máy tính
+
+Câu 34: WiMAX cung cấp 2 dạng dịch vụ không dây là LOS và NLOS. Dịch vụ LOS (Line of Sight) có đặc điểm gì?
+A. Truyền vòng qua các tòa nhà, sử dụng tần số rất thấp
+*B. Truyền theo đường thẳng, hai thiết bị thu phát nhìn thấy nhau trực tiếp, ít lỗi, sử dụng băng tần cao (lên tới 66 GHz)
+C. Chỉ truyền tín hiệu khi có mưa rào
+D. Không yêu cầu anten định hướng
+
+Câu 35: Dạng dịch vụ NLOS (Non Line of Sight) của WiMAX có ưu điểm gì trong môi trường đô thị?
+A. Bắt buộc phải thông thoáng không có bất kỳ vật cản nào
+*B. Khả năng truyền xuyên qua hoặc uốn cong quanh vật cản, sử dụng dải tần thấp hơn (từ 2 đến 11 GHz)
+C. Tốc độ cao gấp 100 lần dịch vụ LOS
+D. Không cần trạm phát sóng BS
+
+Câu 36: Trong kiến trúc mạng WiMAX, thành phần BS (Base Station) có chức năng gì?
+A. Định tuyến gói tin Internet cốt lõi toàn cầu
+*B. Thu, phát và xử lý tín hiệu vô tuyến giao tiếp trực tiếp với các trạm thuê bao
+C. Quản lý tính cước tài khoản người dùng tập trung
+D. Lưu trữ website của nhà mạng
+
+Câu 37: Thành phần ASN (Access Service Network) hay thiết bị điều khiển WAC trong mạng WiMAX đảm nhận vai trò gì?
+A. Chỉ dùng để cấp địa chỉ IP động cho máy tính
+*B. Quản lý và điều khiển, triển khai các nút thay đổi của các trạm phát sóng BS
+C. Cung cấp dịch vụ kết nối IP lõi
+D. Là thiết bị đầu cuối đặt tại nhà khách hàng
+
+Câu 38: Trong cấu trúc WiMAX, mạng dịch vụ lõi CSN (Core Service Network) bao gồm các thiết bị nào để cung cấp dịch vụ IP cho thuê bao?
+A. Anten thu sóng chặng cuối
+*B. Router, các máy chủ Proxy, máy chủ quản lý dịch vụ
+C. Cáp đồng trục RF
+D. Card mạng gắn ngoài của client
+
+Câu 39: Máy chủ AAA trong kiến trúc WiMAX thực hiện những nhiệm vụ nào sau đây?
+*A. Quản lý xác thực (Authentication), phân quyền (Authorization) và tính cước (Accounting)
+B. Tự động mã hóa WEP 24-bit cho dữ liệu
+C. Đo lường tốc độ gió và thời tiết tại trạm BS
+D. Chuyển đổi tín hiệu tương tự sang tín hiệu số
+
+Câu 40: Thuật ngữ COTS (Commercial off-the-shelf) trong phát triển hạ tầng mạng không dây có ý nghĩa gì?
+A. Công nghệ bảo mật độc quyền của quân đội
+*B. Các sản phẩm/thiết bị thương mại có sẵn trên thị trường, giúp tối ưu chi phí triển khai
+C. Thuật toán định tuyến tối ưu năng lượng
+D. Chuẩn kết nối bằng cáp quang chặng cuối
+
+Câu 41: Công nghệ Bluetooth thuộc chuẩn hóa nào của tổ chức IEEE?
+A. IEEE 802.11
+*B. IEEE 802.15
+C. IEEE 802.16
+D. IEEE 802.3
+
+Câu 42: Mạng Bluetooth được hình thành bởi một nhóm tối đa 8 thiết bị kết nối với nhau được gọi là:
+*A. Piconet
+B. Scatternet
+C. Subnet
+D. Infrastructure cell
+
+Câu 43: Trong một mạng Piconet của Bluetooth, vai trò điều phối mạng được đảm nhận bởi bao nhiêu thiết bị Master?
+*A. Chỉ duy nhất 1 thiết bị Master
+B. Tối đa 7 thiết bị Master
+C. Tất cả các thiết bị đều là Master
+D. Không có thiết bị Master nào
+
+Câu 44: Khi hai hay nhiều mạng Piconet kết nối lại với nhau thông qua một nút chia sẻ chung, mạng cấu trúc lớn hơn đó được gọi là gì?
+A. Multinet
+*B. Scatternet
+C. Broadnet
+D. Meshnet
+
+Câu 45: Trong tiến trình thiết lập kết nối của Bluetooth, tiến trình INQUIRY được thực hiện nhằm mục đích gì?
+A. Gửi dữ liệu file âm thanh giữa hai thiết bị
+*B. Phát đi các vấn tin quảng bá định kỳ để nhận biết sự có mặt và thu thập thông tin FHS của các nút lân cận
+C. Xác thực mật khẩu PIN code của người dùng
+D. Tắt sóng vô tuyến để tiết kiệm năng lượng
+
+Câu 46: Trong tiến trình INQUIRY của Bluetooth, các nút lân cận sẽ phản hồi lại thiết bị tìm kiếm bằng gói tin đồng bộ nào?
+A. Gói tin Ack
+B. Gói tin Data clear
+*C. Gói tin FHS (Frequency Hop Synchronisation)
+D. Gói tin SSID Beacon
+
+Câu 47: Tiến trình PAGE trong Bluetooth được thực hiện ngay sau tiến trình nào và nhằm mục đích gì?
+A. Trước tiến trình Inquiry để ngắt kết nối
+*B. Sau tiến trình Inquiry để thiết lập liên kết thực sự bằng cách liên tục gửi thông tin thứ tự kênh đến Slave
+C. Để mã hóa gói tin bằng khóa RC4
+D. Để kích hoạt chế độ ngủ đông của thiết bị Master
+
+Câu 48: Khi thiết bị Slave nhận được gói tin PAGE từ Master, hành động tiếp theo của Slave là gì?
+A. Từ chối kết nối và tắt nguồn
+*B. Hồi đáp lại Master một gói tin PAGE tương ứng
+C. Gửi ngay file dữ liệu dung lượng lớn cho Master
+D. Tìm kiếm một thiết bị Master khác mạnh hơn
+
+Câu 49: Sau khi nhận được hồi đáp từ Slave trong tiến trình PAGE, Master sẽ gửi gói tin FHS chứa những thông tin cốt lõi nào cho Slave để đồng bộ?
+A. Danh sách toàn bộ các file trong bộ nhớ
+*B. Địa chỉ Bluetooth (BD_ADDR) và giá trị đồng hồ (Clock) của Master
+C. Mật mã khóa dòng AES-256
+D. Tên nhà sản xuất chip phần cứng
+
+Câu 50: Bluetooth sử dụng kỹ thuật nhảy tần (Frequency Hopping) ở dải tần ISM 2.4GHz chủ yếu nhằm mục đích gì?
+A. Tăng kích thước gói tin lên vô hạn
+*B. Chống nhiễu, tránh đụng độ tần số với các thiết bị khác (như Wi-Fi) và tăng cường tính bảo mật trên kênh truyền
+C. Tiết kiệm 100% dung lượng pin phần cứng
+D. Giảm số lượng thiết bị Slave trong mạng

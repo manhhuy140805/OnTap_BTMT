@@ -1,0 +1,719 @@
+Câu 1: RAM là viết tắt của:
+*A. Random Access Memory
+B. Read Access Memory
+C. Run Access Memory
+D. Rapid Access Memory
+
+Câu 2: Bộ nhớ nào không mất dữ liệu khi mất điện?
+*A. ROM
+B. RAM
+C. Cache
+D. Register
+
+Câu 3: CPU gồm các thành phần chính:
+*A. ALU và CU
+B. RAM và ROM
+C. HDD và SSD
+D. Bus và Cache
+
+Câu 4: Thiết bị nào là bộ nhớ ngoài?
+*A. HDD
+B. RAM
+C. Cache
+D. Register
+
+Câu 5: Cache có đặc điểm:
+A. Dung lượng lớn
+B. Tốc độ chậm
+*C. Tốc độ cao, dung lượng nhỏ
+D. Lưu trữ lâu dài
+
+Câu 6: Khi máy không lên hình nhưng quạt quay, nguyên nhân thường:
+A. HDD hỏng
+*B. RAM hoặc VGA lỗi
+C. Chuột lỗi
+D. Bàn phím lỗi
+
+Câu 7: Tìm phát biểu sai về RAM:
+A. Truy cập ngẫu nhiên
+B. Lưu tạm thời
+C. Mất dữ liệu khi tắt máy
+*D. Không thể ghi dữ liệu
+
+Câu 8: Thiết bị xuất là:
+A. Bàn phím
+*B. Máy in
+C. Chuột
+D. Scanner
+
+Câu 9: Bus dùng để:
+A. Lưu trữ dữ liệu
+*B. Truyền dữ liệu giữa các thành phần
+C. Xử lý dữ liệu
+D. Hiển thị dữ liệu
+
+Câu 10: Đơn vị đo tốc độ CPU:
+A. Watt
+B. RPM
+*C. MHz/GHz
+D. MB
+
+Câu 11: ALU có chức năng:
+*A. Thực hiện phép toán số học và logic
+B. Lưu trữ dữ liệu
+C. Điều khiển thiết bị
+D. Xuất dữ liệu
+
+Câu 12: CU có chức năng:
+*A. Điều khiển hoạt động CPU
+B. Tính toán
+C. Lưu trữ
+D. Hiển thị
+
+Câu 13: Thiết bị nhập là:
+*A. Bàn phím
+B. Màn hình
+C. Máy in
+D. Loa
+
+Câu 14: Ổ SSD khác HDD ở điểm:
+*A. Không có bộ phận cơ học
+B. Tốc độ chậm hơn
+C. Giá rẻ hơn
+D. Dễ hỏng hơn
+
+Câu 15: Khi RAM lỏng, máy thường:
+A. Không vào mạng
+*B. Không lên màn hình
+C. Không nhận chuột
+D. Không in được
+
+Câu 16: BIOS lưu trong:
+*A. ROM
+B. RAM
+C. HDD
+D. Cache
+
+Câu 17: POST là:
+*A. Kiểm tra phần cứng khi khởi động
+B. Tải Windows
+C. Format ổ
+D. Reset máy
+
+Câu 18: Khi mất CMOS, máy thường:
+A. Không vào Windows
+*B. Mất ngày giờ
+C. Mất dữ liệu HDD
+D. Không nhận chuột
+
+Câu 19: Cache thường nằm:
+*A. Trong hoặc gần CPU
+B. Trong HDD
+C. Trong RAM
+D. Trong PSU
+
+Câu 20: PSU có chức năng:
+*A. Cung cấp điện
+B. Xử lý dữ liệu
+C. Lưu trữ
+D. Xuất dữ liệu
+
+Câu 21: Dual Channel áp dụng cho:
+A. CPU
+*B. RAM
+C. HDD
+D. VGA
+
+Câu 22: Khi máy bị treo đột ngột:
+A. Chuột hỏng
+*B. RAM hoặc CPU quá nhiệt
+C. Loa hỏng
+D. Màn hình lỗi
+
+Câu 23: Register là:
+*A. Bộ nhớ nhanh nhất
+B. Bộ nhớ chậm nhất
+C. Bộ nhớ ngoài
+D. Bộ nhớ quang
+
+Câu 24: Bộ nhớ chính là:
+*A. RAM
+B. HDD
+C. USB
+D. DVD
+
+Câu 25: SATA là:
+*A. Chuẩn giao tiếp ổ cứng
+B. Bộ nhớ
+C. CPU
+D. RAM
+
+Câu 26: Khi máy không nhận USB:
+A. HDD lỗi
+*B. Driver hoặc cổng USB lỗi
+C. CPU lỗi
+D. RAM lỗi
+
+Câu 27: DRAM cần:
+*A. Làm tươi dữ liệu
+B. Không cần điện
+C. Không cần refresh
+D. Không ghi được
+
+Câu 28: SRAM:
+*A. Không cần làm tươi
+B. Chậm hơn DRAM
+C. Giá rẻ
+D. Dung lượng lớn
+
+Câu 29: Bus dữ liệu dùng để:
+*A. Truyền dữ liệu
+B. Truyền điện
+C. Lưu trữ
+D. Hiển thị
+
+Câu 30: Bus địa chỉ dùng để:
+*A. Xác định vị trí dữ liệu
+B. Truyền dữ liệu
+C. Điều khiển
+D. Lưu trữ
+
+Câu 31: Khi máy phát beep dài:
+A. HDD lỗi
+*B. RAM lỗi
+C. CPU lỗi
+D. PSU lỗi
+
+Câu 32: Khi CPU quá nhiệt:
+A. Máy nhanh hơn
+*B. Máy tự tắt
+C. RAM tăng
+D. HDD chạy nhanh
+
+Câu 33: VGA dùng để:
+*A. Xử lý đồ họa
+B. Lưu trữ
+C. Điều khiển
+D. Xuất âm thanh
+
+Câu 34: Mainboard có chức năng:
+*A. Kết nối linh kiện
+B. Lưu trữ
+C. Xử lý
+D. In
+
+Câu 35: SSD nhanh hơn HDD vì:
+*A. Không có cơ học
+B. Dung lượng lớn
+C. Giá rẻ
+D. Không cần điện
+
+Câu 36: Khi mất điện đột ngột:
+A. RAM lưu được
+*B. RAM mất dữ liệu
+C. HDD mất hết dữ liệu
+D. CPU hỏng
+
+Câu 37: Chipset dùng để:
+*A. Điều phối dữ liệu
+B. Lưu trữ
+C. Hiển thị
+D. In
+
+Câu 38: Khi BIOS lỗi:
+A. Không vào mạng
+*B. Không boot được
+C. Không nhận chuột
+D. Không in
+
+Câu 39: RAM càng nhiều:
+A. Máy luôn nhanh
+*B. Giúp đa nhiệm tốt hơn
+C. CPU nhanh hơn
+D. HDD nhanh hơn
+
+Câu 40: HDD đo bằng:
+*A. RPM
+B. MHz
+C. Watt
+D. Byte
+
+Câu 41: Khi máy chậm dần:
+A. Chuột lỗi
+*B. Thiếu RAM hoặc đầy ổ
+C. Loa hỏng
+D. PSU lỗi
+
+Câu 42: USB là:
+*A. Bộ nhớ ngoài
+B. RAM
+C. Cache
+D. Register
+
+Câu 43: Khi màn hình đen:
+A. Chuột lỗi
+*B. VGA hoặc RAM lỗi
+C. HDD lỗi
+D. PSU mạnh
+
+Câu 44: Khi quạt CPU không quay:
+A. Máy nhanh
+*B. CPU quá nhiệt
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 45: Bộ nhớ nhanh nhất:
+*A. Register
+B. RAM
+C. HDD
+D. USB
+
+Câu 46: Khi máy reset liên tục:
+A. Chuột lỗi
+*B. PSU hoặc RAM lỗi
+C. HDD mới
+D. VGA mạnh
+
+Câu 47: Khi máy kêu tít ngắn:
+*A. POST thành công
+B. RAM lỗi
+C. CPU lỗi
+D. HDD lỗi
+
+Câu 48: Khi máy không nhận ổ cứng:
+A. RAM lỗi
+*B. Cáp SATA hoặc nguồn lỗi
+C. CPU lỗi
+D. Chuột lỗi
+
+Câu 49: Khi máy nóng:
+A. Chạy nhanh hơn
+*B. Giảm hiệu năng
+C. RAM tăng
+D. HDD nhanh
+
+Câu 50: Khi Windows lỗi:
+A. Chuột lỗi
+*B. Driver hoặc hệ điều hành
+C. PSU lỗi
+D. RAM mới
+
+Câu 51: Cache giúp:
+*A. Tăng tốc CPU
+B. Lưu lâu dài
+C. Giảm RAM
+D. Tăng HDD
+
+Câu 52: Khi RAM hỏng:
+A. Vào mạng chậm
+*B. Không boot
+C. In lỗi
+D. Loa lỗi
+
+Câu 53: Khi HDD bad sector:
+A. CPU lỗi
+*B. Mất dữ liệu
+C. RAM tăng
+D. VGA mạnh
+
+Câu 54: Khi PSU yếu:
+A. Máy nhanh
+*B. Máy tự tắt
+C. RAM tăng
+D. HDD mạnh
+
+Câu 55: Khi máy lag:
+A. Chuột lỗi
+*B. Thiếu RAM/CPU yếu
+C. Loa lỗi
+D. PSU mạnh
+
+Câu 56: BIOS dùng để:
+*A. Khởi động hệ thống
+B. Lưu file
+C. Xử lý đồ họa
+D. In
+
+Câu 57: Khi cắm RAM sai:
+A. Máy nhanh
+*B. Không khởi động
+C. HDD lỗi
+D. CPU mạnh
+
+Câu 58: Khi CPU lỗi:
+A. Vào mạng chậm
+*B. Không boot
+C. Chuột lỗi
+D. Loa lỗi
+
+Câu 59: Khi VGA lỗi:
+A. HDD hỏng
+*B. Không hiển thị
+C. RAM tăng
+D. PSU mạnh
+
+Câu 60: Khi cài sai driver:
+A. CPU lỗi
+*B. Máy hoạt động không ổn định
+C. RAM tăng
+D. HDD mạnh
+
+Câu 61: Tìm phát biểu sai nhất về ROM:
+A. Là bộ nhớ không khả biến
+B. Lưu firmware
+C. Không mất dữ liệu khi tắt máy
+*D. Có thể ghi/xóa tự do như RAM
+
+Câu 62: Khi máy bật nguồn nhưng không có tiếng beep:
+A. RAM tốt
+*B. Có thể lỗi mainboard hoặc CPU
+C. HDD lỗi
+D. Chuột lỗi
+
+Câu 63: Độ rộng Bus dữ liệu 64-bit nghĩa là:
+A. Truyền 64 byte/lần
+*B. Truyền 64 bit/lần
+C. Truyền 64 KB/s
+D. Truyền 64 lần/s
+
+Câu 64: Khi BIOS không nhận RAM:
+A. CPU lỗi
+*B. RAM lỏng hoặc không tương thích
+C. HDD lỗi
+D. VGA mạnh
+
+Câu 65: Tìm phát biểu đúng nhất:
+A. Cache chậm hơn RAM
+B. HDD nhanh hơn SSD
+*C. Register nhanh hơn Cache
+D. RAM nhanh hơn Register
+
+Câu 66: Khi máy chạy chậm dù CPU mạnh:
+A. CPU hỏng
+*B. Có thể thiếu RAM hoặc ổ cứng chậm
+C. VGA yếu
+D. PSU mạnh
+
+Câu 67: Chuẩn PCIe dùng cho:
+A. RAM
+B. HDD IDE
+*C. Card mở rộng (VGA, SSD NVMe)
+D. CPU
+
+Câu 68: Khi ổ cứng phát tiếng kêu lạ:
+A. RAM lỗi
+*B. HDD có thể sắp hỏng cơ
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 69: Nhiệt độ CPU cao có thể do:
+A. RAM lỗi
+*B. Keo tản nhiệt khô hoặc quạt hỏng
+C. HDD đầy
+D. Chuột lỗi
+
+Câu 70: Khi cắm sai điện áp PSU:
+A. Máy chạy nhanh
+*B. Có thể cháy linh kiện
+C. RAM tăng
+D. HDD mạnh
+
+Câu 71: Tìm phát biểu sai về SSD:
+A. Không có cơ học
+B. Truy cập nhanh
+*C. Giá rẻ hơn HDD
+D. Ít tiếng ồn
+
+Câu 72: Khi máy nhận RAM không đủ:
+A. CPU lỗi
+*B. Lỗi khe RAM hoặc thanh RAM
+C. VGA lỗi
+D. HDD lỗi
+
+Câu 73: Khi BIOS bị lỗi firmware:
+A. Chuột lỗi
+*B. Có thể cần flash BIOS
+C. RAM tăng
+D. HDD mạnh
+
+Câu 74: Khi máy treo ở logo:
+A. PSU mạnh
+*B. Lỗi OS hoặc ổ cứng
+C. Chuột lỗi
+D. Loa lỗi
+
+Câu 75: Khi mainboard chết:
+A. RAM vẫn chạy
+*B. Máy không khởi động
+C. HDD vẫn hoạt động
+D. VGA vẫn chạy
+
+Câu 76: Tốc độ Bus ảnh hưởng:
+*A. Tốc độ truyền dữ liệu toàn hệ thống
+B. Dung lượng RAM
+C. Dung lượng HDD
+D. Nhiệt độ CPU
+
+Câu 77: Khi laptop quá nóng:
+A. CPU nhanh hơn
+*B. Có thể giảm xung (throttle)
+C. RAM tăng
+D. HDD nhanh
+
+Câu 78: Khi driver VGA lỗi:
+A. Không nhận chuột
+*B. Hiển thị sai hoặc crash
+C. HDD lỗi
+D. PSU lỗi
+
+Câu 79: Khi nguồn không đủ công suất:
+A. Máy nhanh hơn
+*B. Máy tự tắt hoặc reset
+C. RAM tăng
+D. CPU mạnh
+
+Câu 80: Khi ổ SSD đầy:
+A. CPU lỗi
+*B. Hiệu năng giảm
+C. RAM tăng
+D. VGA lỗi
+
+Câu 81: Khi cắm sai khe RAM:
+A. Không ảnh hưởng
+*B. Có thể không chạy Dual Channel
+C. CPU lỗi
+D. HDD lỗi
+
+Câu 82: Khi mất pin CMOS:
+A. Mất dữ liệu HDD
+*B. Reset BIOS settings
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 83: Khi màn hình bị sọc:
+A. HDD lỗi
+*B. VGA hoặc cáp màn hình
+C. RAM lỗi
+D. PSU lỗi
+
+Câu 84: Khi máy không nhận bàn phím:
+A. CPU lỗi
+*B. Cổng USB/driver lỗi
+C. HDD lỗi
+D. RAM lỗi
+
+Câu 85: Khi máy bị đơ khi mở nhiều tab:
+A. CPU hỏng
+*B. Thiếu RAM
+C. VGA lỗi
+D. PSU mạnh
+
+Câu 86: Khi HDD hoạt động 100%:
+A. RAM lỗi
+*B. Hệ điều hành hoặc phần mềm nặng
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 87: Khi CPU chạy 100% liên tục:
+A. RAM lỗi
+*B. Có thể do virus hoặc task nặng
+C. HDD lỗi
+D. PSU lỗi
+
+Câu 88: Khi không nhận card VGA:
+A. HDD lỗi
+*B. Khe PCIe hoặc VGA lỗi
+C. RAM lỗi
+D. Chuột lỗi
+
+Câu 89: Khi máy không nhận mạng:
+A. CPU lỗi
+*B. Driver LAN hoặc card mạng lỗi
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 90: Khi hệ thống hay treo:
+A. Chuột lỗi
+*B. RAM lỗi hoặc thiếu RAM
+C. Loa lỗi
+D. PSU mạnh
+
+Câu 91: Khi BIOS bị reset liên tục:
+A. CPU lỗi
+*B. Pin CMOS yếu
+C. HDD lỗi
+D. VGA lỗi
+
+Câu 92: Khi RAM khác bus:
+A. Không chạy
+*B. Chạy theo bus thấp hơn
+C. CPU lỗi
+D. HDD lỗi
+
+Câu 93: Khi dùng HDD lâu năm:
+A. Nhanh hơn
+*B. Dễ bad sector
+C. RAM tăng
+D. CPU mạnh
+
+Câu 94: Khi máy bị lag khi chơi game:
+A. HDD lỗi
+*B. VGA yếu hoặc thiếu RAM
+C. CPU mới
+D. PSU mạnh
+
+Câu 95: Khi máy không boot từ USB:
+A. RAM lỗi
+*B. Sai thứ tự boot
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 96: Khi cài OS lỗi:
+A. CPU lỗi
+*B. File cài hoặc ổ đĩa lỗi
+C. RAM tăng
+D. VGA mạnh
+
+Câu 97: Khi máy bị restart khi chơi game:
+A. Chuột lỗi
+*B. PSU yếu hoặc quá nhiệt
+C. HDD mạnh
+D. RAM mới
+
+Câu 98: Khi card mạng hỏng:
+A. CPU lỗi
+*B. Không vào internet
+C. RAM lỗi
+D. VGA lỗi
+
+Câu 99: Khi ổ cứng không quay:
+A. RAM lỗi
+*B. Nguồn hoặc HDD hỏng
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 100: Khi máy báo “No boot device”:
+A. RAM lỗi
+*B. Không nhận ổ cứng hoặc OS lỗi
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 101: Khi CPU không nhận:
+A. HDD lỗi
+*B. Socket hoặc CPU lỗi
+C. RAM lỗi
+D. VGA lỗi
+
+Câu 102: Khi RAM lỗi nhẹ:
+A. Không boot
+*B. Dễ gây crash ngẫu nhiên
+C. HDD lỗi
+D. VGA lỗi
+
+Câu 103: Khi ổ SSD lỗi:
+A. CPU lỗi
+*B. Không truy cập dữ liệu
+C. RAM tăng
+D. VGA lỗi
+
+Câu 104: Khi máy không nhận ổ DVD:
+A. CPU lỗi
+*B. Cáp hoặc driver lỗi
+C. RAM lỗi
+D. VGA lỗi
+
+Câu 105: Khi BIOS nhận sai CPU:
+A. RAM lỗi
+*B. BIOS cũ chưa hỗ trợ
+C. HDD lỗi
+D. VGA lỗi
+
+Câu 106: Khi hệ thống chậm dần theo thời gian:
+A. CPU mạnh hơn
+*B. Fragment hoặc phần mềm rác
+C. RAM tăng
+D. VGA mạnh
+
+Câu 107: Khi RAM dual channel:
+A. Giảm tốc độ
+*B. Tăng băng thông
+C. CPU lỗi
+D. HDD lỗi
+
+Câu 108: Khi PSU quá nóng:
+A. RAM lỗi
+*B. Quạt PSU hỏng hoặc tải cao
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 109: Khi mainboard lỗi chipset:
+A. RAM lỗi
+*B. Nhiều thiết bị không hoạt động
+C. CPU lỗi
+D. HDD lỗi
+
+Câu 110: Khi CPU bị lỗi cache:
+A. HDD lỗi
+*B. Giảm hiệu năng nghiêm trọng
+C. RAM lỗi
+D. VGA lỗi
+
+Câu 111: Khi hệ điều hành lỗi registry:
+A. CPU lỗi
+*B. Hệ thống chạy không ổn định
+C. RAM tăng
+D. VGA mạnh
+
+Câu 112: Khi máy không nhận âm thanh:
+A. CPU lỗi
+*B. Driver sound hoặc card âm thanh lỗi
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 113: Khi card VGA quá yếu:
+A. CPU lỗi
+*B. Không chơi được game nặng
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 114: Khi RAM dung lượng lớn:
+A. CPU nhanh hơn
+*B. Hỗ trợ đa nhiệm tốt hơn
+C. HDD nhanh hơn
+D. VGA mạnh hơn
+
+Câu 115: Khi hệ thống bị virus:
+A. RAM tăng
+*B. CPU và HDD hoạt động cao
+C. VGA mạnh
+D. PSU mạnh
+
+Câu 116: Khi máy chạy ồn:
+A. RAM lỗi
+*B. Quạt hoặc HDD cơ học
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 117: Khi không nhận Bluetooth:
+A. CPU lỗi
+*B. Driver hoặc module lỗi
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 118: Khi máy không shutdown:
+A. HDD lỗi
+*B. Lỗi hệ điều hành hoặc driver
+C. CPU lỗi
+D. RAM lỗi
+
+Câu 119: Khi máy không sleep:
+A. RAM lỗi
+*B. Driver hoặc cấu hình nguồn
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 120: Khi nâng cấp RAM:
+A. Chỉ cần dung lượng
+*B. Phải tương thích bus và mainboard
+C. Không cần kiểm tra gì
+D. CPU tự nhận

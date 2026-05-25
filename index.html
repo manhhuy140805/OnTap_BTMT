@@ -8,6 +8,9 @@
       content="Ứng dụng ôn tập trắc nghiệm trực tuyến hiệu quả"
     />
     <title>Quiz Master - Ôn tập trắc nghiệm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -16,30 +19,46 @@
       <header class="header">
         <div class="header-content">
           <div class="logo-section">
-            <div class="logo">📝</div>
+            <div class="logo">QM</div>
             <div>
               <h1 class="app-title">Quiz Master</h1>
-              <p class="app-subtitle">Ôn tập trắc nghiệm trực tuyến</p>
+              <p class="app-subtitle">Hệ thống ôn tập trực tuyến</p>
             </div>
           </div>
           <div class="header-info">
-            <span id="header-score" style="display: none"
-              >Điểm cao nhất: --</span
-            >
+            <span id="header-score" style="display: none">Điểm cao nhất: --</span>
+            <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Đổi giao diện Sáng/Tối" title="Đổi giao diện Sáng/Tối">
+              <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m12.728 12.728l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+              <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+            </button>
           </div>
         </div>
       </header>
 
       <!-- MAIN CONTENT -->
       <main class="main-container">
-        <!-- MENU CHỌN ĐỀ -->
+        <!-- MENU CHỌN MÔN VÀ ĐỀ -->
         <section id="quiz-menu" class="quiz-menu">
           <div class="menu-card">
-            <h2>Chọn mã đề để bắt đầu</h2>
-            <p class="menu-subtitle">Hãy lựa chọn một đề thi mà bạn muốn làm</p>
+            <div class="menu-heading">
+              <div>
+                <p class="section-eyebrow">Kho học phần</p>
+                <h2 id="menu-title">Chọn môn học để bắt đầu</h2>
+                <p id="menu-subtitle" class="menu-subtitle">
+                  Hãy chọn môn bạn muốn ôn tập
+                </p>
+              </div>
+              <button
+                id="change-subject-btn"
+                class="btn btn-secondary hidden"
+                onclick="showSubjectMenu()"
+              >
+                ← Đổi môn
+              </button>
+            </div>
 
             <div class="quiz-selector-grid">
-              <!-- Quiz cards will be dynamically generated here -->
+              <!-- Subject and quiz cards will be dynamically generated here -->
             </div>
 
             <!-- LỊCH SỬ ĐỀ ĐÃ LÀM -->
@@ -61,8 +80,8 @@
             <aside class="sidebar">
               <div class="sidebar-header">
                 <h3>Danh sách câu</h3>
-                <button class="btn-small" onclick="backToMenu()">
-                  ← Quay lại
+                <button class="btn-small close-drawer-btn" onclick="closeSidebarDrawer()" title="Đóng danh sách câu hỏi">
+                  ✕ Đóng
                 </button>
               </div>
 
@@ -80,22 +99,45 @@
                   <span class="dot current"></span> Đang xem
                 </div>
               </div>
+
+              <div class="sidebar-footer">
+                <button class="btn-exit-quiz" onclick="backToMenu()" title="Thoát bài thi và quay lại trang chủ">
+                  ← Thoát bài thi
+                </button>
+              </div>
             </aside>
 
             <!-- MAIN QUIZ CONTENT -->
             <div class="quiz-main">
               <!-- QUIZ HEADER -->
               <div class="quiz-header">
-                <div>
-                  <h2 id="quiz-title"></h2>
+                <div class="quiz-info-section">
+                  <div class="quiz-title-row">
+                    <button id="toggle-sidebar-drawer" class="btn-small sidebar-drawer-toggle" onclick="toggleSidebarDrawer()" title="Danh sách câu hỏi">
+                      📋 Câu hỏi
+                    </button>
+                    <h2 id="quiz-title"></h2>
+                  </div>
                   <p id="progress-text" class="progress-text"></p>
                   <div class="progress-bar">
                     <div id="progress-fill" class="progress-fill"></div>
                   </div>
                 </div>
-                <div class="timer-section">
-                  <div class="timer-icon">⏱️</div>
-                  <p id="timer-text" class="timer-text">00:00</p>
+                
+                <div class="quiz-controls-section">
+                  <div class="layout-switcher">
+                    <span class="layout-label">Bố cục:</span>
+                    <div class="layout-options">
+                      <button class="layout-opt active" data-layout="standard" title="Cổ điển (Thanh bên trái)"></button>
+                      <button class="layout-opt" data-layout="reversed" title="Đảo ngược (Thanh bên phải)"></button>
+                      <button class="layout-opt" data-layout="focused" title="Tập trung (Ẩn thanh bên)"></button>
+                      <button class="layout-opt" data-layout="compact" title="Tối giản (Thẻ căn giữa)"></button>
+                    </div>
+                  </div>
+                  <div class="timer-section">
+                    <div class="timer-icon">⏱️</div>
+                    <p id="timer-text" class="timer-text">00:00</p>
+                  </div>
                 </div>
               </div>
 
@@ -130,7 +172,7 @@
                 </button>
               </div>
               <div class="keyboard-hint">
-                💡 Phím tắt: ← → để chuyển câu, 1-4 để chọn đáp án
+                Phím tắt: ← → để chuyển câu, 1-4 để chọn đáp án
               </div>
             </div>
           </div>
@@ -140,31 +182,31 @@
         <section id="result-page" class="result-page hidden">
           <div class="result-container">
             <div class="result-header">
-              <div class="result-icon" id="result-icon">🎉</div>
+              <div class="result-icon" id="result-icon">A+</div>
               <h2 id="result-title">Hoàn thành bài thi!</h2>
               <div id="result-summary" class="result-summary-box"></div>
             </div>
 
             <div class="result-stats">
               <div class="stat-card">
-                <div class="stat-icon">✓</div>
+                <div class="stat-icon correct">✓</div>
                 <div class="stat-value" id="correct-count">0</div>
                 <div class="stat-label">Câu đúng</div>
               </div>
               <div class="stat-card">
-                <div class="stat-icon">✗</div>
+                <div class="stat-icon incorrect">✗</div>
                 <div class="stat-value" id="incorrect-count">0</div>
                 <div class="stat-label">Câu sai</div>
               </div>
               <div class="stat-card">
-                <div class="stat-icon">⏱️</div>
+                <div class="stat-icon timing">MIN</div>
                 <div class="stat-value" id="time-taken">00:00</div>
                 <div class="stat-label">Thời gian</div>
               </div>
             </div>
 
             <div class="result-review">
-              <h3>📋 Chi tiết từng câu hỏi</h3>
+              <h3>Chi tiết từng câu hỏi</h3>
               <div id="review-list" class="review-list"></div>
             </div>
 
@@ -173,7 +215,7 @@
                 ← Về trang chủ
               </button>
               <button class="btn btn-primary" onclick="retryQuiz()">
-                🔄 Làm lại
+                Làm lại
               </button>
             </div>
           </div>
@@ -184,9 +226,9 @@
       <footer class="footer">
         <div class="footer-content">
           <p>
-            &copy; 2026 Quiz Master. Một công cụ ôn tập trắc nghiệm hiệu quả.
+            &copy; 2026 Quiz Master. Nền tảng ôn tập trắc nghiệm.
           </p>
-          <p class="footer-note">Tạo từ HTML, CSS, JavaScript thuần</p>
+          <p class="footer-note">BTMT &bull; CNMKD</p>
         </div>
       </footer>
     </div>

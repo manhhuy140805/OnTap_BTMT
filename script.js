@@ -1,56 +1,93 @@
+const subjects = {
+  btmt: {
+    name: "Bảo trì máy tính",
+    description: "Các đề ôn tập về máy tính và bảo trì máy tính",
+    quizIds: [
+      "de1",
+      "de2",
+      "de3",
+      "de4",
+      "de5",
+      "de_120_cau_bao_tri",
+      "de_120_cau_bao_tri_v2",
+      "de_mau",
+      "de_mau_2",
+    ],
+    randomQuizSources: ["de_120_cau_bao_tri", "de_120_cau_bao_tri_v2"],
+  },
+  cnmkd: {
+    name: "Công nghệ mạng không dây",
+    description: "Bộ câu hỏi ôn tập cuối kỳ môn CNMKD",
+    quizIds: ["cnmkd_ck_de1", "cnmkd_ck_de2"],
+    randomQuizSources: [],
+  },
+};
+
 const quizzes = {
   de1: {
     name: "Đề 1 - Kiến thức máy tính cơ bản",
-    file: "question/de1.txt",
+    file: "btmt/de1.txt",
     difficulty: "Cơ bản",
     questions: [],
   },
   de2: {
     name: "Đề 2 - Kiến thức máy tính",
-    file: "question/de2.txt",
+    file: "btmt/de2.txt",
     difficulty: "Cơ bản",
     questions: [],
   },
   de3: {
     name: "Đề 3 - Kiến thức máy tính",
-    file: "question/de3.txt",
+    file: "btmt/de3.txt",
     difficulty: "Trung bình",
     questions: [],
   },
   de4: {
     name: "Đề 4 - Kiến thức máy tính",
-    file: "question/de4.txt",
+    file: "btmt/de4.txt",
     difficulty: "Trung bình",
     questions: [],
   },
   de5: {
     name: "Đề 5 - Kiến thức máy tính",
-    file: "question/de5.txt",
+    file: "btmt/de5.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_120_cau_bao_tri: {
     name: "Đề 120 câu - Bảo trì máy tính",
-    file: "question/de_120_cau_bao_tri.txt",
+    file: "btmt/de_120_cau_bao_tri.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_120_cau_bao_tri_v2: {
     name: "Đề 120 câu - Bảo trì máy tính V2",
-    file: "question/de_120_cau_bao_tri_v2.txt",
+    file: "btmt/de_120_cau_bao_tri_v2.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_mau: {
     name: "Đề Giữa Kỳ - Bảo trì máy tính",
-    file: "question/deMau.txt",
+    file: "btmt/deMau.txt",
     difficulty: "Advanced",
     questions: [],
   },
   de_mau_2: {
     name: "Đề Mẫu 2 - Bảo trì máy tính",
-    file: "question/deMau2.txt",
+    file: "btmt/deMau2.txt",
     difficulty: "Advanced",
+    questions: [],
+  },
+  cnmkd_ck_de1: {
+    name: "Đề cuối kỳ 1 - Công nghệ mạng không dây",
+    file: "cnmkd/CMNKD-CK-de1.txt",
+    difficulty: "Ôn tập",
+    questions: [],
+  },
+  cnmkd_ck_de2: {
+    name: "Đề cuối kỳ 2 - Công nghệ mạng không dây",
+    file: "cnmkd/CMNKD-CK-de2.txt",
+    difficulty: "Ôn tập",
     questions: [],
   },
 };
@@ -62,6 +99,7 @@ let userAnswers = [];
 let timerInterval = null;
 let elapsedSeconds = 0;
 let quizHistory = JSON.parse(localStorage.getItem("quizHistory")) || [];
+let currentSubjectId = null;
 
 // DOM ELEMENTS
 const quizMenuEl = document.getElementById("quiz-menu");
@@ -80,6 +118,9 @@ const timerTextEl = document.getElementById("timer-text");
 const historySection = document.getElementById("history-section");
 const historyList = document.getElementById("history-list");
 const headerScore = document.getElementById("header-score");
+const menuTitle = document.getElementById("menu-title");
+const menuSubtitle = document.getElementById("menu-subtitle");
+const changeSubjectBtn = document.getElementById("change-subject-btn");
 
 // ===== INITIALIZATION =====
 window.addEventListener("DOMContentLoaded", () => {
@@ -87,6 +128,9 @@ window.addEventListener("DOMContentLoaded", () => {
   renderHistory();
   attachEventListeners();
   setupKeyboardShortcuts();
+  initTheme();
+  initLayouts();
+  initSidebarDrawer();
 });
 
 // ===== LOAD QUIZ FROM FILE =====
@@ -108,54 +152,50 @@ async function loadAllQuizzes() {
   });
 
   await Promise.all(loadPromises);
-  renderQuizMenu();
+  renderSubjectMenu();
 }
 
-// ===== RENDER QUIZ MENU =====
-function renderQuizMenu() {
+// ===== SUBJECT SELECTION =====
+function renderSubjectMenu() {
   const quizGrid = document.querySelector(".quiz-selector-grid");
   if (!quizGrid) return;
 
+  currentSubjectId = null;
+  menuTitle.textContent = "Chọn môn học để bắt đầu";
+  menuSubtitle.textContent = "Hãy chọn môn bạn muốn ôn tập";
+  changeSubjectBtn.classList.add("hidden");
   quizGrid.innerHTML = "";
 
-  // Add all quiz options
-  Object.keys(quizzes).forEach((quizId) => {
-    const quiz = quizzes[quizId];
-    const questionCount = quiz.questions.length;
+  Object.keys(subjects).forEach((subjectId) => {
+    const subject = subjects[subjectId];
+    const questionCount = subject.quizIds.reduce(
+      (total, quizId) => total + quizzes[quizId].questions.length,
+      0,
+    );
 
     const card = document.createElement("div");
-    card.className = "quiz-option-card";
+    card.className = `subject-option-card ${subjectId}`;
     card.innerHTML = `
-      <div class="quiz-option-header">
-        <div class="quiz-badge ${quizId}">${quiz.name.split(" - ")[0]}</div>
-        <span class="difficulty">${quiz.difficulty || "Cơ bản"}</span>
-      </div>
-      <p class="quiz-option-desc">
-        ${questionCount} câu hỏi - ${quiz.name.split(" - ")[1] || quiz.name}
-      </p>
-      <button class="btn btn-primary" onclick="selectQuiz('${quizId}')">
-        Bắt đầu
+      <div class="subject-code">${subjectId.toUpperCase()}</div>
+      <h3>${subject.name}</h3>
+      <p class="quiz-option-desc">${subject.description}</p>
+      <p class="subject-stats">${subject.quizIds.length} bộ đề - ${questionCount} câu hỏi</p>
+      <button class="btn btn-primary" onclick="selectSubject('${subjectId}')">
+        Chọn môn
       </button>
     `;
     quizGrid.appendChild(card);
   });
+}
 
-  // Add random quiz option
-  const randomCard = document.createElement("div");
-  randomCard.className = "quiz-option-card random-quiz";
-  randomCard.innerHTML = `
-    <div class="quiz-option-header">
-      <div class="quiz-badge random">🎲 Random</div>
-      <span class="difficulty">Tùy chỉnh</span>
-    </div>
-    <p class="quiz-option-desc">
-      Tạo đề thi ngẫu nhiên từ tất cả các đề
-    </p>
-    <button class="btn btn-primary" onclick="showRandomQuizModal()">
-      Tạo đề Random
-    </button>
-  `;
-  quizGrid.appendChild(randomCard);
+function selectSubject(subjectId) {
+  if (!subjects[subjectId]) return;
+  currentSubjectId = subjectId;
+  renderQuizMenu();
+}
+
+function showSubjectMenu() {
+  renderSubjectMenu();
 }
 
 function attachEventListeners() {
@@ -261,7 +301,14 @@ function quickRetry(quizId) {
 }
 
 function backToMenu() {
+  // If actively doing a quiz (currentQuiz is set and result page is hidden), request confirmation
+  if (currentQuiz && resultPageEl.classList.contains("hidden")) {
+    const confirmExit = confirm("Bạn có chắc chắn muốn thoát bài thi? Tiến trình và bộ đếm giờ sẽ bị hủy.");
+    if (!confirmExit) return;
+  }
+  
   if (timerInterval) clearInterval(timerInterval);
+  currentQuiz = null; // Clear quiz state
   quizMenuEl.style.display = "block";
   quizAreaEl.classList.add("hidden");
   resultPageEl.classList.add("hidden");
@@ -318,6 +365,8 @@ function startQuiz(quizId) {
   quizMenuEl.style.display = "none";
   quizAreaEl.classList.remove("hidden");
   resultPageEl.classList.add("hidden");
+  
+  updateDrawerButtonVisibility();
 
   quizTitleEl.textContent = currentQuiz.name;
   startTimer();
@@ -476,15 +525,15 @@ function submitQuiz() {
   const resultTitle = document.getElementById("result-title");
 
   if (percent >= 80) {
-    resultIcon.textContent = "🎉";
+    resultIcon.textContent = "A+";
     resultTitle.textContent = "Xuất sắc!";
     resultPageEl.className = "result-page good";
   } else if (percent >= 50) {
-    resultIcon.textContent = "👍";
+    resultIcon.textContent = "OK";
     resultTitle.textContent = "Khá tốt!";
     resultPageEl.className = "result-page medium";
   } else {
-    resultIcon.textContent = "💪";
+    resultIcon.textContent = "UP";
     resultTitle.textContent = "Cố gắng lên!";
     resultPageEl.className = "result-page bad";
   }
@@ -528,23 +577,17 @@ function submitQuiz() {
 
     reviewHtml += `
       <div class="review-item ${statusClass}">
-        <div class="review-header">
-          <span class="review-number">Câu ${qIndex + 1}</span>
-          <span class="review-status">${statusIcon}</span>
+        <div class="review-header-compact">
+          <span class="review-badge-compact ${statusClass}">${statusIcon} Câu ${qIndex + 1}</span>
+          <span class="review-question-compact">${q.text}</span>
         </div>
-        <div class="review-question">${q.text}</div>
-        <div class="review-answer">
-          <div class="answer-row ${chosenIndex === null ? "not-answered" : chosenOption && chosenOption.correct ? "correct-answer" : "wrong-answer"}">
-            <strong>Bạn chọn:</strong> ${chosenText}
-          </div>
+        <div class="review-answer-compact">
           ${
-            chosenIndex === null || !chosenOption.correct
-              ? `
-            <div class="answer-row correct-answer">
-              <strong>Đáp án đúng:</strong> ${correctText}
-            </div>
-          `
-              : ""
+            chosenIndex === null
+              ? `<span class="answer-badge not-answered">Chưa làm</span> <span class="correct-text">| Đáp án đúng: <strong>${correctText}</strong></span>`
+              : chosenOption && chosenOption.correct
+                ? `<span class="answer-badge correct-answer">Bạn chọn đúng: <strong>${chosenText}</strong></span>`
+                : `<span class="answer-badge wrong-answer">Bạn chọn: <s>${chosenText}</s></span> <span class="correct-text">| Đáp án đúng: <strong>${correctText}</strong></span>`
           }
         </div>
       </div>
@@ -557,12 +600,16 @@ function submitQuiz() {
 // ===== RENDER QUIZ MENU =====
 function renderQuizMenu() {
   const quizGrid = document.querySelector(".quiz-selector-grid");
-  if (!quizGrid) return;
+  const subject = subjects[currentSubjectId];
+  if (!quizGrid || !subject) return;
 
+  menuTitle.textContent = subject.name;
+  menuSubtitle.textContent = "Chọn một đề thi để bắt đầu ôn tập";
+  changeSubjectBtn.classList.remove("hidden");
   quizGrid.innerHTML = "";
 
-  // Add all quiz options
-  Object.keys(quizzes).forEach((quizId) => {
+  // Add quiz options for the selected subject only.
+  subject.quizIds.forEach((quizId) => {
     const quiz = quizzes[quizId];
     const questionCount = quiz.questions.length;
 
@@ -583,22 +630,23 @@ function renderQuizMenu() {
     quizGrid.appendChild(card);
   });
 
-  // Add random quiz option
-  const randomCard = document.createElement("div");
-  randomCard.className = "quiz-option-card random-quiz";
-  randomCard.innerHTML = `
-    <div class="quiz-option-header">
-      <div class="quiz-badge random">🎲 Random</div>
-      <span class="difficulty">Tùy chỉnh</span>
-    </div>
-    <p class="quiz-option-desc">
-      Tạo đề thi ngẫu nhiên từ tất cả các đề
-    </p>
-    <button class="btn btn-primary" onclick="showRandomQuizModal()">
-      Tạo đề Random
-    </button>
-  `;
-  quizGrid.appendChild(randomCard);
+  if (subject.randomQuizSources.length > 0) {
+    const randomCard = document.createElement("div");
+    randomCard.className = "quiz-option-card random-quiz";
+    randomCard.innerHTML = `
+      <div class="quiz-option-header">
+        <div class="quiz-badge random">Tùy chọn</div>
+        <span class="difficulty">Tùy chỉnh</span>
+      </div>
+      <p class="quiz-option-desc">
+        Tạo đề thi ngẫu nhiên trong môn ${subject.name}
+      </p>
+      <button class="btn btn-primary" onclick="showRandomQuizModal()">
+        Tạo đề Random
+      </button>
+    `;
+    quizGrid.appendChild(randomCard);
+  }
 }
 
 // ===== RANDOM QUIZ =====
@@ -607,7 +655,7 @@ function showRandomQuizModal() {
   modal.className = "modal-overlay";
   modal.innerHTML = `
     <div class="modal-content">
-      <h3>🎲 Tạo đề thi ngẫu nhiên</h3>
+      <h3>Tạo đề thi ngẫu nhiên</h3>
       <p class="modal-subtitle">Chọn số lượng câu hỏi bạn muốn làm</p>
       
       <div class="random-options">
@@ -651,16 +699,20 @@ function closeRandomQuizModal() {
 }
 
 function createRandomQuiz(count) {
-  // Collect questions only from the two 120-question exams
-  let allQuestions = [];
-  const randomQuizSources = ["de_120_cau_bao_tri", "de_120_cau_bao_tri_v2"];
-  randomQuizSources.forEach((quizId) => {
-    if (quizzes[quizId] && quizzes[quizId].questions.length > 0) {
-      allQuestions = allQuestions.concat(quizzes[quizId].questions);
-    }
-  });
+  const subject = subjects[currentSubjectId];
+  const randomQuizSources = subject ? subject.randomQuizSources : [];
+  if (randomQuizSources.length === 0) {
+    alert("Môn học này chưa hỗ trợ tạo đề ngẫu nhiên!");
+    return;
+  }
 
-  if (allQuestions.length === 0) {
+  // Randomly select one source exam from the current subject.
+  const selectedSource =
+    randomQuizSources[Math.floor(Math.random() * randomQuizSources.length)];
+
+  const quizData = quizzes[selectedSource];
+
+  if (!quizData || quizData.questions.length === 0) {
     alert("Chưa có câu hỏi nào được tải!");
     return;
   }
@@ -671,20 +723,22 @@ function createRandomQuiz(count) {
     return;
   }
 
+  let allQuestions = quizData.questions;
+
   if (count > allQuestions.length) {
     alert(
-      `Chỉ có ${allQuestions.length} câu hỏi. Sẽ tạo đề với tất cả câu hỏi có sẵn.`,
+      `Đề này chỉ có ${allQuestions.length} câu hỏi. Sẽ tạo đề với tất cả câu hỏi.`,
     );
     count = allQuestions.length;
   }
 
-  // Shuffle and pick random questions
+  // Shuffle and pick random questions from selected exam
   const shuffled = shuffleArray([...allQuestions]);
   const selectedQuestions = shuffled.slice(0, count);
 
   // Create temporary random quiz
   quizzes.random = {
-    name: `Đề Random - ${count} câu`,
+    name: `Đề Random - ${subject.name} - ${count} câu`,
     difficulty: "Random",
     questions: selectedQuestions,
   };
@@ -738,4 +792,141 @@ function parseQuizFile(text) {
   }
 
   return questions;
+}
+
+// ===== MONOCHROME THEME SYSTEM (LIGHT/DARK) =====
+function initTheme() {
+  const themeToggleBtn = document.getElementById("theme-toggle-btn");
+  if (!themeToggleBtn) return;
+  
+  const sunIcon = themeToggleBtn.querySelector(".sun-icon");
+  const moonIcon = themeToggleBtn.querySelector(".moon-icon");
+  
+  // Set default theme from localStorage or default to system preference or light
+  const savedTheme = localStorage.getItem("quizTheme") || "light";
+  document.body.setAttribute("data-theme", savedTheme);
+  updateThemeIcons(savedTheme);
+  
+  themeToggleBtn.addEventListener("click", () => {
+    const currentTheme = document.body.getAttribute("data-theme") || "light";
+    const newTheme = currentTheme === "light" ? "dark" : "light";
+    document.body.setAttribute("data-theme", newTheme);
+    localStorage.setItem("quizTheme", newTheme);
+    updateThemeIcons(newTheme);
+  });
+  
+  function updateThemeIcons(theme) {
+    if (theme === "dark") {
+      sunIcon.style.display = "block";
+      moonIcon.style.display = "none";
+    } else {
+      sunIcon.style.display = "none";
+      moonIcon.style.display = "block";
+    }
+  }
+}
+
+// ===== FLEXIBLE LAYOUTS SYSTEM =====
+function initLayouts() {
+  const layoutOpts = document.querySelectorAll(".layout-opt");
+  const quizContainer = document.querySelector(".quiz-container");
+  if (!quizContainer) return;
+  
+  // Load saved layout or default to standard
+  const savedLayout = localStorage.getItem("quizLayout") || "standard";
+  applyLayout(savedLayout);
+  
+  layoutOpts.forEach((btn) => {
+    const layout = btn.getAttribute("data-layout");
+    btn.addEventListener("click", () => {
+      applyLayout(layout);
+    });
+  });
+
+  // Watch for resize events to dynamically toggle drawer button on mobile
+  window.addEventListener("resize", updateDrawerButtonVisibility);
+  
+  function applyLayout(layout) {
+    // Update active layout button state
+    layoutOpts.forEach((btn) => {
+      if (btn.getAttribute("data-layout") === layout) {
+        btn.classList.add("active");
+      } else {
+        btn.classList.remove("active");
+      }
+    });
+    
+    // Apply layout class to container
+    quizContainer.classList.remove("layout-standard", "layout-reversed", "layout-focused", "layout-compact");
+    quizContainer.classList.add(`layout-${layout}`);
+    localStorage.setItem("quizLayout", layout);
+    
+    updateDrawerButtonVisibility();
+    
+    // Always close drawer when switching layouts
+    closeSidebarDrawer();
+  }
+}
+
+function updateDrawerButtonVisibility() {
+  const toggleDrawerBtn = document.getElementById("toggle-sidebar-drawer");
+  const quizContainer = document.querySelector(".quiz-container");
+  if (!toggleDrawerBtn || !quizContainer) return;
+  
+  const currentLayout = localStorage.getItem("quizLayout") || "standard";
+  const isMobile = window.innerWidth <= 768;
+  
+  if (currentLayout === "focused" || currentLayout === "compact" || isMobile) {
+    toggleDrawerBtn.classList.remove("hidden");
+    toggleDrawerBtn.style.display = "inline-flex";
+  } else {
+    toggleDrawerBtn.classList.add("hidden");
+    toggleDrawerBtn.style.display = "none";
+  }
+}
+
+// ===== SIDEBAR DRAWER FOR FOCUS/COMPACT LAYOUTS =====
+function initSidebarDrawer() {
+  let overlay = document.querySelector(".drawer-overlay");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.className = "drawer-overlay";
+    document.body.appendChild(overlay);
+  }
+  
+  overlay.addEventListener("click", closeSidebarDrawer);
+  
+  // Close drawer when selecting a question button on drawer-mode layouts or mobile
+  const sidebar = document.querySelector(".sidebar");
+  if (sidebar) {
+    sidebar.addEventListener("click", (e) => {
+      if (e.target.classList.contains("question-button")) {
+        const currentLayout = localStorage.getItem("quizLayout") || "standard";
+        const isMobile = window.innerWidth <= 768;
+        if (currentLayout === "focused" || currentLayout === "compact" || isMobile) {
+          closeSidebarDrawer();
+        }
+      }
+    });
+  }
+}
+
+function toggleSidebarDrawer() {
+  const sidebar = document.querySelector(".sidebar");
+  const overlay = document.querySelector(".drawer-overlay");
+  if (!sidebar || !overlay) return;
+  
+  const isActive = sidebar.classList.toggle("drawer-active");
+  if (isActive) {
+    overlay.classList.add("active");
+  } else {
+    overlay.classList.remove("active");
+  }
+}
+
+function closeSidebarDrawer() {
+  const sidebar = document.querySelector(".sidebar");
+  const overlay = document.querySelector(".drawer-overlay");
+  if (sidebar) sidebar.classList.remove("drawer-active");
+  if (overlay) overlay.classList.remove("active");
 }
