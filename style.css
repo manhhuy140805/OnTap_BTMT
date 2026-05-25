@@ -1517,7 +1517,8 @@ input:focus-visible {
   .quiz-container.layout-focused,
   .quiz-container.layout-compact {
     grid-template-columns: 1fr;
-    min-height: auto;
+    height: auto !important; /* Disable desktop locked height on mobile viewport */
+    min-height: auto !important;
     border-radius: var(--radius-md);
   }
 
@@ -1546,6 +1547,15 @@ input:focus-visible {
 
   .quiz-main {
     padding: 20px 16px 24px;
+    height: auto !important; /* Let main container expand naturally on mobile */
+    overflow: visible !important; /* Enable page overflow scrolling */
+  }
+
+  .question-content {
+    flex: none !important;
+    overflow-y: visible !important; /* Let question content flow in standard document bounds */
+    margin-bottom: 20px;
+    padding-right: 0 !important;
   }
 
   .quiz-header {
