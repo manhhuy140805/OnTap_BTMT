@@ -1,0 +1,239 @@
+Câu 1: Máy tính thực hiện bao nhiêu chức năng chính?
+A. 2
+*B. 4
+C. 6
+D. 8
+
+Câu 2: Phần mềm ứng dụng là:
+A. BIOS
+*B. Microsoft Word
+C. Driver
+D. Firmware
+
+Câu 3: Thiết bị nào sau đây là bộ nhớ ngoài?
+A. RAM
+B. ROM
+*C. HDD
+D. Cache
+
+Câu 4: CPU còn gọi là:
+*A. Bộ vi xử lý
+B. Bộ nhớ
+C. Thiết bị nhập
+D. Thiết bị xuất
+
+Câu 5: RAM dùng để:
+*A. Lưu tạm dữ liệu
+B. Lưu vĩnh viễn
+C. Hiển thị
+D. In ấn
+
+Câu 6: ROM không thể:
+*A. Ghi/xóa dễ dàng
+B. Lưu dữ liệu
+C. Đọc dữ liệu
+D. Chứa BIOS
+
+Câu 7: Keyboard là:
+*A. Thiết bị nhập
+B. Thiết bị xuất
+C. Bộ nhớ
+D. CPU
+
+Câu 8: Printer là:
+A. Thiết bị nhập
+*B. Thiết bị xuất
+C. Bộ nhớ
+D. CPU
+
+Câu 9: Mainboard còn gọi là:
+*A. Motherboard
+B. CPU
+C. RAM
+D. PSU
+
+Câu 10: Chipset giúp:
+*A. Điều phối dữ liệu
+B. Lưu trữ
+C. Hiển thị
+D. Nhập liệu
+
+Câu 11: Bus dữ liệu dùng để:
+*A. Truyền dữ liệu
+B. Lưu dữ liệu
+C. Xóa dữ liệu
+D. In dữ liệu
+
+Câu 12: Expansion Bus dùng để:
+*A. Kết nối thiết bị ngoại vi
+B. Kết nối CPU
+C. Kết nối RAM
+D. Kết nối BIOS
+
+Câu 13: PCIe có ưu điểm:
+*A. Tốc độ cao
+B. Giá rẻ
+C. Dung lượng lớn
+D. Không cần nguồn
+
+Câu 14: AGP hiện nay:
+A. Phổ biến
+*B. Ít dùng
+C. Mới
+D. Không tồn tại
+
+Câu 15: SATA III có tốc độ:
+A. 150MB/s
+B. 300MB/s
+*C. 600MB/s
+D. 100MB/s
+
+Câu 16: BIOS được lưu trong:
+*A. ROM
+B. RAM
+C. HDD
+D. USB
+
+Câu 17: CMOS pin thường có điện áp:
+A. 1.5V
+B. 5V
+*C. 3V
+D. 12V
+
+Câu 18: PSU chuyển đổi:
+*A. AC sang DC
+B. DC sang AC
+C. AC sang AC
+D. DC sang DC
+
+Câu 19: Cache giúp:
+*A. Tăng tốc CPU
+B. Giảm RAM
+C. Tăng dung lượng
+D. Giảm điện
+
+Câu 20: CU viết tắt của:
+*A. Control Unit
+B. Central Unit
+C. Cache Unit
+D. Compute Unit
+
+Câu 21: ALU xử lý:
+*A. Toán học và logic
+B. Lưu trữ
+C. In ấn
+D. Mạng
+
+Câu 22: Register dùng để:
+*A. Lưu tạm dữ liệu
+B. Lưu lâu dài
+C. In dữ liệu
+D. Hiển thị
+
+Câu 23: CPU clock đo bằng:
+*A. MHz/GHz
+B. MB
+C. Volt
+D. Ampere
+
+Câu 24: HDD có đặc điểm:
+*A. Lưu trữ lâu dài
+B. Tốc độ cao nhất
+C. Nhỏ nhất
+D. Không lưu
+
+Câu 25: USB là viết tắt của:
+*A. Universal Serial Bus
+B. Unit Storage Bus
+C. Universal Storage Base
+D. Unit Serial Base
+
+Câu 26: Socket CPU dùng để:
+*A. Gắn CPU
+B. Gắn RAM
+C. Gắn ổ cứng
+D. Gắn nguồn
+
+Câu 27: DIMM dùng cho:
+*A. RAM
+B. CPU
+C. HDD
+D. GPU
+
+Câu 28: IDE có bao nhiêu chân:
+*A. 40
+B. 20
+C. 80
+D. 60
+
+Câu 29: POST phát hiện lỗi bằng:
+*A. Tiếng beep
+B. Màn hình xanh
+C. Tắt máy
+D. Reset
+
+Câu 30: BIOS chạy trước:
+*A. Hệ điều hành
+B. RAM
+C. CPU
+D. HDD
+
+Câu 31: CPU nóng do:
+*A. Tản nhiệt kém
+B. RAM lỗi
+C. HDD lỗi
+D. BIOS lỗi
+
+Câu 32: Quạt CPU hỏng sẽ:
+*A. Máy nóng
+B. Máy nhanh hơn
+C. RAM tăng
+D. HDD tăng
+
+Câu 33: Card VGA dùng để:
+*A. Hiển thị hình ảnh
+B. Lưu trữ
+C. Kết nối mạng
+D. Cấp điện
+
+Câu 34: LAN card dùng để:
+*A. Kết nối mạng
+B. Hiển thị
+C. Lưu trữ
+D. Xử lý
+
+Câu 35: Mainboard không onboard:
+*A. Không tích hợp thiết bị
+B. Có đầy đủ thiết bị
+C. Có CPU
+D. Có RAM
+
+Câu 36: Firmware là:
+*A. Phần mềm nhúng
+B. RAM
+C. CPU
+D. HDD
+
+Câu 37: UPS giúp:
+*A. Cấp điện tạm thời
+B. Tăng tốc CPU
+C. Lưu dữ liệu
+D. Giảm RAM
+
+Câu 38: RAM mất dữ liệu khi:
+*A. Mất điện
+B. Tắt màn hình
+C. Mở máy
+D. Cắm USB
+
+Câu 39: ROM chứa:
+*A. BIOS
+B. Game
+C. Video
+D. Ảnh
+
+Câu 40: Máy tính bị treo có thể do:
+*A. CPU quá nóng
+B. Chuột hỏng
+C. Bàn phím hỏng
+D. USB lỗi

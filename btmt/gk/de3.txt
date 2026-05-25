@@ -1,0 +1,239 @@
+Câu 1: Thành phần nào KHÔNG phải phần cứng?
+A. CPU
+B. RAM
+C. Mainboard
+*D. Windows
+
+Câu 2: RAM có đặc điểm nào sau đây?
+A. Lưu trữ vĩnh viễn
+*B. Mất dữ liệu khi mất điện
+C. Không thể ghi
+D. Chỉ đọc
+
+Câu 3: ROM có thể:
+A. Ghi xóa dễ dàng
+B. Mất dữ liệu khi mất điện
+*C. Lưu dữ liệu cố định
+D. Không lưu gì
+
+Câu 4: BIOS được lưu ở đâu?
+A. RAM
+*B. ROM
+C. HDD
+D. Cache
+
+Câu 5: CPU KHÔNG có thành phần nào?
+A. ALU
+B. CU
+*C. HDD
+D. Register
+
+Câu 6: Cache nằm ở đâu gần nhất?
+A. HDD
+B. RAM
+*C. CPU
+D. PSU
+
+Câu 7: Thiết bị nào vừa có thể nhập vừa xuất?
+*A. Màn hình cảm ứng
+B. Loa
+C. Máy in
+D. Chuột
+
+Câu 8: PSU có nhiệm vụ:
+A. Tăng tốc CPU
+*B. Chuyển đổi điện
+C. Lưu dữ liệu
+D. Hiển thị
+
+Câu 9: Nguồn AT khác ATX ở điểm:
+*A. Không tự tắt
+B. Có nhiều chân hơn
+C. Tốc độ cao hơn
+D. Có RAM
+
+Câu 10: SATA KHÔNG dùng cho:
+A. HDD
+B. SSD
+*C. RAM
+D. DVD
+
+Câu 11: Bus KHÔNG gồm loại nào?
+A. Data
+B. Address
+C. Control
+*D. Power
+
+Câu 12: Chipset cầu Bắc KHÔNG kết nối:
+A. CPU
+B. RAM
+*C. USB
+D. VGA
+
+Câu 13: Chipset cầu Nam KHÔNG xử lý:
+A. USB
+B. HDD
+*C. CPU trực tiếp
+D. Audio
+
+Câu 14: PCIe thay thế:
+A. RAM
+B. CPU
+*C. PCI và AGP
+D. BIOS
+
+Câu 15: AGP chủ yếu dùng cho:
+A. RAM
+*B. VGA
+C. HDD
+D. CPU
+
+Câu 16: BIOS thực hiện trước:
+A. RAM
+*B. Hệ điều hành
+C. CPU
+D. HDD
+
+Câu 17: POST báo lỗi bằng:
+A. Đèn
+*B. Tiếng beep
+C. Chuột
+D. USB
+
+Câu 18: CMOS pin hết sẽ:
+*A. Mất cấu hình BIOS
+B. Mất RAM
+C. Hỏng CPU
+D. Hỏng HDD
+
+Câu 19: CPU nóng gây:
+A. Tăng tốc
+*B. Treo máy
+C. Tăng RAM
+D. Tăng điện
+
+Câu 20: Quạt CPU KHÔNG:
+A. Tản nhiệt
+*B. Lưu dữ liệu
+C. Giảm nhiệt
+D. Hút gió
+
+Câu 21: RAM thuộc loại:
+A. Ngoài
+*B. Trong
+C. Vĩnh viễn
+D. Chậm
+
+Câu 22: HDD là:
+A. RAM
+*B. Bộ nhớ ngoài
+C. CPU
+D. Cache
+
+Câu 23: USB KHÔNG phải:
+A. Chuẩn kết nối
+B. Thiết bị lưu trữ
+*C. CPU
+D. Giao tiếp
+
+Câu 24: Socket dùng cho:
+A. RAM
+*B. CPU
+C. HDD
+D. PSU
+
+Câu 25: DIMM là:
+A. CPU
+*B. RAM
+C. HDD
+D. GPU
+
+Câu 26: IDE lỗi thời vì:
+*A. Tốc độ chậm
+B. Dung lượng nhỏ
+C. Không có dây
+D. Không dùng điện
+
+Câu 27: SATA III nhanh hơn SATA I vì:
+*A. Băng thông cao hơn
+B. Dung lượng lớn hơn
+C. Ít dây hơn
+D. Không dùng điện
+
+Câu 28: Cache giúp:
+A. Giảm CPU
+*B. Tăng tốc truy xuất
+C. Tăng điện
+D. Giảm RAM
+
+Câu 29: ALU KHÔNG làm:
+A. Cộng
+B. Trừ
+*C. Lưu trữ lâu dài
+D. Logic
+
+Câu 30: CU KHÔNG:
+A. Điều khiển
+*B. Tính toán
+C. Giải mã lệnh
+D. Điều phối
+
+Câu 31: Register là:
+A. Bộ nhớ ngoài
+*B. Bộ nhớ rất nhỏ trong CPU
+C. HDD
+D. RAM lớn
+
+Câu 32: CPU clock càng cao:
+*A. Xử lý càng nhanh
+B. RAM tăng
+C. HDD tăng
+D. PSU tăng
+
+Câu 33: Mainboard KHÔNG có:
+A. Khe RAM
+B. Socket CPU
+*C. HDD bên trong
+D. Chipset
+
+Câu 34: Firmware là:
+*A. Phần mềm nhúng
+B. RAM
+C. CPU
+D. HDD
+
+Câu 35: UPS dùng để:
+A. Tăng tốc
+*B. Dự phòng điện
+C. Lưu RAM
+D. Tăng CPU
+
+Câu 36: RAM đầy sẽ:
+*A. Máy chậm
+B. Máy nhanh
+C. CPU tăng
+D. HDD giảm
+
+Câu 37: CPU không chạy nếu:
+A. Thiếu RAM
+*B. Không có nguồn
+C. Thiếu HDD
+D. Thiếu USB
+
+Câu 38: BIOS lỗi có thể:
+*A. Không boot được
+B. Mất RAM
+C. Hỏng chuột
+D. Hỏng loa
+
+Câu 39: PCIe x1 so với x16:
+*A. Băng thông thấp hơn
+B. Nhanh hơn
+C. Bằng nhau
+D. Không khác
+
+Câu 40: Máy tự reset có thể do:
+A. Chuột hỏng
+*B. Nguồn yếu
+C. USB lỗi
+D. Bàn phím lỗi

@@ -1,0 +1,239 @@
+Câu 1: Máy tính là gì?
+*A. Thiết bị điện tử dùng để xử lý thông tin theo chương trình
+B. Thiết bị lưu trữ dữ liệu
+C. Thiết bị nhập dữ liệu
+D. Thiết bị xuất dữ liệu
+
+Câu 2: Thành phần nào sau đây thuộc phần cứng?
+A. Windows
+*B. CPU
+C. Word
+D. Excel
+
+Câu 3: Phần mềm hệ thống bao gồm:
+*A. Hệ điều hành
+B. Game
+C. Phần mềm đồ họa
+D. Phần mềm văn phòng
+
+Câu 4: CPU là viết tắt của:
+A. Central Program Unit
+*B. Central Processing Unit
+C. Computer Processing Unit
+D. Control Processing Unit
+
+Câu 5: RAM là:
+*A. Bộ nhớ truy xuất ngẫu nhiên
+B. Bộ nhớ chỉ đọc
+C. Bộ nhớ ngoài
+D. Bộ nhớ cache
+
+Câu 6: ROM có đặc điểm:
+*A. Không mất dữ liệu khi mất điện
+B. Có thể ghi xóa dễ dàng
+C. Là bộ nhớ tạm
+D. Tốc độ chậm
+
+Câu 7: Thiết bị nhập là:
+*A. Bàn phím
+B. Màn hình
+C. Máy in
+D. Loa
+
+Câu 8: Thiết bị xuất là:
+A. Chuột
+*B. Màn hình
+C. Bàn phím
+D. Scanner
+
+Câu 9: Mainboard có chức năng:
+*A. Kết nối các thành phần
+B. Lưu trữ dữ liệu
+C. Hiển thị hình ảnh
+D. Cung cấp điện
+
+Câu 10: Chipset cầu Bắc có nhiệm vụ:
+*A. Kết nối CPU với RAM
+B. Kết nối USB
+C. Kết nối ổ cứng
+D. Điều khiển chuột
+
+Câu 11: Chipset cầu Nam có nhiệm vụ:
+A. Kết nối CPU trực tiếp
+*B. Kết nối thiết bị ngoại vi
+C. Điều khiển RAM
+D. Xử lý dữ liệu
+
+Câu 12: Bus là:
+*A. Đường truyền dữ liệu
+B. Bộ nhớ
+C. Thiết bị nhập
+D. Thiết bị xuất
+
+Câu 13: FSB là:
+*A. Bus giữa CPU và chipset
+B. Bus của RAM
+C. Bus của ổ cứng
+D. Bus mạng
+
+Câu 14: Khe PCI dùng để:
+*A. Gắn card mở rộng
+B. Gắn RAM
+C. Gắn CPU
+D. Gắn ổ cứng
+
+Câu 15: SATA dùng để:
+*A. Kết nối ổ cứng
+B. Kết nối RAM
+C. Kết nối CPU
+D. Kết nối chuột
+
+Câu 16: BIOS nằm trong:
+*A. ROM
+B. RAM
+C. HDD
+D. Cache
+
+Câu 17: POST là:
+*A. Kiểm tra phần cứng khi khởi động
+B. Tắt máy
+C. Cài phần mềm
+D. Lưu dữ liệu
+
+Câu 18: CMOS dùng để:
+*A. Lưu cấu hình hệ thống
+B. Lưu chương trình
+C. Lưu dữ liệu người dùng
+D. Lưu game
+
+Câu 19: PSU có chức năng:
+*A. Cung cấp điện
+B. Xử lý dữ liệu
+C. Hiển thị
+D. Lưu trữ
+
+Câu 20: Nguồn ATX có đặc điểm:
+*A. Có thể tắt tự động
+B. Không tắt được
+C. Không có quạt
+D. Không cấp điện
+
+Câu 21: Cache là:
+*A. Bộ nhớ đệm
+B. Bộ nhớ ngoài
+C. Bộ nhớ ROM
+D. Bộ nhớ chậm
+
+Câu 22: CPU gồm các khối:
+*A. ALU, CU, Register
+B. RAM, ROM
+C. HDD, SSD
+D. VGA, PSU
+
+Câu 23: ALU thực hiện:
+*A. Phép toán số học và logic
+B. Lưu trữ dữ liệu
+C. Xuất dữ liệu
+D. Nhập dữ liệu
+
+Câu 24: CU có chức năng:
+*A. Điều khiển hoạt động
+B. Lưu trữ
+C. Hiển thị
+D. Kết nối mạng
+
+Câu 25: Tốc độ CPU đo bằng:
+*A. GHz
+B. MB
+C. Volt
+D. Watt
+
+Câu 26: RAM thuộc loại:
+*A. Bộ nhớ trong
+B. Bộ nhớ ngoài
+C. Bộ nhớ chậm
+D. Bộ nhớ vĩnh viễn
+
+Câu 27: HDD là:
+*A. Ổ cứng
+B. RAM
+C. CPU
+D. Mainboard
+
+Câu 28: USB là:
+*A. Thiết bị lưu trữ ngoài
+B. RAM
+C. CPU
+D. BIOS
+
+Câu 29: Socket dùng để:
+*A. Gắn CPU
+B. Gắn RAM
+C. Gắn ổ cứng
+D. Gắn nguồn
+
+Câu 30: DIMM là khe:
+*A. RAM
+B. CPU
+C. HDD
+D. VGA
+
+Câu 31: PCIe là:
+*A. Chuẩn kết nối tốc độ cao
+B. RAM
+C. CPU
+D. HDD
+
+Câu 32: AGP dùng cho:
+*A. Card đồ họa
+B. RAM
+C. CPU
+D. HDD
+
+Câu 33: IDE là:
+*A. Chuẩn kết nối ổ cứng cũ
+B. RAM
+C. CPU
+D. GPU
+
+Câu 34: BIOS có chức năng:
+*A. Khởi động hệ thống
+B. Lưu dữ liệu
+C. Hiển thị
+D. In ấn
+
+Câu 35: Nhiệt độ CPU cao sẽ:
+*A. Làm máy treo
+B. Làm máy nhanh hơn
+C. Không ảnh hưởng
+D. Tăng RAM
+
+Câu 36: Quạt tản nhiệt dùng để:
+*A. Giảm nhiệt
+B. Tăng tốc CPU
+C. Lưu dữ liệu
+D. Xuất dữ liệu
+
+Câu 37: Card mạng dùng để:
+*A. Kết nối mạng
+B. Hiển thị
+C. Lưu trữ
+D. Xử lý
+
+Câu 38: Mainboard onboard là:
+*A. Tích hợp nhiều thiết bị
+B. Không có thiết bị
+C. Chỉ có CPU
+D. Không có RAM
+
+Câu 39: Firmware là:
+*A. Phần mềm trong phần cứng
+B. RAM
+C. HDD
+D. CPU
+
+Câu 40: UPS là:
+*A. Bộ lưu điện
+B. CPU
+C. RAM
+D. HDD

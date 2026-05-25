@@ -1,0 +1,359 @@
+Câu 1: Tắt máy tính rồi mà chạm vào vỏ máy vẫn có thể bị giật điện, máy tính đó sử dụng loại nguồn gì:
+*A. Nguồn ATX
+B. Nguồn AT
+C. Cả nguồn AT & ATX
+D. Không ý nào đúng
+
+Câu 2: Cho CPU Pentium 4 - 2.66 GHz - 1MB - 64 bit - bus 533MHz - SK775, hãy xác định hệ số nhân xung nhịp của CPU (Ratio) của nó:
+A. 3.5
+B. 4.0
+C. 4.5
+*D. 5
+
+Câu 3: Trong Windows 7, dùng công cụ nào để chia và định dạng phân vùng ổ cứng:
+A. Manage
+*B. Disk Management
+C. Storage
+D. Computer Management
+
+Câu 4: Phím nào sau đây thường được dùng để vào BIOS Setup (máy tính để bàn):
+A. Space
+B. Enter
+C. WakeUp
+*D. Delete
+
+Câu 5: Cho CPU Pentium IV - 3.2 GHz - 2MB - 64 bit - Dual Core - bus 800 - SK775, hỏi mỗi lõi CPU có bộ nhớ đệm cấp 2 là bao nhiêu:
+*A. 1MB
+B. 2MB
+C. 512KB
+D. 256KB
+
+Câu 6: Trước khi cài lại mới Windows, nên thực hiện thao tác nào để không bị mất dữ liệu:
+A. Vệ sinh máy
+B. Defragmentation
+C. Anti-Virus
+*D. Backup
+
+Câu 7: Hãy chọn một ý đúng:
+A. AGP 1X = 150Kbps
+B. AGP 8X = PCI Express 16X
+*C. PCI Express 8X = 4Gbps (PCIe 2.0)
+D. PCI Express = 150Kbps
+
+Câu 8: Loại RAM nào được dùng làm bộ nhớ Cache:
+A. RDRAM
+B. DDR SDRAM
+*C. SRAM
+D. SDRAM
+
+Câu 9: Khi sử dụng bàn phím loại cũ (DIN 5 chân) với cổng PS2, ta phải:
+A. Không sử dụng được
+B. Mua bàn phím mới
+C. Dùng chuột thay bàn phím
+*D. Dùng đầu chuyển DIN5 → PS2
+
+Câu 10: Hiện nay chế độ hoạt động của ổ cứng thường dùng tham số nào:
+A. NONE
+*B. LBA
+C. NORMAL
+D. LARGE
+
+Câu 11: Tham số 128MB - 480Mbps dùng để chỉ thiết bị:
+A. HDD
+*B. USB Flash
+C. RAM
+D. DVD
+
+Câu 12: Tốc độ bus của RAM PC2-6400 là:
+A. 266 MHz
+B. 677 MHz
+*C. 800 MHz
+D. 533 MHz
+
+Câu 13: Để tạo ổ đĩa logic từ ổ D trở đi trong FDISK:
+A. Create Primary DOS Partition
+*B. Create Logical DOS Drive(s)
+C. Create Extended DOS Partition
+D. Set Active Partition
+
+Câu 14: Công nghệ siêu phân luồng (Hyper Threading):
+A. CPU có 2 lõi thật
+*B. CPU có 1 lõi thật và 1 lõi ảo
+C. Công nghệ đa luồng của mainboard
+D. CPU có 2 lõi ảo
+
+Câu 15: Với tốc độ cổng USB, hãy chọn phương án sai:
+*A. Low Speed Rate - 15 Mbps
+B. Low Speed Rate - 1.5 Mbps
+C. High Speed Rate - 480 Mbps
+D. Full Speed Rate - 12 Mbps
+
+Câu 16: Công nghệ màn hình mới nhất hiện nay:
+A. CRT
+B. LCD
+*C. LED
+D. Không ý nào đúng
+
+Câu 17: Ổ cứng SATA có dùng chung đầu cắm nguồn với ATA không:
+A. Hoàn toàn dùng chung
+B. Hoàn toàn không dùng chung
+C. Dùng cả 2 cùng lúc
+*D. Dùng chung hoặc dùng đầu chuyển
+
+Câu 18: Bộ nhớ đệm của HDD Samsung 320GB-8MB-7200RPM-SATA là:
+A. 320GB
+B. 512KB
+*C. 8MB
+D. 2048KB
+
+Câu 19: Màn hình hiện nay thường sử dụng chuẩn:
+A. Analog CGA
+*B. Analog VGA
+C. Digital CGA
+D. Digital VGA
+
+Câu 20: Quá trình nào của BIOS chạy đầu tiên khi khởi động:
+*A. POST
+B. Bootstrap Loader
+C. BIOS Setup
+D. Cả 3 sai
+
+Câu 21: Máy bật nhưng không vào điện, nguyên nhân có thể:
+A. Hỏng VGA
+B. Hỏng CPU Fan
+*C. Hỏng dây nguồn
+D. Hỏng Monitor
+
+Câu 22: Công việc thực hiện trong POST:
+A. Cấu hình thiết bị boot
+B. Khởi động bộ nạp chương trình
+*C. Nhận dạng thiết bị Plug and Play
+D. Cấu hình thiết bị Plug and Play
+
+Câu 23: Thông báo "Invalid System Disk - Replace the disk..." xử lý thế nào:
+A. Thay đĩa mềm boot khác
+B. Thay CD boot khác
+C. Thay HDD khác
+*D. Ý A và B
+
+Câu 24: Bộ nguồn Pentium IV thông thường có công suất:
+A. 100-200W
+B. 1000-2000W
+C. 500-700W
+*D. 300-600W
+
+Câu 25: Thuật ngữ có dung lượng lớn nhất:
+A. Track
+*B. Cylinder
+C. Sector
+D. Cluster
+
+Câu 26: Khi gắn IDE và CDROM ATAPI chung cáp ATA66:
+A. Set Cable Select
+B. 1 Master / 1 Slave
+C. 1 Master / 1 tháo jumper
+*D. Cả 3 ý đúng
+
+Câu 27: HDD S.M.A.R.T Capability cho phép:
+A. Truy cập thông minh
+B. Tạo bộ đệm
+*C. Phân tích và báo lỗi HDD
+D. Không ý nào đúng
+
+Câu 28: Chipset hiện không phổ biến tại Việt Nam:
+A. AMD
+B. VIA
+*C. SIS
+D. INTEL
+
+Câu 29: Khi lắp CPU cần chú ý:
+A. Bôi keo lên lưng CPU
+B. CPU và chipset cùng hãng
+C. Khóa gài song song mainboard
+*D. Góc vát CPU đúng với socket
+
+Câu 30: Nếu quạt nguồn không chạy, nguyên nhân nào không thể xảy ra:
+A. Hỏng nút Power
+B. Hỏng dây nguồn
+*C. Hỏng CPU
+D. Hỏng bộ nguồn
+
+Câu 31: Nếu quạt nguồn quay mà máy vẫn không chạy thì do nguyên nhân bất thường nào:
+A. Độ sáng màn hình bị đặt về tối thiểu
+B. Kẹt nút Reset
+C. Chập hỏng Bàn phím/Chuột
+*D. Cả 3 ý trên đều đúng
+
+Câu 32: Khi lắp RAM cần chú ý nhất chi tiết nào:
+*A. Số chân trên RAM và khe cắm phải bằng nhau
+B. Điện áp mainboard và RAM phải bằng nhau
+C. Kích thước RAM bằng khe cắm
+D. Nhãn hiệu mainboard và RAM phải giống nhau
+
+Câu 33: Linh kiện nào có thể tích hợp onboard trên mainboard:
+*A. NIC
+B. FDD
+C. HDD
+D. Mainboard
+
+Câu 34: Với HDD 160GB và phân vùng lớn hơn 40GB nên dùng File System nào:
+A. FAT16
+*B. NTFS
+C. FAT32
+D. FAT
+
+Câu 35: Đầu nguồn gắn lên mainboard của ATX là:
+A. 2 bó dây tổng 12 chân
+B. 2 bó dây tổng 20 chân
+C. 2 bó dây tổng 24 chân kiểu AT
+*D. Nguồn ATX gồm đầu 24 chân
+
+Câu 36: Virus máy tính là:
+A. Tác nhân sinh học
+B. Phần mềm có lợi
+*C. Phần mềm có hại
+D. Thành phần hệ điều hành
+
+Câu 37: Dấu hiệu máy hoạt động tốt sau khi bật:
+A. 3 beep dài
+B. 1 beep dài
+*C. 1 beep ngắn
+D. 1 beep ngắn + 3 beep dài
+
+Câu 38: Màn hình hiển thị cấu hình do BIOS điều khiển xuất hiện:
+*A. Trước khi khởi động Windows
+B. Trong khi khởi động Windows
+C. Sau khi vào Windows
+D. Không ý nào đúng
+
+Câu 39: Ổ cứng desktop phổ biến hiện nay:
+A. 5 1/4 – 5400rpm
+B. 5 1/4 – 7200rpm
+*C. 3 1/2 – 7200rpm
+D. 3 1/2 – 5400rpm
+
+Câu 40: “Create Primary DOS Partition” dùng để tạo:
+A. Ổ A
+B. Ổ B
+*C. Ổ C
+D. Ổ D
+
+Câu 41: Khi CPU quá nhiệt cần:
+*A. Vệ sinh máy tính
+B. Cài lại Windows
+C. Xóa file rác
+D. Diệt virus
+
+Câu 42: Khe PCI dùng để:
+*A. Gắn card mở rộng đa chức năng
+B. Gắn HDD
+C. Gắn pin CMOS
+D. Gắn ROM BIOS
+
+Câu 43: Tham số 128MB – 480Mbps dùng để chỉ:
+A. HDD
+*B. USB
+C. RAM
+D. DVD
+
+Câu 44: Cache thông thường của HDD:
+A. 256KB
+B. 512KB
+C. 1024KB
+*D. 2048KB
+
+Câu 45: Touchpad laptop là:
+*A. Thiết bị Input
+B. Thiết bị Output
+C. Thiết bị Input/Output
+D. Không ý nào đúng
+
+Câu 46: Ổ mềm phổ biến hiện nay:
+A. 3 1/4 inch – 1.44MB
+B. 5 1/4 inch – 2.88MB
+*C. 3 1/2 inch – 1.44MB
+D. 3 1/2 inch – 2.88MB
+
+Câu 47: Hệ điều hành hỗ trợ Hyper Threading:
+*A. Windows XP Pro
+B. Windows 2000
+C. Windows 98
+D. Linux RedHat 8.0
+
+Câu 48: Khe AGP dùng để:
+*A. Gắn VGA card
+B. Gắn LAN card
+C. Gắn USB
+D. Gắn máy in
+
+Câu 49: Thiết bị ảnh hưởng lớn đến tính ổn định toàn hệ thống:
+A. CPU
+B. Mainboard
+C. HDD
+*D. Nguồn
+
+Câu 50: Máy báo lỗi file khởi động hoặc treo khi boot:
+A. Chưa gắn RAM
+B. Chưa gắn HDD
+*C. Hỏng file boot hoặc lỗi hệ điều hành
+D. Chưa gắn CD/DVD
+
+Câu 51: Trong các HDD Seagate sau, ổ có dung lượng lớn nhất:
+*A. ST3160212AS
+B. ST380817AS
+C. ST340014A
+D. ST380011A
+
+Câu 52: Giắc tín hiệu VGA card nối monitor là:
+A. Male port
+*B. Female port
+C. USB port
+D. Không ý nào đúng
+
+Câu 53: Công cụ chống phân mảnh ổ cứng:
+*A. Disk Defragmenter
+B. Analyze Disk
+C. Check now
+D. Backup
+
+Câu 54: Máy chạy nhưng màn hình không sáng đèn:
+A. Chưa gắn dây tín hiệu
+B. Chưa gắn RAM
+C. Chưa gắn HDD
+*D. Màn hình chưa có nguồn điện
+
+Câu 55: Thứ tự đúng khi gắn tản nhiệt CPU:
+A. Quạt – keo – CPU – tản nhiệt
+*B. CPU – keo – tản nhiệt – quạt
+C. Keo – quạt – tản nhiệt – CPU
+D. CPU – quạt – tản nhiệt – keo
+
+Câu 56: Cáp SCSI có thể có:
+A. 34 pins
+B. 64 pins
+*C. 80 pins
+D. 100 pins
+
+Câu 57: Mô tả đúng của cáp SATA:
+A. 7 pins – 133Mbps
+B. 4 pins – 150Mbps
+C. 40 pins – 133MBps
+*D. 7 pins – 150MBps
+
+Câu 58: Loại cáp HDD cần chú ý thứ tự đầu cắm:
+A. 40 pins – 40 conductors
+B. 7 pins
+C. 25 pins
+*D. 40 pins – 80 conductors
+
+Câu 59: Thiết bị vừa nhập vừa xuất dữ liệu:
+A. FDD
+*B. HDD
+C. CDROM
+D. Keyboard
+
+Câu 60: Lỗi nào không liên quan đến nguồn:
+A. Máy tự khởi động lại
+*B. Hệ thống xử lý chậm hơn bình thường
+C. Treo máy khi hoạt động
+D. Máy hoàn toàn chết

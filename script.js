@@ -2,18 +2,30 @@ const subjects = {
   btmt: {
     name: "Bảo trì máy tính",
     description: "Các đề ôn tập về máy tính và bảo trì máy tính",
-    quizIds: [
-      "de1",
-      "de2",
-      "de3",
-      "de4",
-      "de5",
-      "de_120_cau_bao_tri",
-      "de_120_cau_bao_tri_v2",
-      "de_mau",
-      "de_mau_2",
-    ],
-    randomQuizSources: ["de_120_cau_bao_tri", "de_120_cau_bao_tri_v2"],
+    terms: {
+      gk: {
+        name: "Giữa kỳ",
+        description: "Các đề ôn tập và đề mẫu giữa kỳ",
+        quizIds: [
+          "de1",
+          "de2",
+          "de3",
+          "de4",
+          "de5",
+          "de_120_cau_bao_tri",
+          "de_120_cau_bao_tri_v2",
+          "de_mau",
+          "de_mau_2",
+        ],
+        randomQuizSources: ["de_120_cau_bao_tri", "de_120_cau_bao_tri_v2"],
+      },
+      ck: {
+        name: "Cuối kỳ",
+        description: "Các đề ôn tập cuối kỳ",
+        quizIds: ["btmt_ck_de1", "btmt_ck_de2"],
+        randomQuizSources: [],
+      },
+    },
   },
   cnmkd: {
     name: "Công nghệ mạng không dây",
@@ -26,56 +38,68 @@ const subjects = {
 const quizzes = {
   de1: {
     name: "Đề 1 - Kiến thức máy tính cơ bản",
-    file: "btmt/de1.txt",
+    file: "btmt/gk/de1.txt",
     difficulty: "Cơ bản",
     questions: [],
   },
   de2: {
     name: "Đề 2 - Kiến thức máy tính",
-    file: "btmt/de2.txt",
+    file: "btmt/gk/de2.txt",
     difficulty: "Cơ bản",
     questions: [],
   },
   de3: {
     name: "Đề 3 - Kiến thức máy tính",
-    file: "btmt/de3.txt",
+    file: "btmt/gk/de3.txt",
     difficulty: "Trung bình",
     questions: [],
   },
   de4: {
     name: "Đề 4 - Kiến thức máy tính",
-    file: "btmt/de4.txt",
+    file: "btmt/gk/de4.txt",
     difficulty: "Trung bình",
     questions: [],
   },
   de5: {
     name: "Đề 5 - Kiến thức máy tính",
-    file: "btmt/de5.txt",
+    file: "btmt/gk/de5.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_120_cau_bao_tri: {
     name: "Đề 120 câu - Bảo trì máy tính",
-    file: "btmt/de_120_cau_bao_tri.txt",
+    file: "btmt/gk/de_120_cau_bao_tri.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_120_cau_bao_tri_v2: {
     name: "Đề 120 câu - Bảo trì máy tính V2",
-    file: "btmt/de_120_cau_bao_tri_v2.txt",
+    file: "btmt/gk/de_120_cau_bao_tri_v2.txt",
     difficulty: "Nâng cao",
     questions: [],
   },
   de_mau: {
     name: "Đề Giữa Kỳ - Bảo trì máy tính",
-    file: "btmt/deMau.txt",
+    file: "btmt/gk/deMau.txt",
     difficulty: "Advanced",
     questions: [],
   },
   de_mau_2: {
     name: "Đề Mẫu 2 - Bảo trì máy tính",
-    file: "btmt/deMau2.txt",
+    file: "btmt/gk/deMau2.txt",
     difficulty: "Advanced",
+    questions: [],
+  },
+  btmt_ck_de1: {
+    name: "Đề cuối kỳ 1 - Bảo trì máy tính",
+    file: "btmt/ck/de1-60-cau.txt",
+    difficulty: "Ôn tập",
+    questions: [],
+  },
+  btmt_ck_de2: {
+    name: "Đề cuối kỳ 2 - Bảo trì máy tính",
+    file: "btmt/ck/de2-60-cau.txt",
+    difficulty: "Ôn tập",
     questions: [],
   },
   cnmkd_ck_de1: {
@@ -100,6 +124,7 @@ let timerInterval = null;
 let elapsedSeconds = 0;
 let quizHistory = JSON.parse(localStorage.getItem("quizHistory")) || [];
 let currentSubjectId = null;
+let currentTermId = null;
 
 // DOM ELEMENTS
 const quizMenuEl = document.getElementById("quiz-menu");
@@ -161,6 +186,7 @@ function renderSubjectMenu() {
   if (!quizGrid) return;
 
   currentSubjectId = null;
+  currentTermId = null;
   menuTitle.textContent = "Chọn môn học để bắt đầu";
   menuSubtitle.textContent = "Hãy chọn môn bạn muốn ôn tập";
   changeSubjectBtn.classList.add("hidden");
@@ -168,7 +194,8 @@ function renderSubjectMenu() {
 
   Object.keys(subjects).forEach((subjectId) => {
     const subject = subjects[subjectId];
-    const questionCount = subject.quizIds.reduce(
+    const quizIds = getSubjectQuizIds(subject);
+    const questionCount = quizIds.reduce(
       (total, quizId) => total + quizzes[quizId].questions.length,
       0,
     );
@@ -179,7 +206,7 @@ function renderSubjectMenu() {
       <div class="subject-code">${subjectId.toUpperCase()}</div>
       <h3>${subject.name}</h3>
       <p class="quiz-option-desc">${subject.description}</p>
-      <p class="subject-stats">${subject.quizIds.length} bộ đề - ${questionCount} câu hỏi</p>
+      <p class="subject-stats">${quizIds.length} bộ đề - ${questionCount} câu hỏi</p>
       <button class="btn btn-primary" onclick="selectSubject('${subjectId}')">
         Chọn môn
       </button>
@@ -188,14 +215,33 @@ function renderSubjectMenu() {
   });
 }
 
+function getSubjectQuizIds(subject) {
+  if (!subject.terms) return subject.quizIds;
+  return Object.values(subject.terms).flatMap((term) => term.quizIds);
+}
+
 function selectSubject(subjectId) {
   if (!subjects[subjectId]) return;
   currentSubjectId = subjectId;
-  renderQuizMenu();
+  currentTermId = null;
+  if (subjects[subjectId].terms) {
+    renderTermMenu();
+  } else {
+    renderQuizMenu();
+  }
 }
 
 function showSubjectMenu() {
   renderSubjectMenu();
+}
+
+function navigateMenuBack() {
+  if (currentSubjectId && currentTermId && subjects[currentSubjectId].terms) {
+    currentTermId = null;
+    renderTermMenu();
+    return;
+  }
+  showSubjectMenu();
 }
 
 function attachEventListeners() {
@@ -608,18 +654,68 @@ function submitQuiz() {
 }
 
 // ===== RENDER QUIZ MENU =====
+function renderTermMenu() {
+  const quizGrid = document.querySelector(".quiz-selector-grid");
+  const subject = subjects[currentSubjectId];
+  if (!quizGrid || !subject || !subject.terms) return;
+
+  menuTitle.textContent = subject.name;
+  menuSubtitle.textContent = "Chọn kỳ thi để xem bộ đề ôn tập";
+  changeSubjectBtn.textContent = "← Đổi môn";
+  changeSubjectBtn.classList.remove("hidden");
+  quizGrid.innerHTML = "";
+
+  Object.keys(subject.terms).forEach((termId) => {
+    const term = subject.terms[termId];
+    const questionCount = term.quizIds.reduce(
+      (total, quizId) => total + quizzes[quizId].questions.length,
+      0,
+    );
+
+    const card = document.createElement("div");
+    card.className = "subject-option-card";
+    card.innerHTML = `
+      <div class="subject-code">${termId.toUpperCase()}</div>
+      <h3>${term.name}</h3>
+      <p class="quiz-option-desc">${term.description}</p>
+      <p class="subject-stats">${term.quizIds.length} bộ đề - ${questionCount} câu hỏi</p>
+      <button class="btn btn-primary" onclick="selectTerm('${termId}')">
+        Chọn kỳ
+      </button>
+    `;
+    quizGrid.appendChild(card);
+  });
+}
+
+function selectTerm(termId) {
+  const subject = subjects[currentSubjectId];
+  if (!subject || !subject.terms || !subject.terms[termId]) return;
+  currentTermId = termId;
+  renderQuizMenu();
+}
+
+function getSelectedQuizGroup() {
+  const subject = subjects[currentSubjectId];
+  if (!subject) return null;
+  return subject.terms ? subject.terms[currentTermId] : subject;
+}
+
 function renderQuizMenu() {
   const quizGrid = document.querySelector(".quiz-selector-grid");
   const subject = subjects[currentSubjectId];
-  if (!quizGrid || !subject) return;
+  const quizGroup = getSelectedQuizGroup();
+  if (!quizGrid || !subject || !quizGroup) return;
 
-  menuTitle.textContent = subject.name;
+  menuTitle.textContent = currentTermId
+    ? `${subject.name} - ${quizGroup.name}`
+    : subject.name;
   menuSubtitle.textContent = "Chọn một đề thi để bắt đầu ôn tập";
+  changeSubjectBtn.textContent = currentTermId ? "← Chọn kỳ" : "← Đổi môn";
   changeSubjectBtn.classList.remove("hidden");
   quizGrid.innerHTML = "";
 
   // Add quiz options for the selected subject only.
-  subject.quizIds.forEach((quizId) => {
+  quizGroup.quizIds.forEach((quizId) => {
     const quiz = quizzes[quizId];
     const questionCount = quiz.questions.length;
 
@@ -640,7 +736,7 @@ function renderQuizMenu() {
     quizGrid.appendChild(card);
   });
 
-  if (subject.randomQuizSources.length > 0) {
+  if (quizGroup.randomQuizSources.length > 0) {
     const randomCard = document.createElement("div");
     randomCard.className = "quiz-option-card random-quiz";
     randomCard.innerHTML = `
@@ -710,7 +806,8 @@ function closeRandomQuizModal() {
 
 function createRandomQuiz(count) {
   const subject = subjects[currentSubjectId];
-  const randomQuizSources = subject ? subject.randomQuizSources : [];
+  const quizGroup = getSelectedQuizGroup();
+  const randomQuizSources = quizGroup ? quizGroup.randomQuizSources : [];
   if (randomQuizSources.length === 0) {
     showCustomAlert("Thông báo", "Môn học này chưa hỗ trợ tạo đề ngẫu nhiên!");
     return;
@@ -756,7 +853,7 @@ function generateAndStartRandomQuiz(count, allQuestions) {
 
   // Create temporary random quiz
   quizzes.random = {
-    name: `Đề Random - ${subjects[currentSubjectId].name} - ${count} câu`,
+    name: `Đề Random - ${subject.name}${currentTermId ? ` - ${quizGroup.name}` : ""} - ${count} câu`,
     difficulty: "Random",
     questions: selectedQuestions,
   };

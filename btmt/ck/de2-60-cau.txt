@@ -1,0 +1,359 @@
+Câu 1: Tắt máy tính nhưng chạm vào vỏ máy vẫn bị tê nhẹ, nguyên nhân do:
+A. HDD còn quay
+*B. Nguồn ATX còn điện chờ
+C. RAM còn hoạt động
+D. CPU chưa tắt
+
+Câu 2: Thiết bị có chức năng cung cấp điện cho toàn hệ thống:
+A. Mainboard
+B. CPU
+*C. PSU
+D. RAM
+
+Câu 3: Khi máy không lên nguồn hoàn toàn, cần kiểm tra đầu tiên:
+A. VGA
+*B. Dây nguồn và PSU
+C. HDD
+D. Chuột
+
+Câu 4: Một tiếng beep ngắn khi khởi động thường có nghĩa:
+A. RAM lỗi
+B. CPU lỗi
+*C. POST thành công
+D. VGA lỗi
+
+Câu 5: Máy phát beep dài liên tục thường do:
+A. HDD lỗi
+*B. RAM lỗi
+C. PSU lỗi
+D. Chuột lỗi
+
+Câu 6: Khi CPU quá nóng, máy thường:
+A. Chạy nhanh hơn
+*B. Treo hoặc tự tắt
+C. Tăng RAM
+D. Tăng tốc HDD
+
+Câu 7: Keo tản nhiệt dùng để:
+A. Dán CPU vào socket
+*B. Tăng khả năng truyền nhiệt
+C. Chống nhiễu điện
+D. Tăng xung CPU
+
+Câu 8: Bộ nhớ RAM là:
+A. Bộ nhớ không mất dữ liệu
+*B. Bộ nhớ tạm thời
+C. Bộ nhớ ngoài
+D. Bộ nhớ BIOS
+
+Câu 9: Khi tháo pin CMOS:
+A. Mất dữ liệu HDD
+*B. Reset BIOS Setup
+C. Xóa Windows
+D. Hỏng mainboard
+
+Câu 10: BIOS thường được lưu trong:
+A. RAM
+*B. ROM
+C. HDD
+D. Cache
+
+Câu 11: Chế độ boot được thiết lập trong:
+A. Windows Explorer
+*B. BIOS Setup
+C. Disk Cleanup
+D. Control Panel
+
+Câu 12: Chuẩn SATA dùng cho:
+A. RAM
+*B. HDD/SSD
+C. CPU
+D. PSU
+
+Câu 13: SSD nhanh hơn HDD vì:
+A. Có quạt mạnh hơn
+*B. Không có bộ phận cơ học
+C. Dùng điện áp cao hơn
+D. Có cache lớn hơn
+
+Câu 14: Khi máy báo “No boot device” nguyên nhân thường:
+A. RAM lỗi
+*B. Không nhận ổ cứng
+C. VGA lỗi
+D. Chuột lỗi
+
+Câu 15: Công nghệ Hyper Threading thuộc:
+A. RAM
+*B. CPU
+C. Mainboard
+D. HDD
+
+Câu 16: Khi máy bị treo lúc copy file:
+A. VGA yếu
+*B. HDD có bad sector
+C. Chuột lỗi
+D. PSU mạnh
+
+Câu 17: Chức năng của UPS là:
+A. Tăng tốc CPU
+*B. Lưu điện tạm thời
+C. Tăng dung lượng RAM
+D. Tản nhiệt máy
+
+Câu 18: Thiết bị dùng để kết nối các linh kiện:
+A. CPU
+*B. Mainboard
+C. PSU
+D. HDD
+
+Câu 19: Nếu RAM lỏng:
+A. Máy chạy chậm
+*B. Máy có thể không lên hình
+C. HDD mất dữ liệu
+D. Chuột không hoạt động
+
+Câu 20: Cache là:
+A. Bộ nhớ ngoài
+*B. Bộ nhớ tốc độ cao
+C. Bộ nhớ quang
+D. Bộ nhớ chỉ đọc
+
+Câu 21: Công nghệ Dual Channel áp dụng cho:
+A. CPU
+*B. RAM
+C. HDD
+D. PSU
+
+Câu 22: Khi máy không nhận USB:
+A. CPU lỗi
+*B. Driver hoặc cổng USB lỗi
+C. HDD lỗi
+D. RAM lỗi
+
+Câu 23: Thiết bị xử lý đồ họa:
+A. RAM
+*B. VGA Card
+C. PSU
+D. NIC
+
+Câu 24: Quạt CPU có tác dụng:
+A. Tăng điện áp
+*B. Giải nhiệt CPU
+C. Tăng RAM
+D. Tăng tốc HDD
+
+Câu 25: Màn hình thuộc thiết bị:
+A. Input
+*B. Output
+C. Storage
+D. Processing
+
+Câu 26: Chuẩn PCIe thường dùng để gắn:
+A. HDD IDE
+*B. VGA Card
+C. CPU
+D. PSU
+
+Câu 27: Khi máy reset liên tục:
+A. Chuột lỗi
+*B. PSU yếu hoặc CPU quá nhiệt
+C. HDD mới
+D. Loa lỗi
+
+Câu 28: Công cụ chia phân vùng ổ cứng trong Windows:
+A. Device Manager
+*B. Disk Management
+C. Control Panel
+D. Services
+
+Câu 29: Khi HDD phát tiếng “cạch cạch”:
+A. RAM lỗi
+*B. HDD sắp hỏng
+C. CPU yếu
+D. VGA lỗi
+
+Câu 30: Tốc độ quay phổ biến của HDD desktop:
+A. 3600rpm
+B. 4800rpm
+*C. 7200rpm
+D. 12000rpm
+
+Câu 31: Máy tính không nhận card mạng thường do:
+A. CPU lỗi
+*B. Driver NIC lỗi
+C. RAM lỗi
+D. PSU yếu
+
+Câu 32: Bộ nhớ Cache thường được cấu tạo từ:
+A. DRAM
+*B. SRAM
+C. ROM
+D. Flash
+
+Câu 33: Khi màn hình bị sọc:
+A. HDD lỗi
+*B. VGA hoặc cáp màn hình lỗi
+C. RAM lỗi
+D. PSU lỗi
+
+Câu 34: Chuẩn nguồn hiện đại của PC là:
+A. AT
+*B. ATX
+C. BTX
+D. XT
+
+Câu 35: Khi cài lại Windows nên:
+A. Tắt quạt CPU
+*B. Backup dữ liệu trước
+C. Xóa BIOS
+D. Tháo RAM
+
+Câu 36: Khi máy không nhận ổ cứng SATA:
+A. RAM lỗi
+*B. Cáp SATA lỏng hoặc hỏng
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 37: Tính năng SMART của HDD dùng để:
+A. Ép xung ổ cứng
+*B. Theo dõi và cảnh báo lỗi HDD
+C. Tăng tốc boot
+D. Tăng cache HDD
+
+Câu 38: RAM DDR4 không thể gắn vào:
+A. Khe DDR4
+*B. Khe DDR3
+C. Mainboard DDR4
+D. Laptop DDR4
+
+Câu 39: Khi máy chạy chậm sau thời gian dài:
+A. CPU tự yếu đi
+*B. Ổ cứng đầy hoặc phân mảnh
+C. RAM tăng nhiệt
+D. VGA yếu hơn
+
+Câu 40: Thiết bị dùng để lưu trữ dữ liệu lâu dài:
+A. Cache
+B. RAM
+*C. HDD/SSD
+D. Register
+
+Câu 41: Nếu quạt nguồn không quay:
+A. VGA lỗi
+*B. PSU có thể hỏng
+C. RAM lỗi
+D. HDD lỗi
+
+Câu 42: Thiết bị nhập dữ liệu:
+*A. Keyboard
+B. Monitor
+C. Printer
+D. Speaker
+
+Câu 43: Chuẩn giao tiếp cũ của HDD:
+A. SATA
+*B. IDE/PATA
+C. PCIe
+D. USB
+
+Câu 44: Khi BIOS không lưu giờ hệ thống:
+A. RAM lỗi
+*B. Pin CMOS yếu
+C. CPU lỗi
+D. VGA lỗi
+
+Câu 45: Touchpad laptop là:
+*A. Thiết bị nhập
+B. Thiết bị xuất
+C. Thiết bị lưu trữ
+D. Thiết bị mạng
+
+Câu 46: Công cụ chống phân mảnh ổ cứng:
+A. Disk Cleanup
+*B. Disk Defragmenter
+C. Device Manager
+D. BIOS Setup
+
+Câu 47: CPU Intel Core i thế hệ mới thường có:
+A. 1 nhân duy nhất
+*B. Nhiều lõi xử lý
+C. Không có cache
+D. Không dùng bus
+
+Câu 48: Khi máy bị màn hình xanh (BSOD):
+A. Chuột hỏng
+*B. Driver hoặc RAM lỗi
+C. Loa hỏng
+D. Case lỗi
+
+Câu 49: Thiết bị mạng onboard phổ biến:
+A. CPU
+B. HDD
+*C. LAN Card
+D. PSU
+
+Câu 50: Khe RAM laptop thường là:
+A. DIMM
+*B. SO-DIMM
+C. PCIe
+D. AGP
+
+Câu 51: Khi cắm sai điện áp nguồn:
+A. Máy nhanh hơn
+*B. Có thể cháy linh kiện
+C. RAM tăng tốc
+D. HDD mạnh hơn
+
+Câu 52: Chuẩn USB 2.0 có tốc độ tối đa:
+A. 12Mbps
+*B. 480Mbps
+C. 5Gbps
+D. 10Gbps
+
+Câu 53: Thiết bị dùng để đọc đĩa quang:
+A. PSU
+*B. DVD-ROM
+C. RAM
+D. NIC
+
+Câu 54: Khi CPU không được tản nhiệt tốt:
+A. RAM lỗi
+*B. Máy tự restart hoặc treo
+C. HDD bad sector
+D. VGA mất tín hiệu
+
+Câu 55: BIOS viết tắt của:
+A. Binary Input Output Setup
+*B. Basic Input Output System
+C. Boot Integrated Operating System
+D. Binary Integrated Output Service
+
+Câu 56: Khi nâng cấp RAM cần chú ý:
+A. Màu RAM
+*B. Chuẩn RAM và bus hỗ trợ
+C. Tên Windows
+D. Dung lượng HDD
+
+Câu 57: Công nghệ LED là:
+A. Chuẩn CPU
+*B. Công nghệ màn hình
+C. Chuẩn RAM
+D. Chuẩn HDD
+
+Câu 58: Khi máy không nhận bàn phím:
+A. VGA lỗi
+*B. Driver hoặc cổng kết nối lỗi
+C. HDD lỗi
+D. PSU yếu
+
+Câu 59: Chức năng của chipset:
+A. Tăng dung lượng HDD
+*B. Điều phối giao tiếp giữa các thiết bị
+C. Hiển thị hình ảnh
+D. Tăng tốc RAM
+
+Câu 60: Máy tính hoạt động ổn định nhất khi:
+A. CPU mạnh nhất
+B. HDD lớn nhất
+*C. Các linh kiện tương thích nhau
+D. RAM ít nhất
