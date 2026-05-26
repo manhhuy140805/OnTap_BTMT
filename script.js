@@ -156,6 +156,7 @@ window.addEventListener("DOMContentLoaded", () => {
   initTheme();
   initLayouts();
   initSidebarDrawer();
+  initReviewJumpDrawer();
 });
 
 // ===== LOAD QUIZ FROM FILE =====
@@ -609,10 +610,12 @@ function submitQuiz() {
 
   // Generate review list
   let reviewHtml = "";
+  let jumpHtml = "";
   currentQuiz.questions.forEach((q, qIndex) => {
     const chosenIndex = userAnswers[qIndex];
     const chosenOption = chosenIndex !== null ? q.options[chosenIndex] : null;
     const correctOption = q.options.find((opt) => opt.correct);
+    const reviewId = `review-q-${qIndex + 1}`;
 
     let statusClass = "";
     let statusIcon = "";
@@ -628,29 +631,54 @@ function submitQuiz() {
       statusIcon = "✗";
     }
 
-    const chosenText = chosenOption ? chosenOption.text : "Không chọn";
-    const correctText = correctOption ? correctOption.text : "";
+    const reviewOptionsHtml = q.options
+      .map((opt, optIndex) => {
+        const isCorrect = opt.correct;
+        const isChosen = chosenIndex === optIndex;
+        let optionClass = "review-option";
+        if (isCorrect) optionClass += " correct";
+        if (isChosen && !isCorrect) optionClass += " chosen-wrong";
+        if (isChosen && isCorrect) optionClass += " chosen-correct";
+
+        const label = String.fromCharCode(65 + optIndex);
+        const tagHtml = isCorrect
+          ? `<span class="review-option-tag">Đúng</span>`
+          : isChosen
+            ? `<span class="review-option-tag wrong">Bạn chọn</span>`
+            : "";
+        const chosenTagHtml = isChosen && isCorrect
+          ? `<span class="review-option-tag">Bạn chọn</span>`
+          : "";
+
+        return `
+          <div class="${optionClass}">
+            <span class="review-option-label">${label}.</span>
+            <span class="review-option-text">${opt.text}</span>
+            ${tagHtml}
+            ${chosenTagHtml}
+          </div>
+        `;
+      })
+      .join("");
 
     reviewHtml += `
-      <div class="review-item ${statusClass}">
+      <div id="${reviewId}" class="review-item ${statusClass}">
         <div class="review-header-compact">
           <span class="review-badge-compact ${statusClass}">${statusIcon} Câu ${qIndex + 1}</span>
           <span class="review-question-compact">${q.text}</span>
         </div>
         <div class="review-answer-compact">
-          ${
-            chosenIndex === null
-              ? `<span class="answer-badge not-answered">Chưa làm</span> <span class="correct-text">| Đáp án đúng: <strong>${correctText}</strong></span>`
-              : chosenOption && chosenOption.correct
-                ? `<span class="answer-badge correct-answer">Bạn chọn đúng: <strong>${chosenText}</strong></span>`
-                : `<span class="answer-badge wrong-answer">Bạn chọn: <s>${chosenText}</s></span> <span class="correct-text">| Đáp án đúng: <strong>${correctText}</strong></span>`
-          }
+          <div class="review-options">
+            ${reviewOptionsHtml}
+          </div>
         </div>
       </div>
     `;
+    jumpHtml += `<a class="review-jump-link ${statusClass}" href="#${reviewId}">${qIndex + 1}</a>`;
   });
 
   document.getElementById("review-list").innerHTML = reviewHtml;
+  document.getElementById("review-jump").innerHTML = jumpHtml;
 }
 
 // ===== RENDER QUIZ MENU =====
@@ -1043,6 +1071,55 @@ function closeSidebarDrawer() {
   const sidebar = document.querySelector(".sidebar");
   const overlay = document.querySelector(".drawer-overlay");
   if (sidebar) sidebar.classList.remove("drawer-active");
+  if (overlay) overlay.classList.remove("active");
+}
+
+// ===== REVIEW JUMP SIDEBAR (RESULT PAGE) =====
+function initReviewJumpDrawer() {
+  const toggleBtn = document.getElementById("review-jump-toggle");
+  const sidebar = document.getElementById("review-jump-sidebar");
+  if (!toggleBtn || !sidebar) return;
+
+  let overlay = document.querySelector(".review-drawer-overlay");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.className = "review-drawer-overlay";
+    document.body.appendChild(overlay);
+  }
+
+  const closeBtn = sidebar.querySelector(".close-review-drawer");
+  toggleBtn.addEventListener("click", toggleReviewJumpDrawer);
+  if (closeBtn) closeBtn.addEventListener("click", closeReviewJumpDrawer);
+  overlay.addEventListener("click", closeReviewJumpDrawer);
+
+  sidebar.addEventListener("click", (e) => {
+    if (e.target.classList.contains("review-jump-link")) {
+      closeReviewJumpDrawer();
+    }
+  });
+}
+
+function toggleReviewJumpDrawer() {
+  const sidebar = document.getElementById("review-jump-sidebar");
+  const overlay = document.querySelector(".review-drawer-overlay");
+  if (!sidebar || !overlay) return;
+
+  const isActive = sidebar.classList.toggle("active");
+  sidebar.setAttribute("aria-hidden", String(!isActive));
+  if (isActive) {
+    overlay.classList.add("active");
+  } else {
+    overlay.classList.remove("active");
+  }
+}
+
+function closeReviewJumpDrawer() {
+  const sidebar = document.getElementById("review-jump-sidebar");
+  const overlay = document.querySelector(".review-drawer-overlay");
+  if (sidebar) {
+    sidebar.classList.remove("active");
+    sidebar.setAttribute("aria-hidden", "true");
+  }
   if (overlay) overlay.classList.remove("active");
 }
 

@@ -206,18 +206,30 @@
             </div>
 
             <div class="result-review">
-              <h3>Chi tiết từng câu hỏi</h3>
+              <div class="result-review-header">
+                <h3>Chi tiết từng câu hỏi</h3>
+                <button id="review-jump-toggle" class="btn-small review-jump-toggle" title="Danh sách câu hỏi">
+                  📋 Danh sách câu
+                </button>
+              </div>
+              <div id="review-jump-sidebar" class="review-jump-sidebar" aria-hidden="true">
+                <div class="review-jump-header">
+                  <h4>Danh sách câu</h4>
+                  <button class="btn-small close-review-drawer" title="Đóng danh sách">✕ Đóng</button>
+                </div>
+                <div id="review-jump" class="review-jump"></div>
+                <div class="review-jump-actions">
+                  <button class="btn btn-secondary" onclick="backToMenu()">
+                    ← Về trang chủ
+                  </button>
+                  <button class="btn btn-primary" onclick="retryQuiz()">
+                    Làm lại
+                  </button>
+                </div>
+              </div>
               <div id="review-list" class="review-list"></div>
             </div>
 
-            <div class="result-actions">
-              <button class="btn btn-secondary" onclick="backToMenu()">
-                ← Về trang chủ
-              </button>
-              <button class="btn btn-primary" onclick="retryQuiz()">
-                Làm lại
-              </button>
-            </div>
           </div>
         </section>
       </main>
