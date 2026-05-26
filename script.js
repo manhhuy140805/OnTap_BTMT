@@ -30,8 +30,9 @@ const subjects = {
   cnmkd: {
     name: "Công nghệ mạng không dây",
     description: "Bộ câu hỏi ôn tập cuối kỳ môn CNMKD",
-    quizIds: ["cnmkd_ck_de1", "cnmkd_ck_de2"],
-    randomQuizSources: [],
+    quizIds: ["cnmkd_ck_de1", "cnmkd_ck_de2", "cnmkd_tong_hop"],
+    randomQuizSources: ["cnmkd_tong_hop"],
+    randomQuizTimeLimitSeconds: 3600,
   },
 };
 
@@ -114,6 +115,12 @@ const quizzes = {
     difficulty: "Ôn tập",
     questions: [],
   },
+  cnmkd_tong_hop: {
+    name: "Đề tổng hợp - Công nghệ mạng không dây",
+    file: "cnmkd/De-tong-hop.txt",
+    difficulty: "Tổng hợp",
+    questions: [],
+  },
 };
 
 // QUIZ STATE
@@ -122,6 +129,7 @@ let currentQuestionIndex = 0;
 let userAnswers = [];
 let timerInterval = null;
 let elapsedSeconds = 0;
+let activeTimeLimitSeconds = null;
 let quizHistory = JSON.parse(localStorage.getItem("quizHistory")) || [];
 let currentSubjectId = null;
 let currentTermId = null;
@@ -336,7 +344,10 @@ function formatTime(seconds) {
 async function selectQuiz(quizId) {
   // Check if quiz exists and has questions
   if (!quizzes[quizId] || quizzes[quizId].questions.length === 0) {
-    showCustomAlert("Thông báo", "Đề ôn tập trắc nghiệm này hiện chưa sẵn sàng hoặc không có câu hỏi nào!");
+    showCustomAlert(
+      "Thông báo",
+      "Đề ôn tập trắc nghiệm này hiện chưa sẵn sàng hoặc không có câu hỏi nào!",
+    );
     return;
   }
 
@@ -355,11 +366,11 @@ function backToMenu() {
       "Bạn có chắc chắn muốn thoát bài thi? Toàn bộ tiến trình làm bài và thời gian đếm giờ của bạn sẽ bị hủy bỏ.",
       () => {
         exitQuiz();
-      }
+      },
     );
     return;
   }
-  
+
   exitQuiz();
 }
 
@@ -380,6 +391,11 @@ function retryQuiz() {
 
 // ===== TIMER =====
 function updateTimerText() {
+  if (activeTimeLimitSeconds) {
+    const remaining = Math.max(activeTimeLimitSeconds - elapsedSeconds, 0);
+    timerTextEl.textContent = formatTime(remaining);
+    return;
+  }
   timerTextEl.textContent = formatTime(elapsedSeconds);
 }
 
@@ -390,6 +406,10 @@ function startTimer() {
   timerInterval = setInterval(() => {
     elapsedSeconds += 1;
     updateTimerText();
+    if (activeTimeLimitSeconds && elapsedSeconds >= activeTimeLimitSeconds) {
+      stopTimer();
+      submitQuiz();
+    }
   }, 1000);
 }
 
@@ -414,6 +434,7 @@ function startQuiz(quizId) {
     id: quizId,
     name: quizData.name,
     questions: shuffledQuestions,
+    timeLimitSeconds: quizData.timeLimitSeconds || null,
   };
 
   currentQuestionIndex = 0;
@@ -422,10 +443,11 @@ function startQuiz(quizId) {
   quizMenuEl.style.display = "none";
   quizAreaEl.classList.remove("hidden");
   resultPageEl.classList.add("hidden");
-  
+
   updateDrawerButtonVisibility();
 
   quizTitleEl.textContent = currentQuiz.name;
+  activeTimeLimitSeconds = currentQuiz.timeLimitSeconds;
   startTimer();
   renderQuestionList();
   renderQuestion(currentQuestionIndex);
@@ -646,9 +668,10 @@ function submitQuiz() {
           : isChosen
             ? `<span class="review-option-tag wrong">Bạn chọn</span>`
             : "";
-        const chosenTagHtml = isChosen && isCorrect
-          ? `<span class="review-option-tag">Bạn chọn</span>`
-          : "";
+        const chosenTagHtml =
+          isChosen && isCorrect
+            ? `<span class="review-option-tag">Bạn chọn</span>`
+            : "";
 
         return `
           <div class="${optionClass}">
@@ -765,6 +788,7 @@ function renderQuizMenu() {
   });
 
   if (quizGroup.randomQuizSources.length > 0) {
+    const isInstantRandom = currentSubjectId === "cnmkd";
     const randomCard = document.createElement("div");
     randomCard.className = "quiz-option-card random-quiz";
     randomCard.innerHTML = `
@@ -775,8 +799,8 @@ function renderQuizMenu() {
       <p class="quiz-option-desc">
         Tạo đề thi ngẫu nhiên trong môn ${subject.name}
       </p>
-      <button class="btn btn-primary" onclick="showRandomQuizModal()">
-        Tạo đề Random
+      <button class="btn btn-primary" onclick="${isInstantRandom ? "createRandomQuiz(50)" : "showRandomQuizModal()"}">
+        ${isInstantRandom ? "Tạo đề Random 50 câu" : "Tạo đề Random"}
       </button>
     `;
     quizGrid.appendChild(randomCard);
@@ -790,7 +814,7 @@ function showRandomQuizModal() {
   modal.innerHTML = `
     <div class="modal-content">
       <h3>Tạo đề thi ngẫu nhiên</h3>
-      <p class="modal-subtitle">Chọn số lượng câu hỏi bạn muốn làm</p>
+      <p class="modal-subtitle">Chọn số lượng câu hỏi bạn muốn làm (mặc định 50 câu)</p>
       
       <div class="random-options">
         <button class="random-btn" onclick="createRandomQuiz(10)">10 câu</button>
@@ -802,7 +826,7 @@ function showRandomQuizModal() {
       <div class="custom-count">
         <label for="custom-count-input">Hoặc nhập số câu tùy chỉnh:</label>
         <div class="custom-count-input-group">
-          <input type="number" id="custom-count-input" min="1" max="500" value="15" />
+          <input type="number" id="custom-count-input" min="1" max="500" value="50" />
           <button class="btn btn-primary" onclick="createRandomQuiz(parseInt(document.getElementById('custom-count-input').value))">
             Tạo đề
           </button>
@@ -854,7 +878,10 @@ function createRandomQuiz(count) {
 
   // Validate count
   if (!count || count < 1) {
-    showCustomAlert("Lỗi số lượng", "Vui lòng nhập số lượng câu hỏi hợp lệ (tối thiểu 1 câu)!");
+    showCustomAlert(
+      "Lỗi số lượng",
+      "Vui lòng nhập số lượng câu hỏi hợp lệ (tối thiểu 1 câu)!",
+    );
     return;
   }
 
@@ -866,7 +893,7 @@ function createRandomQuiz(count) {
       `Đề ôn tập này chỉ có tối đa ${allQuestions.length} câu hỏi. Hệ thống sẽ tự động tạo đề thi với toàn bộ ${allQuestions.length} câu hỏi.`,
       () => {
         generateAndStartRandomQuiz(allQuestions.length, allQuestions);
-      }
+      },
     );
     return;
   }
@@ -875,19 +902,33 @@ function createRandomQuiz(count) {
 }
 
 function generateAndStartRandomQuiz(count, allQuestions) {
+  const timeLimitSeconds = getRandomQuizTimeLimitSeconds(
+    currentSubjectId,
+    count,
+  );
+  const subject = subjects[currentSubjectId];
+  const quizGroup = getSelectedQuizGroup();
   // Shuffle and pick random questions from selected exam
   const shuffled = shuffleArray([...allQuestions]);
   const selectedQuestions = shuffled.slice(0, count);
 
   // Create temporary random quiz
   quizzes.random = {
-    name: `Đề Random - ${subject.name}${currentTermId ? ` - ${quizGroup.name}` : ""} - ${count} câu`,
+    name: `Đề Random - ${subject?.name || ""}${currentTermId ? ` - ${quizGroup?.name || ""}` : ""} - ${count} câu`,
     difficulty: "Random",
     questions: selectedQuestions,
+    timeLimitSeconds,
   };
 
   closeRandomQuizModal();
   startQuiz("random");
+}
+
+function getRandomQuizTimeLimitSeconds(subjectId, count) {
+  if (subjectId === "cnmkd" && count === 50) {
+    return subjects.cnmkd.randomQuizTimeLimitSeconds || 3600;
+  }
+  return null;
 }
 
 function parseQuizFile(text) {
@@ -941,15 +982,15 @@ function parseQuizFile(text) {
 function initTheme() {
   const themeToggleBtn = document.getElementById("theme-toggle-btn");
   if (!themeToggleBtn) return;
-  
+
   const sunIcon = themeToggleBtn.querySelector(".sun-icon");
   const moonIcon = themeToggleBtn.querySelector(".moon-icon");
-  
+
   // Set default theme from localStorage or default to system preference or light
   const savedTheme = localStorage.getItem("quizTheme") || "light";
   document.body.setAttribute("data-theme", savedTheme);
   updateThemeIcons(savedTheme);
-  
+
   themeToggleBtn.addEventListener("click", () => {
     const currentTheme = document.body.getAttribute("data-theme") || "light";
     const newTheme = currentTheme === "light" ? "dark" : "light";
@@ -957,7 +998,7 @@ function initTheme() {
     localStorage.setItem("quizTheme", newTheme);
     updateThemeIcons(newTheme);
   });
-  
+
   function updateThemeIcons(theme) {
     if (theme === "dark") {
       sunIcon.style.display = "block";
@@ -974,11 +1015,11 @@ function initLayouts() {
   const layoutOpts = document.querySelectorAll(".layout-opt");
   const quizContainer = document.querySelector(".quiz-container");
   if (!quizContainer) return;
-  
+
   // Load saved layout or default to standard
   const savedLayout = localStorage.getItem("quizLayout") || "standard";
   applyLayout(savedLayout);
-  
+
   layoutOpts.forEach((btn) => {
     const layout = btn.getAttribute("data-layout");
     btn.addEventListener("click", () => {
@@ -988,7 +1029,7 @@ function initLayouts() {
 
   // Watch for resize events to dynamically toggle drawer button on mobile
   window.addEventListener("resize", updateDrawerButtonVisibility);
-  
+
   function applyLayout(layout) {
     // Update active layout button state
     layoutOpts.forEach((btn) => {
@@ -998,14 +1039,19 @@ function initLayouts() {
         btn.classList.remove("active");
       }
     });
-    
+
     // Apply layout class to container
-    quizContainer.classList.remove("layout-standard", "layout-reversed", "layout-focused", "layout-compact");
+    quizContainer.classList.remove(
+      "layout-standard",
+      "layout-reversed",
+      "layout-focused",
+      "layout-compact",
+    );
     quizContainer.classList.add(`layout-${layout}`);
     localStorage.setItem("quizLayout", layout);
-    
+
     updateDrawerButtonVisibility();
-    
+
     // Always close drawer when switching layouts
     closeSidebarDrawer();
   }
@@ -1015,10 +1061,10 @@ function updateDrawerButtonVisibility() {
   const toggleDrawerBtn = document.getElementById("toggle-sidebar-drawer");
   const quizContainer = document.querySelector(".quiz-container");
   if (!toggleDrawerBtn || !quizContainer) return;
-  
+
   const currentLayout = localStorage.getItem("quizLayout") || "standard";
   const isMobile = window.innerWidth <= 768;
-  
+
   if (currentLayout === "focused" || currentLayout === "compact" || isMobile) {
     toggleDrawerBtn.classList.remove("hidden");
     toggleDrawerBtn.style.display = "inline-flex";
@@ -1036,9 +1082,9 @@ function initSidebarDrawer() {
     overlay.className = "drawer-overlay";
     document.body.appendChild(overlay);
   }
-  
+
   overlay.addEventListener("click", closeSidebarDrawer);
-  
+
   // Close drawer when selecting a question button on drawer-mode layouts or mobile
   const sidebar = document.querySelector(".sidebar");
   if (sidebar) {
@@ -1046,7 +1092,11 @@ function initSidebarDrawer() {
       if (e.target.classList.contains("question-button")) {
         const currentLayout = localStorage.getItem("quizLayout") || "standard";
         const isMobile = window.innerWidth <= 768;
-        if (currentLayout === "focused" || currentLayout === "compact" || isMobile) {
+        if (
+          currentLayout === "focused" ||
+          currentLayout === "compact" ||
+          isMobile
+        ) {
           closeSidebarDrawer();
         }
       }
@@ -1058,7 +1108,7 @@ function toggleSidebarDrawer() {
   const sidebar = document.querySelector(".sidebar");
   const overlay = document.querySelector(".drawer-overlay");
   if (!sidebar || !overlay) return;
-  
+
   const isActive = sidebar.classList.toggle("drawer-active");
   if (isActive) {
     overlay.classList.add("active");

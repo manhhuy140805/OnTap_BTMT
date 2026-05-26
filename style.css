@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Google Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
 
 :root {
   /* --- LIGHT THEME (MONOCHROME COOL SLATE) --- */
@@ -12,38 +12,38 @@
   --bg-neutral: #f1f5f9;
   --bg-neutral-hover: #e2e8f0;
   --bg-neutral-active: #cbd5e1;
-  
+
   --text-primary: #0f172a;
   --text-secondary: #475569;
   --text-muted: #94a3b8;
   --text-white: #ffffff;
-  
+
   --accent-mono: #0f172a;
   --accent-mono-hover: #1e293b;
   --accent-mono-soft: #f1f5f9;
-  
+
   --success-mono: #0f172a;
   --success-bg-soft: #ecfdf5;
   --success-text-soft: #065f46;
-  
+
   --danger-mono: #0f172a;
   --danger-bg-soft: #fef2f2;
   --danger-text-soft: #991b1b;
-  
+
   --warning-mono: #475569;
   --warning-bg-soft: #fffbeb;
   --warning-text-soft: #854d0e;
-  
+
   --shadow-sm: 0 2px 8px -1px rgba(15, 23, 42, 0.03);
   --shadow-md: 0 12px 30px -10px rgba(15, 23, 42, 0.04);
   --shadow-lg: 0 20px 40px -15px rgba(15, 23, 42, 0.06);
   --shadow-focus: 0 0 0 3px rgba(15, 23, 42, 0.15);
-  
+
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 9999px;
-  
+
   --transition-fast: 0.15s cubic-bezier(0.16, 1, 0.3, 1);
   --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -55,28 +55,28 @@
   --bg-neutral: #1b2333;
   --bg-neutral-hover: #242e42;
   --bg-neutral-active: #2f3d57;
-  
+
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
   --text-white: #090d16;
-  
+
   --accent-mono: #ffffff;
   --accent-mono-hover: #f1f5f9;
   --accent-mono-soft: #1b2333;
-  
+
   --success-mono: #ffffff;
   --success-bg-soft: #064e3b;
   --success-text-soft: #a7f3d0;
-  
+
   --danger-mono: #ffffff;
   --danger-bg-soft: #7f1d1d;
   --danger-text-soft: #fecaca;
-  
+
   --warning-mono: #94a3b8;
   --warning-bg-soft: #78350f;
   --warning-text-soft: #fde68a;
-  
+
   --shadow-sm: 0 2px 8px -1px rgba(0, 0, 0, 0.2);
   --shadow-md: 0 12px 30px -10px rgba(0, 0, 0, 0.3);
   --shadow-lg: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
@@ -97,11 +97,19 @@ body {
   min-height: 100vh;
   background-color: var(--bg-app);
   color: var(--text-primary);
-  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    "Plus Jakarta Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background-color var(--transition-normal), color var(--transition-normal);
+  transition:
+    background-color var(--transition-normal),
+    color var(--transition-normal);
 }
 
 .app {
@@ -233,7 +241,9 @@ input:focus-visible {
   background: rgba(255, 255, 255, 0.06);
   color: #ffffff;
   cursor: pointer;
-  transition: background var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .theme-toggle-btn:hover {
@@ -262,8 +272,14 @@ input:focus-visible {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .menu-card,
@@ -271,7 +287,9 @@ input:focus-visible {
   border-radius: var(--radius-lg);
   background-color: var(--bg-surface);
   box-shadow: var(--shadow-md);
-  transition: background-color var(--transition-normal), box-shadow var(--transition-normal);
+  transition:
+    background-color var(--transition-normal),
+    box-shadow var(--transition-normal);
 }
 
 .menu-card {
@@ -327,7 +345,10 @@ input:focus-visible {
   padding: 28px;
   border-radius: var(--radius-md);
   background-color: var(--bg-neutral);
-  transition: background-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .subject-option-card:hover,
@@ -421,7 +442,11 @@ input:focus-visible {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.01em;
-  transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .btn:active {
@@ -516,7 +541,9 @@ input:focus-visible {
   background-color: var(--bg-neutral);
   cursor: pointer;
   font-size: 14px;
-  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .history-item:hover {
@@ -545,12 +572,18 @@ input:focus-visible {
 .quiz-container {
   display: grid;
   grid-template-columns: 290px minmax(0, 1fr);
-  height: clamp(550px, 80vh, 760px); /* Lock exact height for internal flex scrolling to work */
+  height: clamp(
+    520px,
+    85vh,
+    760px
+  ); /* Slightly taller viewport to fit 4 options */
   border-radius: var(--radius-lg);
   background-color: var(--bg-surface);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
-  transition: grid-template-columns var(--transition-normal), background-color var(--transition-normal);
+  transition:
+    grid-template-columns var(--transition-normal),
+    background-color var(--transition-normal);
 }
 
 /* --- SIDEBAR --- */
@@ -561,7 +594,10 @@ input:focus-visible {
   height: 100%;
   padding: 24px 20px;
   background-color: var(--bg-neutral);
-  transition: background-color var(--transition-normal), transform var(--transition-normal), width var(--transition-normal);
+  transition:
+    background-color var(--transition-normal),
+    transform var(--transition-normal),
+    width var(--transition-normal);
 }
 
 .sidebar-header {
@@ -652,7 +688,9 @@ input:focus-visible {
 }
 
 .question-button.current {
-  box-shadow: 0 0 0 2px var(--text-primary) inset, var(--shadow-sm);
+  box-shadow:
+    0 0 0 2px var(--text-primary) inset,
+    var(--shadow-sm);
   font-weight: 800;
 }
 
@@ -709,7 +747,7 @@ input:focus-visible {
   flex-direction: column;
   overflow: hidden; /* Lock scroll on the main outer panel */
   height: 100%;
-  padding: clamp(20px, 4vw, 36px);
+  padding: clamp(16px, 3.2vw, 28px);
 }
 
 /* --- QUIZ HEADER BLOCK --- */
@@ -718,8 +756,8 @@ input:focus-visible {
   align-items: flex-start;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 32px;
-  padding-bottom: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 2px solid var(--bg-neutral) !important;
 }
 
@@ -825,7 +863,9 @@ input:focus-visible {
   border-radius: 2px;
   background-color: var(--text-muted);
   opacity: 0.6;
-  transition: background-color var(--transition-fast), opacity var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    opacity var(--transition-fast);
 }
 
 .layout-opt.active {
@@ -899,12 +939,12 @@ input:focus-visible {
 .question-content {
   flex: 1;
   overflow-y: auto; /* Make the questions scrollable independently, keeping controls pinned */
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   padding-right: 8px;
 }
 
 .question-text {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   color: var(--text-primary);
   font-size: clamp(16px, 2.2vw, 18px);
   font-weight: 700;
@@ -915,7 +955,7 @@ input:focus-visible {
 .options-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   list-style: none;
 }
 
@@ -923,15 +963,18 @@ input:focus-visible {
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 18px 20px;
+  padding: 14px 16px;
   border-radius: var(--radius-md);
   background-color: var(--bg-neutral);
   color: var(--text-primary);
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 500;
   line-height: 1.5;
-  transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .option-number {
@@ -946,7 +989,9 @@ input:focus-visible {
   color: var(--text-secondary);
   font-size: 12px;
   font-weight: 700;
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast);
 }
 
 .option-item:hover {
@@ -971,17 +1016,17 @@ input:focus-visible {
 .controls {
   display: flex;
   gap: 14px;
-  padding-top: 24px;
+  padding-top: 16px;
   border-top: 2px solid var(--bg-neutral) !important;
 }
 
 .keyboard-hint {
-  margin-top: 24px;
-  padding: 10px;
+  margin-top: 16px;
+  padding: 8px;
   border-radius: var(--radius-sm);
   background-color: var(--bg-neutral);
   color: var(--text-secondary);
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 600;
   text-align: center;
 }
@@ -1294,7 +1339,10 @@ input:focus-visible {
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
-  transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .review-jump-link:hover {
@@ -1522,8 +1570,12 @@ input:focus-visible {
 }
 
 @keyframes modalFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .modal-content {
@@ -1536,8 +1588,14 @@ input:focus-visible {
 }
 
 @keyframes modalSlideUp {
-  from { opacity: 0; transform: translateY(16px) scale(0.98); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .modal-content h3 {
@@ -1571,7 +1629,9 @@ input:focus-visible {
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
-  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .random-btn:hover {

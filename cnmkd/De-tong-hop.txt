@@ -1,729 +1,1024 @@
-Chào bro, để phục vụ nhu cầu ôn tập khối lượng lớn cho kỳ thi cuối kỳ môn Công nghệ mạng không dây, dưới đây là bộ ngân hàng câu hỏi tổng hợp bao gồm 120 câu hỏi trắc nghiệm tiếp theo.
+BỘ NGÂN HÀNG CÂU HỎI TRẮC NGHIỆM TỔNG HỢP ÔN THI CUỐI KỲ (170 CÂU)
+MÔN: CÔNG NGHỆ MẠNG KHÔNG DÂY
+-------------------------------------------------------------
 
-Bộ câu hỏi này quét qua toàn bộ các chủ đề từ Tổng quan WLAN, 802.11, Bảo mật, MANET, WSN, VANET, FANET, 6LoWPAN, đến mạng 4G/5G, được thiết kế liên tục không chia chương để bro dễ dàng sao chép và tự luyện tập.
+Câu 1: Chuẩn IEEE 802.11ax còn được biết đến rộng rãi với tên thương mại là gì?
+A. Wi-Fi 5
+*B. Wi-Fi 6
+C. Wi-Fi 6E
+D. Wi-Fi 7
 
-Câu 1: Kiến trúc mạng WLAN sử dụng thiết bị trung tâm Access Point để quản lý và kết nối các trạm gọi là mô hình gì?
+Câu 2: Trong các chuẩn IEEE 802.11, kỹ thuật MIMO (Multiple-Input Multiple-Output) hỗ trợ giải quyết vấn đề gì?
+*A. Tận dụng hiện tượng đa đường (multipath) để tăng dung lượng và tốc độ bằng nhiều anten
+B. Làm giảm vùng phủ sóng để tiết kiệm năng lượng
+C. Chuyển đổi toàn bộ tín hiệu vô tuyến thành tín hiệu quang học
+D. Loại bỏ hoàn toàn quá trình mã hóa lớp liên kết dữ liệu
+
+Câu 3: Kiến trúc mạng WLAN sử dụng thiết bị trung tâm Access Point để quản lý kết nối gọi là mô hình gì?
 A. Ad-hoc
 *B. Infrastructure
 C. Peer-to-Peer
 D. Mesh Network
 
-Câu 2: Chuẩn IEEE 802.11b sử dụng kỹ thuật trải phổ nào ở lớp vật lý?
+Câu 4: Chuẩn IEEE 802.11b sử dụng kỹ thuật trải phổ nào ở lớp vật lý?
 A. OFDM
 *B. DSSS (Direct Sequence Spread Spectrum)
 C. FHSS
 D. MIMO
 
-Câu 3: Chuẩn bảo mật WEP sử dụng thuật toán kiểm tra tính toàn vẹn dữ liệu ICV dựa trên thuật toán nào?
-A. MD5
-B. SHA-1
-*C. CRC-32
-D. HMAC
-
-Câu 4: Điểm yếu cốt lõi dẫn đến việc WEP dễ bị bẻ khóa là gì?
-*A. Không gian khóa IV quá ngắn (24-bit) và khóa mã hóa tĩnh
-B. Sử dụng thuật toán AES quá phức tạp
-C. Không hỗ trợ lọc địa chỉ MAC
-D. Bắt buộc phải có máy chủ RADIUS
-
-Câu 5: Giao thức TKIP trong WPA cải tiến cơ chế mã hóa của WEP bằng cách tăng độ dài của vectơ khởi tạo (IV) lên bao nhiêu bit?
-A. 32 bit
-*B. 48 bit
-C. 64 bit
-D. 128 bit
-
-Câu 6: Cơ chế bảo mật WPA2-Personal sử dụng phương thức xác thực nào?
-*A. Pre-Shared Key (PSK)
-B. 802.1X/EAP
-C. Chứng thư số (Digital Certificate)
-D. Xác thực qua SIM
-
-Câu 7: Thuật toán mã hóa dòng đối xứng nào được sử dụng trong cả hai cơ chế WEP và WPA-TKIP?
-A. AES
-B. DES
-*C. RC4
-D. Blowfish
-
-Câu 8: Chuẩn bảo mật WPA2 sử dụng giao thức nào kết hợp với thuật toán AES để đảm bảo tính toàn vẹn và bảo mật dữ liệu?
-A. TKIP
-*B. CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)
-C. WEP2
-D. SAE
-
-Câu 9: Tính năng lọc địa chỉ MAC trên Access Point hoạt động ở tầng nào của mô hình OSI?
-A. Tầng vật lý
-*B. Tầng liên kết dữ liệu
-C. Tầng mạng
-D. Tầng ứng dụng
-
-Câu 10: Kiểu tấn công "Rogue Access Point" gây ra nguy cơ gì cho mạng nội bộ của doanh nghiệp?
-A. Làm cháy card mạng của Client
-*B. Tạo ra một điểm truy cập bất hợp pháp cho phép kẻ ngoại lai xâm nhập không qua kiểm soát vào mạng có dây
-C. Làm tăng băng thông vô tuyến vô điều kiện
-D. Thay đổi địa chỉ IP của máy chủ DNS
-
-Câu 11: Một mạng di động ad-hoc (MANET) không phụ thuộc vào thành phần nào sau đây?
-A. Định tuyến đa chặng (Multi-hop)
-B. Các nút mạng di động
-*C. Cơ sở hạ tầng trạm gốc cố định
-D. Giao thức cấu hình tự động
-
-Câu 12: Giao thức định tuyến DSDV trong mạng MANET giải quyết vấn đề vòng lặp định tuyến (routing loops) bằng cách sử dụng chỉ số nào?
-A. Địa chỉ IP nguồn
-*B. Số thứ tự đích (Destination Sequence Number)
-C. Độ trễ gói tin
-D. Số lượng nút trung gian
-
-Câu 13: Giao thức định tuyến AODV (Ad-hoc On-Demand Distance Vector) thuộc nhóm định tuyến nào?
-A. Định tuyến chủ động (Proactive)
-*B. Định tuyến phản ứng (Reactive)
-C. Định tuyến phân cấp (Hybrid)
-D. Định tuyến tĩnh (Static)
-
-Câu 14: Trong giao thức AODV, khi một nút nguồn muốn tìm đường đến một nút đích, nó sẽ phát tán gói tin nào toàn mạng?
-*A. RREQ (Route Request)
-B. RREP (Route Reply)
-C. RERR (Route Error)
-D. HELLO
-
-Câu 15: Khi một nút trung gian trong mạng MANET phát hiện liên kết đến nút tiếp theo bị đứt gãy, nó sẽ gửi gói tin nào về phía nút nguồn?
-A. RREQ
-B. RREP
-*C. RERR (Route Error)
-D. DATA
-
-Câu 16: Điểm khác biệt chính giữa giao thức DSR và AODV là gì?
-A. AODV là định tuyến chủ động, DSR là phản ứng
-*B. DSR lưu toàn bộ thông tin đường đi trong tiêu đề gói tin, còn AODV lưu trong bảng định tuyến của các nút trung gian
-C. DSR chỉ chạy trên mạng có dây
-D. AODV yêu cầu định vị GPS còn DSR thì không
-
-Câu 17: Kiểu tấn công "Hố đen" (Blackhole attack) trong mạng MANET can thiệp trực tiếp vào tiến trình nào?
-*A. Tiến trình tìm đường (Route Discovery) bằng cách gửi RREP giả mạo
-B. Tiến trình cấp phát địa chỉ IP động
-C. Tiến trình mã hóa lớp vật lý
-D. Tiến trình sạc pin của thiết bị
-
-Câu 18: Để nâng cao chất lượng dịch vụ (QoS) trong MANET, các giao thức cần phải thích ứng với đặc điểm nào?
-A. Băng thông vô tuyến cố định và không bao giờ nhiễu
-*B. Cấu trúc hình học (topology) thay đổi liên tục và liên kết dễ đứt gãy
-C. Nguồn năng lượng vô hạn của các thiết bị di động
-D. Số lượng nút mạng luôn cố định
-
-Câu 19: Thành phần trung tâm trong mạng cảm biến không dây (WSN) dùng để thu thập dữ liệu từ các nút cảm biến được gọi là gì?
-A. Nút Cluster Head
-*B. Nút Sink (hoặc Base Station)
-C. Nút Gateway di động
-D. Nút Router lõi
-
-Câu 20: Mục tiêu tối ưu hàng đầu khi thiết kế các giao thức và kiến trúc cho mạng WSN là gì?
-A. Tối đa hóa tốc độ tải tệp dữ liệu
-*B. Tối ưu hóa và tiết kiệm năng lượng tiêu thụ (năng lượng pin)
-C. Sử dụng các thuật toán mã hóa phức tạp nhất
-D. Đảm bảo các nút mạng luôn di chuyển với vận tốc cao
-
-Câu 21: Giao thức LEACH trong mạng WSN thực hiện phân chia các nút mạng thành cấu trúc gì để tiết kiệm năng lượng?
-A. Cấu trúc cây (Tree)
-B. Cấu trúc lưới (Mesh)
-*C. Cấu trúc cụm (Cluster)
-D. Cấu trúc vòng (Ring)
-
-Câu 22: Vai trò chính của một Trưởng cụm (Cluster Head) trong giao thức LEACH là gì?
-*A. Thu thập dữ liệu từ các nút trong cụm, nén/gom cụm dữ liệu và truyền về Sink
-B. Cấp phát pin từ xa cho các nút thành viên
-C. Ngắt kết nối hoàn toàn với nút Sink
-D. Tấn công giả mạo địa chỉ các nút độc hại
-
-Câu 23: Tấn công "Wormhole attack" trong mạng WSN sử dụng thành phần nào để tạo đường truyền ngầm bất hợp pháp?
-A. Phần mềm độc hại gửi qua email
-*B. Một liên kết tốc độ cao (out-of-band link) giữa hai nút độc hại ở khoảng cách xa
-C. Sóng radio tần số cực thấp từ vệ tinh
-D. Các gói tin ICMP kích thước lớn
-
-Câu 24: Cơ chế gom cụm dữ liệu (Data Aggregation) trong WSN giúp nâng cao chất lượng mạng bằng cách nào?
-A. Tăng số lượng gói tin truyền trên không trung
-*B. Giảm bớt dữ liệu dư thừa, tiết kiệm năng lượng truyền dẫn và giảm đụng độ kênh truyền
-C. Tăng độ trễ của các gói tin khẩn cấp
-D. Mã hóa gói tin thành nhiều lớp độc lập
-
-Câu 25: Tấn công "Hello Flood" trong mạng WSN lợi dụng đặc tính nào của nút độc hại?
-A. Nút độc hại có dung lượng bộ nhớ lớn
-*B. Nút độc hại có công suất phát sóng cực lớn để đánh lừa các nút khác rằng nó là nút láng giềng gần kề
-C. Nút độc hại có khả năng tự phục hồi pin
-D. Nút độc hại giả mạo làm nhà quản trị mạng
-
-Câu 26: Mạng VANET (Vehicular Ad-hoc Network) khác với mạng MANET truyền thống ở đặc điểm cốt lõi nào?
-A. Các nút mạng là các cảm biến cố định
-*B. Các nút di chuyển với vận tốc cao dọc theo các tuyến đường cố định và không bị giới hạn năng lượng pin
-C. Không sử dụng sóng vô tuyến để liên lạc
-D. Chỉ hoạt động trong môi trường văn phòng
-
-Câu 27: Thiết bị OBU (On-Board Unit) trong mạng VANET được lắp đặt ở đâu?
-*A. Được tích hợp trực tiếp trên các phương tiện giao thông
-B. Được lắp cố định ở hai bên đường đi
-C. Được đặt tại trung tâm quản lý giao thông đô thị
-D. Được gắn trên các vệ tinh GPS
-
-Câu 28: Thiết bị RSU (Road-Side Unit) trong kiến trúc VANET đóng vai trò gì?
-A. Điều khiển vô lăng tự động của xe
-*B. Là hạ tầng cố định ven đường đóng vai trò kết nối xe vào mạng diện rộng hoặc cung cấp dịch vụ tại chỗ
-C. Đo lường lượng khí thải của phương tiện
-D. Lưu trữ lịch sử hành trình của tài xế
-
-Câu 29: Kịch bản giao tiếp V2V trong mạng VANET đại diện cho hình thức truyền thông nào?
-A. Phương tiện giao tiếp với hạ tầng ven đường
-*B. Phương tiện giao tiếp trực tiếp với phương tiện khác
-C. Phương tiện giao tiếp với vệ tinh
-D. Hạ tầng ven đường giao tiếp với trung tâm điều hành
-
-Câu 30: Giao thức định tuyến GPSR trong mạng VANET chọn nút chuyển tiếp tiếp theo dựa trên thông tin gì?
-A. Bảng định tuyến tĩnh lưu trong bộ nhớ
-*B. Tọa độ vị trí địa lý hiện tại của các nút láng giềng gần đích nhất
-C. Số lượng gói tin đã truyền thành công
-D. Địa chỉ MAC của thiết bị RSU
-
-Câu 31: Mối đe dọa bảo mật phát tán "Thông tin giả mạo" (False Information) trong VANET có thể dẫn đến hậu quả gì?
-A. Làm hỏng lốp xe của các phương tiện
-*B. Gây hỗn loạn giao thông hoặc tai nạn do các cảnh báo giả về va chạm hoặc tắc đường
-C. Đánh cắp tài khoản ngân hàng của tài xế
-D. Làm tăng lượng tiêu thụ nhiên liệu của xe
-
-Câu 32: Phương pháp "Chữ ký nặc danh thay đổi liên tục" (Pseudonyms) trong VANET giải quyết mục tiêu bảo mật nào?
-A. Tính sẵn sàng của mạng
-*B. Tính riêng tư (Privacy) và bảo vệ vị trí của người dùng
-C. Tốc độ truyền tải gói tin dữ liệu
-D. Khả năng chống nhiễu lớp vật lý
-
-Câu 33: Yêu cầu về chất lượng dịch vụ (QoS) quan trọng nhất đối với các ứng dụng an toàn (Safety applications) trong VANET là gì?
-*A. Độ trễ cực thấp và độ tin cậy truyền gói tin cực cao
-B. Băng thông rộng để tải video giải trí
-C. Kiến trúc định tuyến tĩnh cố định
-D. Khả năng tương thích với mạng 2G
-
-Câu 33: Trạm phát sóng thế hệ mới trong kiến trúc mạng di động 5G được gọi là gì?
-A. eNodeB
-*B. gNodeB
-C. NodeB
-D. BTS
-
-Câu 34: Công nghệ 4G LTE sử dụng kiến trúc mạng lõi nào sau đây?
-A. GSM Core
-*B. EPC (Evolved Packet Core)
-C. 5GC
-D. UMTS Core
-
-Câu 35: Công nghệ "Network Slicing" trong mạng 5G mang lại lợi ích gì cho việc quản lý chất lượng dịch vụ (QoS)?
-A. Chia nhỏ một anten vật lý thành nhiều mảnh nhỏ
-*B. Tạo ra các lát cắt mạng ảo độc lập trên cùng một hạ tầng vật lý để đáp ứng các yêu cầu QoS khác nhau của từng dịch vụ
-C. Tăng công suất phát sóng của trạm gNodeB lên gấp đôi
-D. Loại bỏ hoàn toàn nhu cầu sử dụng địa chỉ IP
-
-Câu 36: Dịch vụ URLLC trong mạng 5G hướng tới đối tượng ứng dụng nào?
-A. Xem video trực tuyến độ phân giải cao 8K
-*B. Các ứng dụng điều khiển thời gian thực yêu cầu độ trễ siêu thấp và độ tin cậy cực cao như xe tự lái, phẫu thuật từ xa
-C. Kết nối hàng triệu cảm biến IoT thông minh
-D. Truyền tin nhắn văn bản SMS truyền thống
-
-Câu 37: Trong bảo mật mạng 5G, định danh thuê bao SUCI (Subscription Concealed Identifier) được tạo ra nhằm mục đích gì?
-A. Thay thế hoàn toàn số điện thoại của người dùng
-*B. Mã hóa định danh thường trú SUPI (hoặc IMSI) để chống nghe lén thông tin định danh trên giao diện vô tuyến
-C. Tăng tốc độ đăng ký mạng của thiết bị
-D. Giảm dung lượng bộ nhớ của thẻ SIM
-
-Câu 38: Tầng thích ứng 6LoWPAN nằm giữa hai tầng nào trong mô hình kiến trúc mạng?
-A. Tầng Vật lý và tầng Liên kết dữ liệu
-*B. Tầng Liên kết dữ liệu (MAC) và tầng Mạng (IPv6)
-C. Tầng Mạng và tầng Giao vận
-D. Tầng Giao vận và tầng Ứng dụng
-
-Câu 39: Giao thức định tuyến RPL được thiết kế cho mạng công suất thấp và tổn hao (LLNs) sử dụng cấu trúc đồ thị nào?
-A. Mesh Graph
-*B. DODAG (Destination-Oriented Directed Acyclic Graph)
-C. Star Graph
-D. Ring Graph
-
-Câu 40: Mạng FANET (Flying Ad-hoc Network) là một dạng mạng tự tổ chức đặc thù sử dụng các thiết bị nào làm nút mạng?
-A. Xe ô tô thông minh
-B. Điện thoại di động của hành khách bay
-*C. Các thiết bị bay không người lái (UAV/Drone)
-D. Các vệ tinh địa tĩnh
-
-Câu 41: Điểm khác biệt lớn nhất về đặc tính di động của FANET so với VANET là gì?
-A. Các nút mạng di chuyển chậm hơn
-*B. Các nút mạng di chuyển với tốc độ cao trong không gian ba chiều (3D) tự do
-C. Các nút mạng bị giới hạn di chuyển theo làn đường
-D. Các nút mạng hoàn toàn đứng yên
-
-Câu 42: Tấn công chèn ép tín hiệu (Jamming) trong mạng FANET gây ra tác hại trực tiếp nào?
-*A. Làm gián đoạn kênh truyền vô tuyến lớp vật lý, khiến UAV mất tín hiệu điều khiển hoặc không thể gửi dữ liệu
-B. Đánh cắp mật khẩu đăng nhập của người vận hành UAV
-C. Làm cạn kiệt dung lượng bộ nhớ lưu trữ hình ảnh trên UAV
-D. Thay đổi thuật toán định tuyến của mạng lõi Internet
-
-Câu 43: Chuẩn IEEE 802.11a hoạt động ở dải tần nào?
+Câu 5: Chuẩn IEEE 802.11a hoạt động ở dải tần nào?
 A. 2.4 GHz
 *B. 5.0 GHz
 C. 60 GHz
 D. 900 MHz
 
-Câu 44: Cơ chế CSMA/CA được sử dụng trong mạng WLAN nhằm mục đích gì?
+Câu 6: Cơ chế CSMA/CA được sử dụng trong mạng WLAN nhằm mục đích gì?
 A. Mã hóa gói tin dữ liệu bảo mật
-*B. Tránh đụng độ và điều khiển truy cập môi trường truyền dẫn vô tuyến
-C. Định tuyến đường đi tối ưu giữa các mạng
-D. Tăng công suất phát sóng của Access Point
+*B. Tránh đụng độ và điều khiển truy cập môi trường vô tuyến
+C. Định tuyến đường đi tối ưu
+D. Tăng công suất phát sóng
 
-Câu 45: Trong bảo mật WPA3, giao thức bắt tay SAE giúp chống lại hình thức tấn công nào vốn rất nguy hiểm trên WPA2?
-A. Tấn công Jamming lớp vật lý
-*B. Tấn công dò mật khẩu ngoại tuyến (Offline Dictionary Attack) từ việc bắt gói tin bắt tay
-C. Tấn công từ chối dịch vụ bằng gói tin IP lỗi
-D. Tấn công thay đổi địa chỉ MAC vật lý
-
-Câu 46: Giao thức định tuyến chủ động (Proactive) trong mạng MANET có nhược điểm lớn nào sau đây?
-A. Mất nhiều thời gian tìm đường khi cần gửi dữ liệu
-*B. Tiêu tốn nhiều băng thông để liên tục cập nhật và duy trì bảng định tuyến ngay cả khi mạng không có lưu lượng dữ liệu
-C. Không hỗ trợ định tuyến đa chặng
-D. Chỉ chạy được trên thiết bị của hãng Cisco
-
-Câu 47: Khái niệm "Data Aggregation" trong mạng WSN hỗ trợ mục tiêu nào?
-A. Tăng kích thước tệp truyền dẫn
-*B. Tiết kiệm năng lượng cho các nút cảm biến bằng cách giảm thiểu lượng dữ liệu dư thừa truyền về Sink
-C. Cho phép nút cảm biến tự động sạc pin từ năng lượng mặt trời
-D. Loại bỏ hoàn toàn lớp vật lý của mạng
-
-Câu 48: Để bảo vệ quyền riêng tư và vị trí của phương tiện trong mạng VANET, thành phần nào chịu trách nhiệm cấp phát các chứng thư định danh giả ngẫu nhiên (Pseudonyms)?
-A. Thiết bị OBU trên xe
-B. Thiết bị RSU ven đường
-*C. Cơ quan quản lý đáng tin cậy (Trusted Authority - TA)
-D. Tổng đài viễn thông 4G
-
-Câu 49: Kỹ thuật nén tiêu đề (Header Compression) trong 6LoWPAN giúp giảm kích thước tiêu đề của gói tin nào để truyền vừa qua khung chuẩn IEEE 802.15.4?
-A. Gói tin TCP
-*B. Gói tin IPv6
-C. Gói tin HTTP
-D. Gói tin MAC Layer
-
-Câu 50: Ứng dụng công nghệ Học máy (Machine Learning) trong định tuyến mạng FANET hỗ trợ giải quyết bài toán gì?
-*A. Dự đoán sự đứt gãy liên kết do UAV di chuyển tốc độ cao để tối ưu hóa việc chọn đường truyền
-B. Tăng dung lượng pin vật lý của các UAV lên vô hạn
-C. Thay thế hoàn toàn người điều khiển UAV dưới mặt đất
-D. Tự động mã hóa WEP-24bit cho các gói tin
-
-Câu 51: Chuẩn kết nối không dây IEEE 802.11n hỗ trợ hoạt động trên dải tần nào?
+Câu 7: Chuẩn kết nối không dây IEEE 802.11n hỗ trợ hoạt động trên dải tần nào?
 A. Chỉ dải tần 2.4 GHz
 B. Chỉ dải tần 5.0 GHz
 *C. Cả hai dải tần 2.4 GHz và 5.0 GHz
 D. Dải tần 60 GHz
 
-Câu 52: Trong mạng WLAN, gói tin "Beacon" được phát ra từ thiết bị nào và nhằm mục đích gì?
-A. Phát ra từ Client để tìm kiếm Access Point gần nhất
-*B. Phát định kỳ từ Access Point để quảng bá sự hiện diện và các thông số thiết lập mạng của nó
-C. Phát ra từ máy chủ RADIUS để chặn các kết nối lạ
-D. Phát ra từ Router để cấp địa chỉ IP động
+Câu 8: Trong mạng WLAN, gói tin 'Beacon' được phát ra từ thiết bị nào và nhằm mục đích gì?
+A. Phát từ Client để tìm kiếm Access Point
+*B. Phát định kỳ từ Access Point để quảng bá sự hiện diện và tham số thiết lập mạng
+C. Phát từ máy chủ RADIUS để chặn kết nối lạ
+D. Phát từ Router để cấp IP động
 
-Câu 53: Cơ chế bắt tay 4 bước (4-way handshake) trong WPA/WPA2 được thực hiện nhằm mục đích gì?
-A. Để kiểm tra xem Client có bị nhiễm virus hay không
-*B. Để xác thực lẫn nhau và tạo ra các khóa mã hóa tạm thời cho phiên làm việc dựa trên khóa gốc
-C. Để cấp phát địa chỉ IP cho Client
-D. Để đo lường khoảng cách vật lý giữa AP và Client
+Câu 9: Chuẩn mạng không dây IEEE 802.11a và 802.11g có điểm chung nào sau đây?
+A. Hoạt động chung trên dải tần số vô tuyến 2.4 GHz
+B. Đều hỗ trợ tốc độ truyền tải tối đa là 11 Mbps
+*C. Đều sử dụng kỹ thuật điều chế OFDM lớp vật lý và hỗ trợ tốc độ tối đa 54 Mbps
+D. Đều bắt buộc dùng cơ chế bảo mật WEP
 
-Câu 54: Khi một kẻ tấn công thực hiện "De-authentication flood attack", hệ thống mạng WLAN sẽ gặp hiện tượng gì?
-A. Tốc độ internet của tất cả các máy tăng đột biến
-*B. Các Client hợp lệ liên tục bị ngắt kết nối khỏi Access Point và không thể duy trì liên lạc
-C. Access Point tự động cập nhật lên chuẩn WPA3
-D. Địa chỉ MAC của Access Point bị xóa vĩnh viễn
+Câu 10: Trong mô hình Infrastructure, Access Point thực hiện chức năng nào đối với hệ thống mạng có dây?
+*A. Làm cầu nối (Bridge) chuyển đổi định dạng khung dữ liệu vô tuyến 802.11 sang khung Ethernet 802.3 và ngược lại
+B. Cung cấp nguồn điện xoay chiều trực tiếp cho Client
+C. Thay thế hoàn toàn vai trò của máy chủ Core Router
+D. Quét virus nội dung gói tin lớp ứng dụng
 
-Câu 55: Thành phần nào sau đây đóng vai trò là "Người thực thi xác thực" (Authenticator) trong kiến trúc xác thực IEEE 802.1X?
-A. Máy chủ RADIUS
-*B. Thiết bị Access Point (hoặc Switch)
-C. Phần mềm Supplicant cài trên máy Client
-D. Nhà cung cấp dịch vụ Internet (ISP)
-
-Câu 56: Mạng MANET sử dụng kiến trúc định tuyến phẳng (Flat routing) khi nào?
-A. Khi số lượng nút mạng lên tới hàng triệu nút
-*B. Khi quy mô mạng nhỏ và tất cả các nút mạng có vai trò cũng như năng lực phần cứng ngang hàng nhau
-C. Khi bắt buộc phải định tuyến qua vệ tinh
-D. Khi mạng có cấu trúc phân cụm nghiêm ngặt
-
-Câu 57: Trong giao thức định tuyến phản ứng DSR, cơ chế "Route Maintenance" được kích hoạt khi nào?
-A. Khi một nút có nhu cầu gửi gói tin mới đến đích chưa biết
-*B. Khi có sự cố đứt gãy liên kết trên tuyến đường đang sử dụng để truyền dữ liệu
-C. Định kỳ theo chu kỳ thời gian cố định 5 phút một lần
-D. Khi nút nguồn được cắm nguồn điện sạc
-
-Câu 58: Hiện tượng tấn công "Sybil attack" trong mạng di động tự tổ chức có thể làm sai lệch kết quả của cơ chế nào nặng nề nhất?
-A. Cơ chế sạc pin tự động
-*B. Cơ chế bầu chọn nút trưởng cụm hoặc các giao thức bỏ phiếu đồng thuận trong mạng
-C. Cơ chế nén dữ liệu của lớp ứng dụng
-D. Tốc độ đồng bộ đồng hồ nội bộ
-
-Câu 59: Điểm cải tiến của thuật toán định tuyến tối ưu năng lượng dựa trên thuật toán Tìm kiếm hấp dẫn (Gravitational Search Algorithm - GSA) trong MANET là gì?
-A. Sử dụng dây cáp để truyền năng lượng giữa các nút mạng
-*B. Coi các nút mạng như các thiên thể có khối lượng tỷ lệ với năng lượng còn lại để tìm ra đường đi có độ bền vững cao nhất
-C. Ép các thiết bị di động phải đứng yên trong suốt quá trình truyền tin
-D. Loại bỏ hoàn toàn giao thức IP của tầng mạng
-
-Câu 60: Trong mạng WSN, các nút cảm biến thường gửi dữ liệu về nút Sink theo mô hình truyền thông nào?
-A. Một điểm đến đa điểm (Point-to-Multipoint)
-*B. Đa điểm đến một điểm (Many-to-One / Multipoint-to-Point)
-C. Quảng bá toàn cầu (Global Broadcast)
-D. Giao tiếp vòng khép kín (Ring Communication)
-
-Câu 61: Điểm yếu bảo mật lớn nhất của nút cảm biến WSN trước tấn công vật lý (Physical attack) là gì?
-*A. Các nút cảm biến thường được triển khai ở các khu vực không có người giám sát, khiến kẻ xấu dễ dàng thu giữ và trích xuất thông tin phần cứng
-B. Nút cảm biến có kích thước quá lớn dễ bị phát hiện
-C. Vỏ của nút cảm biến không có khả năng chống nước
-D. Các nút cảm biến sử dụng sóng siêu âm để liên lạc
-
-Câu 62: Giao thức định tuyến hình học / vị trí (Geographic routing) trong WSN yêu cầu các nút cảm biến phải có thêm thông tin gì?
-A. Lịch sử duyệt web của người dùng
-*B. Tọa độ vị trí không gian của bản thân và các nút láng giềng (thông qua GPS hoặc thuật toán định vị)
-C. Danh sách các tài khoản quản trị mạng lõi
-D. Số lượng nút Sink đang hoạt động trên toàn thế giới
-
-Câu 63: Để chống lại tấn công "Replay attack" (Tấn công phát lại) gói tin trong mạng WSN, giải pháp nào sau đây thường được tích hợp vào gói tin?
-A. Tên của nhà sản xuất thiết bị
-*B. Số thứ tự gói tin (Sequence number) hoặc nhãn thời gian (Timestamp) không lặp lại
-C. Đoạn mã ẩn SSID của Access Point
-D. Địa chỉ IP của máy chủ DNS doanh nghiệp
-
-Câu 64: Tham số "Tỷ lệ truyền gói tin thành công" (Packet Delivery Ratio - PDR) trong đánh giá chất lượng dịch vụ (QoS) của mạng không dây được tính bằng tỉ số giữa:
-A. Số gói tin bị lỗi chia cho tổng số gói tin đã phát
-*B. Số gói tin dữ liệu nhận được tại nút đích chia cho tổng số gói tin dữ liệu được gửi đi từ nút nguồn
-C. Tổng số nút mạng chia cho tổng dung lượng pin hệ thống
-D. Số lượng địa chỉ MAC hợp lệ chia cho số lượng địa chỉ IP động
-
-Câu 65: Kiến trúc mạng VANET bao gồm ba thành phần truyền thông chính là gì?
-A. Vệ tinh, Máy chủ đám mây và Cáp quang biển
-*B. Thiết bị trên xe (OBU), Hạ tầng ven đường (RSU) và Trung tâm quản lý đáng tin cậy (TA)
-C. Điện thoại thông minh, Access Point và Thẻ SIM 5G
-D. Cảm biến địa chấn, Trạm BS và Thiết bị chuyển mạch Core
-
-Câu 66: Giao tiếp giữa Phương tiện và Hạ tầng ven đường (V2I) trong mạng VANET thường được sử dụng cho dịch vụ nào?
-A. Để các xe tự động đua tốc độ với nhau
-*B. Tải thông tin bản đồ, thanh toán phí giao thông tự động hoặc truy cập Internet diện rộng thông qua RSU
-C. Điều chỉnh hệ thống điều hòa nội bộ của xe
-D. Thay đổi biển số xe tự động trên đường đi
-
-Câu 67: Trong mạng VANET, cơ chế định tuyến "Greedy Forwarding" (Chuyển tiếp tham lam) của giao thức GPSR thực hiện chọn nút tiếp theo như thế nào?
-A. Chọn ngẫu nhiên một nút bất kỳ trong tầm sóng
-*B. Chọn nút láng giềng có khoảng cách hình học gần với nút đích nhất nhằm giảm thiểu số chặng truyền
-C. Chọn nút có địa chỉ IP lớn nhất trong bảng định tuyến
-D. Chọn nút đang đứng yên không di chuyển
-
-Câu 68: Để ngăn chặn một nút phương tiện độc hại liên tục gửi thông tin giả mạo vào mạng VANET, giải pháp bảo mật nào bắt buộc phải có?
-A. Tịch thu phương tiện ngay lập tức
-*B. Cơ chế xác thực nguồn gốc gói tin (Authentication) và tính không thể phủ nhận (Non-repudiation) thông qua chữ ký số
-C. Tắt toàn bộ hệ thống định vị GPS của xe
-D. Giới hạn tốc độ di chuyển của phương tiện dưới 10 km/h
-
-Câu 69: Mạng di động 4G LTE sử dụng kỹ thuật đa truy cập nào trên giao diện vô tuyến cho đường xuống (Downlink)?
-*A. OFDMA (Orthogonal Frequency Division Multiple Access)
-B. SC-FDMA
-C. CDMA
-D. TDMA
-
-Câu 70: Thành phần mạng lõi nào trong mạng 5G chịu trách nhiệm quản lý di động và thiết lập kết nối cho thiết bị người dùng (UE)?
-A. UPF (User Plane Function)
-*B. AMF (Access and Mobility Management Function)
-C. SMF (Session Management Function)
-D. AUSF (Authentication Server Function)
-
-Câu 71: Mục tiêu của nhóm dịch vụ eMBB (Enhanced Mobile Broadband) trong mạng 5G là gì?
-A. Giảm số lượng thiết bị kết nối vào mạng lõi
-*B. Cung cấp tốc độ truyền tải dữ liệu siêu cao, băng thông cực rộng phục vụ xem video 4K/8K, thực tế ảo (VR/AR)
-C. Đảm bảo độ trễ truyền gói tin luôn lớn hơn 1 giây
-D. Chỉ chạy trên các thiết bị cảm biến công suất thấp
-
-Câu 72: Trong kiến trúc mạng 5G, thành phần UPF (User Plane Function) đảm nhận vai trò gì?
-*A. Xử lý và định tuyến dữ liệu người dùng (User plane) giữa trạm phát sóng gNodeB và mạng dữ liệu bên ngoài (Internet)
-B. Quản lý hồ sơ mật khẩu và tính cước của thuê bao
-C. Cấp phát khóa mật mã công khai cho mạng WAN
-D. Điều khiển hướng quay của anten trạm phát sóng
-
-Câu 73: Cơ chế nén tiêu đề ROHC (Robust Header Compression) trong hệ thống mạng di động và 6LoWPAN giúp giải quyết vấn đề gì?
-A. Tăng độ dài của gói tin dữ liệu lên gấp đôi
-*B. Loại bỏ bớt các thông tin tiêu đề dư thừa lặp lại giữa các gói tin liên tiếp nhằm tiết kiệm tài nguyên băng thông vô tuyến
-C. Thay đổi địa chỉ IP nguồn thành địa chỉ MAC vật lý
-D. Ngăn chặn hoàn toàn các cuộc tấn công từ chối dịch vụ DoS
-
-Câu 74: Giao thức định tuyến RPL trong mạng 6LoWPAN sử dụng gói tin điều khiển nào để xây dựng và duy trì cấu trúc đồ thị DODAG hướng đích?
-A. Gói tin RREQ và RREP của mạng MANET
-*B. Gói tin DIO (DODAG Information Object) phát quảng bá từ nút gốc xuôi xuống dưới
-C. Gói tin TCP SYN và ACK của tầng giao vận
-D. Gói tin Beacon định kỳ của chuẩn Wi-Fi
-
-Câu 75: Mạng FANET yêu cầu các thuật toán định tuyến phải thích ứng với sự thay đổi cấu trúc mạng theo không gian mấy chiều?
-A. Không gian một chiều (1D)
-B. Không gian hai chiều (2D)
-*C. Không gian ba chiều (3D)
-D. Không không gian (0D)
-
-Câu 76: Chuẩn IEEE 802.11g tương thích ngược với chuẩn nào sau đây do hoạt động cùng dải tần 2.4 GHz?
-A. IEEE 802.11a
-*B. IEEE 802.11b
-C. IEEE 802.16 WiMAX
-D. Chuẩn Bluetooth 802.15.1
-
-Câu 77: Trong mô hình Infrastructure của mạng WLAN, vùng phủ sóng của một Access Point duy nhất cùng với các trạm Client kết nối vào nó được gọi là một:
+Câu 11: Trong mô hình Infrastructure của mạng WLAN, vùng phủ sóng của một Access Point duy nhất cùng với các trạm Client kết nối vào nó được gọi là một:
 *A. BSS (Basic Service Set)
 B. ESS (Extended Service Set)
 C. IBSS (Independent Basic Service Set)
 D. WAN Cell
 
-Câu 78: Việc kẻ tấn công sử dụng một phần mềm giả lập cấu hình một tên mạng Wi-Fi trùng hoàn toàn với tên mạng Wi-Fi hợp lệ của một quán cafe để lừa người dùng kết nối gọi là hình thức tấn công gì?
+Câu 12: Khi kết hợp nhiều vùng BSS lại với nhau thông qua hệ thống phân phối DS (Distribution System) để mở rộng vùng phủ sóng, cấu trúc này được gọi là gì?
+A. IBSS
+*B. ESS (Extended Service Set)
+C. Ad-hoc Zone
+D. VLAN Wireless
+
+Câu 13: Tính năng cho phép một Client di chuyển mượt mà từ BSS này sang BSS khác trong cùng một ESS mà không bị mất kết nối mạng gọi là:
+A. Routing
+*B. Roaming
+C. Switching
+D. Broadcasting
+
+Câu 14: Trong cơ chế CSMA/CA, khoảng thời gian ngắn nhất mà một trạm phải chờ sau khi kênh truyền rảnh trước khi gửi gói tin xác nhận ACK được gọi là gì?
+A. DIFS
+*B. SIFS (Short Interframe Space)
+C. EIFS
+D. Slot Time
+
+Câu 15: Kỹ thuật điều chế mã hóa phân chia theo tần số trực giao được áp dụng rộng rãi từ chuẩn 802.11a/g đến các chuẩn Wi-Fi hiện đại viết tắt là gì?
+A. DSSS
+B. FHSS
+*C. OFDM
+D. CDMA
+
+Câu 16: Khoảng thời gian IFS dài hơn được sử dụng để truyền các gói tin dữ liệu thông thường trong cơ chế cạnh tranh đường truyền CSMA/CA gọi là gì?
+A. SIFS
+*B. DIFS (Distributed Interframe Space)
+C. PIFS
+D. AIFS
+
+Câu 17: Chuẩn Wi-Fi 6 (802.11ax) bổ sung kỹ thuật truy cập đa người dùng nào giúp phân chia kênh truyền thành các kênh nhỏ (RU) để tối ưu độ trễ?
+A. MIMO
+*B. OFDMA
+C. CSMA/CD
+D. TDMA
+
+Câu 18: Dải tần số vô tuyến ISM (Industrial, Scientific, and Medical) dùng cho Wi-Fi 2.4GHz thường được chia thành bao nhiêu kênh độc lập không chồng lấn lên nhau tại Bắc Mỹ?
+A. 1 kênh
+*B. 3 kênh (Kênh 1, 6, 11)
+C. 5 kênh
+D. 14 kênh
+
+Câu 19: Hiện tượng gì xảy ra khi hai trạm không dây nằm ngoài vùng phủ sóng của nhau nhưng cùng nằm trong vùng phủ sóng của AP, dẫn đến xung đột tín hiệu khi cùng phát dữ liệu?
+A. Trạm trung gian (Intermediate Node)
+*B. Trạm ẩn (Hidden Node Problem)
+C. Trạm tiếp lộ (Exposed Node Problem)
+D. Đụng độ phản xạ
+
+Câu 20: Để giải quyết bài toán Trạm ẩn (Hidden Node), giao thức 802.11 sử dụng thêm cặp gói tin điều khiển ngắn nào trước khi truyền dữ liệu?
+A. SYN / ACK
+*B. RTS / CTS (Request to Send / Clear to Send)
+C. PING / PONG
+D. HELLO / BYE
+
+Câu 21: Trong kiến trúc bảo mật mạng WLAN, điểm khác biệt cốt lõi giữa chế độ WPA3 và WPA2 là gì?
+*A. WPA3 thay thế cơ chế bắt tay 4 bước bằng giao thức SAE nhằm chống tấn công từ điển ngoại tuyến
+B. WPA3 loại bỏ hoàn toàn thuật toán mã hóa AES
+C. WPA3 bắt buộc sử dụng khóa chia sẻ PSK có độ dài tối thiểu 64 ký tự
+D. WPA3 không hỗ trợ môi trường xác thực Enterprise
+
+Câu 22: Giao thức SAE (Simultaneous Authentication of Equals) trong chuẩn bảo mật WPA3-Personal dựa trên nguyên lý của cấu trúc mật mã nào?
+A. Mã hóa dòng RC4
+B. Hàm băm MD5 truyền thống
+*C. Trao đổi khóa Diffie-Hellman dựa trên đường cong elliptic (ECDH)
+D. Hệ thống mật mã đối xứng DES
+
+Câu 23: Khi triển khai giải pháp nâng cao tính an toàn cho mạng WLAN doanh nghiệp, chuẩn IEEE 802.1X thường kết hợp với giao thức nào để truyền tải thông tin xác thực đến máy chủ RADIUS?
+A. Giao thức RIP
+*B. Giao thức EAP (Extensible Authentication Protocol)
+C. Giao thức SNMP
+D. Giao thức ICMP
+
+Câu 24: Chuẩn bảo mật lỗi thời WEP sử dụng thuật toán kiểm tra tính toàn vẹn dữ liệu ICV dựa trên thuật toán nào?
+A. MD5
+B. SHA-1
+*C. CRC-32
+D. HMAC
+
+Câu 25: Điểm yếu cốt lõi dẫn đến việc WEP dễ bị bẻ khóa nhanh chóng bởi hacker là gì?
+*A. Không gian khóa IV quá ngắn (24-bit) và khóa mã hóa là tĩnh
+B. Sử dụng thuật toán AES quá phức tạp
+C. Không hỗ trợ lọc địa chỉ MAC
+D. Bắt buộc phải có máy chủ RADIUS
+
+Câu 26: Giao thức TKIP áp dụng trong WPA cải tiến cơ chế mã hóa của WEP bằng cách tăng độ dài của vectơ khởi tạo (IV) lên bao nhiêu bit?
+A. 32 bit
+*B. 48 bit
+C. 64 bit
+D. 128 bit
+
+Câu 27: Cơ chế bảo mật phổ thông WPA2-Personal (WPA2-PSK) sử dụng phương thức xác thực nào?
+*A. Pre-Shared Key (PSK)
+B. 802.1X/EAP
+C. Chứng thư số (Digital Certificate)
+D. Xác thực qua mã thẻ SIM
+
+Câu 28: Thuật toán mã hóa dòng đối xứng nào được sử dụng phổ biến trong cả hai cơ chế WEP và WPA-TKIP?
+A. AES
+B. DES
+*C. RC4
+D. Blowfish
+
+Câu 29: Chuẩn bảo mật WPA2 sử dụng giao thức nào kết hợp với thuật toán AES để đảm bảo bảo mật và tính toàn vẹn dữ liệu tối ưu?
+A. TKIP
+*B. CCMP
+C. WEP2
+D. SAE
+
+Câu 30: Tính năng lọc địa chỉ MAC (MAC Filtering) trên Access Point hoạt động ở tầng nào của mô hình OSI?
+A. Tầng vật lý
+*B. Tầng liên kết dữ liệu
+C. Tầng mạng
+D. Tầng ứng dụng
+
+Câu 31: Kiểu tấn công 'Rogue Access Point' gây ra nguy cơ gì nguy hiểm cho mạng nội bộ doanh nghiệp?
+A. Làm hỏng card mạng vật lý của Client
+*B. Tạo ra điểm truy cập bất hợp pháp cho phép kẻ ngoại lai xâm nhập không qua kiểm soát
+C. Làm tăng băng thông vô tuyến không giới hạn
+D. Thay đổi địa chỉ IP của máy chủ DNS
+
+Câu 32: Việc kẻ tấn công giả lập cấu hình một tên mạng Wi-Fi trùng khớp hoàn toàn với tên mạng hợp lệ của một tổ chức để đánh cắp thông tin gọi là hình thức:
 A. Tấn công Wormhole
 *B. Tấn công điểm truy cập sinh đôi giả mạo (Evil Twin attack)
-C. Tấn công lọc địa chỉ MAC vật lý
+C. Tấn công lọc địa chỉ MAC
 D. Tấn công chèn nhiễu tần số ISM
 
-Câu 79: Giao thức EAP-TLS trong xác thực mạng không dây doanh nghiệp nâng cao tính bảo mật bằng cách yêu cầu thành phần nào?
+Câu 33: Giao thức EAP-TLS trong xác thực mạng không dây doanh nghiệp nâng cao tính bảo mật bằng cách yêu cầu thành phần nào?
 A. Chỉ cần mật khẩu chuỗi ký tự ngắn
-*B. Sử dụng chứng thư số kỹ thuật số (Digital Certificates) ở cả phía máy chủ và máy Client để xác thực hai chiều
+*B. Sử dụng chứng thư số kỹ thuật số ở cả phía máy chủ và máy Client để xác thực hai chiều
 C. Loại bỏ hoàn toàn máy chủ RADIUS trung gian
 D. Chạy thuật toán mã hóa dòng RC4 cải tiến
 
-Câu 80: Khái niệm "Tô-pô mạng di động" (Network Topology) trong mạng tự tổ chức ad-hoc được hiểu là:
-A. Giá tiền của các thiết bị phần cứng không dây
-*B. Sơ đồ cấu trúc liên kết hình học và trạng thái kết nối giữa các nút mạng tại một thời điểm
-C. Tốc độ quay của cánh quạt trên thiết bị bay UAV
-D. Tổng số lượng địa chỉ IPv6 được cấp phát toàn cầu
+Câu 34: Cơ chế bắt tay 4 bước (4-way handshake) trong cấu trúc WPA/WPA2 được thực hiện nhằm mục đích gì?
+A. Để kiểm tra xem Client có bị nhiễm virus hay không
+*B. Để xác thực lẫn nhau và tạo ra các khóa mã hóa tạm thời cho phiên làm việc
+C. Để cấp phát địa chỉ IP cho Client
+D. Để đo lường khoảng cách vật lý giữa AP và Client
 
-Câu 81: Giao thức định tuyến DSR (Dynamic Source Routing) tìm đường đi dựa trên cơ chế nào khi có gói dữ liệu cần truyền?
-*A. Phát tán gói tin yêu cầu Route Request (RREQ) qua không trung và tích lũy địa chỉ các nút trung gian vào gói tin đó
-B. Tra cứu bảng định tuyến tĩnh đã được cấu hình từ trước bằng tay
-C. Gửi truy vấn trực tiếp lên máy chủ tên miền DNS toàn cầu
-D. Chờ nút đích tự động di chuyển đến gần nút nguồn
+Câu 35: Khi một kẻ tấn công thực hiện cuộc tấn công 'De-authentication flood attack', hệ thống mạng WLAN sẽ gặp hiện tượng gì?
+A. Tốc độ internet của tất cả các máy tăng đột biến
+*B. Các Client hợp lệ liên tục bị ngắt kết nối khỏi Access Point
+C. Access Point tự động cập nhật lên chuẩn WPA3
+D. Địa chỉ MAC của Access Point bị xóa vĩnh viễn
 
-Câu 82: Trong mạng MANET, một nút mạng hoạt động ích kỷ (Selfish node) có hành vi như thế nào?
-A. Liên tục tấn công phát mã độc phá hủy phần cứng nút khác
-*B. Từ chối chuyển tiếp gói tin của các nút khác để tiết kiệm năng lượng pin và băng thông cho riêng mình, nhưng vẫn sử dụng mạng để gửi nhận dữ liệu cá nhân
-C. Tự động tắt nguồn thiết bị vĩnh viễn không tham gia mạng
-D. Giả mạo làm nút Gateway để cấp địa chỉ IP động cho mạng
+Câu 36: Thành phần nào đóng vai trò là 'Người thực thi xác thực' (Authenticator) trong kiến trúc xác thực cổng bảo mật IEEE 802.1X?
+A. Máy chủ AAA / RADIUS
+*B. Thiết bị Access Point hoặc Switch hỗ trợ
+C. Phần mềm Supplicant cài trên máy Client
+D. Nhà cung cấp dịch vụ Internet (ISP)
 
-Câu 83: Để đánh giá chất lượng dịch vụ (QoS) về "Độ trễ đầu cuối" (End-to-End Delay) trong mạng MANET, người ta đo lường khoảng thời gian từ khi nào?
-*A. Từ khi gói tin được tạo ra và gửi đi tại nút nguồn cho đến khi nó được nhận thành công hoàn toàn tại nút đích
-B. Từ khi bật nguồn thiết bị nguồn đến khi thiết bị đích hết pin
-C. Từ khi gửi gói tin RREQ đến khi nhận được gói tin RREP
-D. Từ khi Access Point reset cấu hình hệ thống
+Câu 37: Trong bảo mật WPA3, giao thức bắt tay SAE giúp loại bỏ hình thức tấn công nguy hiểm nào vốn tồn tại trên WPA2?
+A. Tấn công Jamming lớp vật lý
+*B. Tấn công dò mật khẩu ngoại tuyến (Offline Dictionary Attack)
+C. Tấn công từ chối dịch vụ bằng gói tin IP lỗi
+D. Tấn công thay đổi địa chỉ MAC vật lý
 
-Câu 84: Đặc điểm nào sau đây KHÔNG phải là đặc trưng của nút cảm biến (Sensor node) trong mạng WSN truyền thống?
-A. Kích thước nhỏ gọn và giá thành rẻ
-B. Nguồn năng lượng pin giới hạn khó thay thế
-*C. Sở hữu năng lực tính toán mạnh mẽ ngang hàng máy tính xách tay
-D. Tích hợp sẵn bộ phận cảm biến môi trường (nhiệt độ, độ ẩm...)
-
-Câu 85: Cơ chế cấu hình lại mạng và bầu chọn lại Trưởng cụm (Cluster Head) theo chu kỳ trong giao thức LEACH nhằm mục đích gì?
-A. Để thay đổi tên định danh SSID của cụm cảm biến
-*B. Phân phối đều gánh nặng tiêu thụ năng lượng cho tất cả các nút trong mạng, tránh việc một nút cạn kiệt pin quá sớm
-C. Tăng kích thước vùng phủ sóng của mạng lên gấp trăm lần
-D. Ép buộc các nút cảm biến phải di chuyển liên tục
-
-Câu 86: Khi mạng WSN bị tấn công loại hình "Sinkhole attack", kẻ tấn công sẽ thực hiện điều gì?
-*A. Cấu hình nút độc hại trở nên cực kỳ thu hút (ví dụ tuyên bố có đường truyền siêu tốc về Sink) khiến toàn bộ lưu lượng dữ liệu vùng lân cận đều đổ về nó
-B. Đổ nước vào làm ngập vùng đặt nút Sink trung tâm
-C. Làm giả dữ liệu cảm biến đo nhiệt độ môi trường
-D. Ngắt kết nối mạng Internet của máy chủ quản trị mạng
-
-Câu 87: Tham số chất lượng dịch vụ "Jitter" trong mạng truyền thông không dây được định nghĩa là:
-A. Tốc độ truyền tải dữ liệu tối đa qua kênh truyền vô tuyến
-*B. Sự biến động hay độ lệch về thời gian trễ giữa các gói tin dữ liệu được truyền liên tiếp đến đích
-C. Tổng số gói tin bị rơi rớt trên đường truyền
-D. Công suất phát sóng trung bình của thiết bị anten
-
-Câu 88: Chuẩn truyền thông không dây chuyên dụng được sử dụng làm nền tảng cho mạng VANET (DSRC/WAVE) là chuẩn nào?
-A. IEEE 802.11b
-*B. IEEE 802.11p
-C. IEEE 802.15.4
-D. IEEE 802.16e
-
-Câu 89: Ứng dụng nhóm "Tiện ích và Quản lý dòng giao thông" (Traffic efficiency applications) trong VANET cung cấp loại thông tin nào?
-A. Lịch chiếu phim tại các rạp trung tâm đô thị
-*B. Cảnh báo sớm về tình trạng tắc nghẽn giao thông, gợi ý lộ trình tối ưu hoặc tốc độ khuyến nghị để xanh đèn tín hiệu
-C. Dữ liệu tài khoản cá nhân của hành khách trên xe
-D. Thông số áp suất lốp vật lý của các xe đi ngược chiều
-
-Câu 90: Trong mạng VANET, kỹ thuật định tuyến dựa trên bản đồ số đô thị (Map-based routing) hỗ trợ khắc phục nhược điểm gì của các phương tiện?
-A. Khắc phục tình trạng xe bị hết xăng trên cao tốc
-*B. Tránh việc thuật toán định tuyến chọn đường truyền thẳng xuyên qua các tòa nhà bê tông dày đặc vốn chặn hoàn toàn sóng vô tuyến
-C. Giảm thiểu chi phí mua bảo hiểm phương tiện giao thông
-D. Tự động điều khiển xe đi đúng làn đường quy định
-
-Câu 91: Để giải quyết mâu thuẫn giữa "Tính xác thực gói tin" và "Tính riêng tư vị trí" trong VANET, hệ thống hạ tầng sử dụng giải pháp PKI để làm gì?
-*A. Cấp phát một bộ gồm nhiều chứng thư nặc danh (Pseudonyms) kèm khóa bí mật tương ứng cho mỗi xe để thay đổi liên tục khi phát gói tin
-B. Công khai toàn bộ địa chỉ IP tĩnh của chủ xe lên không trung
-C. Sử dụng một mật mã dùng chung cho toàn bộ các phương tiện giao thông
-D. Cấm các xe không được phát tín hiệu vô tuyến ra ngoài
-
-Câu 92: Công nghệ đa truy cập phân chia theo tần số đơn sóng mang SC-FDMA được sử dụng cho đường nào trong mạng di động 4G LTE và tại sao?
-A. Đường xuống (Downlink), nhằm tăng băng thông tối đa cho trạm phát eNodeB
-*B. Đường lên (Uplink), nhằm giảm chỉ số PAPR (tỷ lệ công suất đỉnh trên công suất trung bình), giúp tiết kiệm pin cho thiết bị di động UE
-C. Đường kết nối giữa các trạm phát eNodeB với nhau qua dây cáp
-D. Đường truyền dẫn tín hiệu vệ tinh GPS toàn cầu
-
-Câu 93: Khái niệm "băng tần milimét" (mmWave) trong công nghệ mạng 5G được áp dụng cho dải tần số nào và có ưu điểm gì?
-A. Tần số dưới 1 GHz, có khả năng xuyên tường cực kỳ mạnh mẽ
-*B. Tần số rất cao (thường từ 24 GHz đến 100 GHz), cung cấp băng thông siêu lớn giúp tăng tốc độ truyền tải dữ liệu vượt trội
-C. Tần số sóng ngắn analog, chuyên dùng cho đài phát thanh tầm xa
-D. Tần số vô tuyến công suất thấp dưới 800 MHz
-
-Câu 94: Chức năng của thành phần AUSF (Authentication Server Function) trong cấu trúc mạng lõi 5G là gì?
-*A. Quyết định việc xác thực bảo mật cho thiết bị người dùng (UE) dựa trên việc truy vấn dữ liệu từ kho lưu trữ thông tin thuê bao UDM
-B. Định tuyến luồng dữ liệu video của người dùng ra mạng Internet công cộng
-C. Cấp phát địa chỉ IPv6 động cho các máy trạm Client
-D. Điều phối tần số nhảy sóng của các trạm phát gNodeB cận kề
-
-Câu 95: Tầng thích ứng 6LoWPAN thực hiện nén tiêu đề gói tin IPv6 bằng cách loại bỏ các thông tin nào có thể suy luận được từ tầng dưới (MAC Layer)?
-A. Loại bỏ toàn bộ nội dung phần dữ liệu hữu ích (Payload)
-*B. Loại bỏ các trường thông tin cố định lặp lại như độ dài tiêu đề, và suy luận địa chỉ IPv6 từ địa chỉ MAC 64-bit hoặc 16-bit của chuẩn 802.15.4
-C. Loại bỏ mã kiểm tra lỗi CRC của gói tin
-D. Thay thế tiêu đề IPv6 bằng tiêu đề bảo mật của chuẩn WPA3
-
-Câu 96: Giao thức định tuyến RPL trong mạng 6LoWPAN hoạt động theo cơ chế định tuyến nào?
-A. Định tuyến dựa vào việc phát tán liên tục gói tin RREQ toàn mạng
-*B. Định tuyến chủ động dựa trên khoảng cách địa lý kết hợp với hàm mục tiêu (Objective Function) để tối ưu hóa đường đi về phía nút gốc
-C. Định tuyến tĩnh hoàn toàn không bao giờ thay đổi cấu trúc đồ thị
-D. Định tuyến dựa trên cấu trúc liên kết mạng vòng Token Ring
-
-Câu 97: Trong mạng FANET, sự đứt gãy liên kết định tuyến xảy ra thường xuyên hơn mạng MANET chủ yếu do tham số nào của các nút mạng UAV?
-A. UAV có kích thước quá nhỏ gọn
-*B. UAV vận hành với vận tốc di chuyển rất cao và hướng bay thay đổi linh hoạt trong không gian 3D
-C. UAV tiêu tốn quá ít năng lượng khi truyền sóng
-D. UAV sử dụng các tần số vô tuyến độc quyền
-
-Câu 98: Kỹ thuật tấn công "Mạo danh nút mạng" (Spoofing attack) trong mạng FANET gây ra nguy cơ an ninh nào nguy hiểm nhất?
-A. Làm rơi rớt dung lượng pin vật lý của thiết bị điều khiển mặt đất
-*B. Kẻ tấn công giả mạo làm một UAV hợp lệ hoặc giả mạo trạm điều khiển GCS để gửi các lệnh sai lệch điều khiển hướng bay của hệ thống UAV
-C. Làm tăng tốc độ xử lý video của camera tích hợp trên UAV
-D. Tự động reset địa chỉ vật lý của tất cả các nút mạng lân cận
-
-Câu 99: Chuẩn mạng không dây IEEE 802.11a và 802.11g có điểm chung nào sau đây?
-A. Hoạt động chung trên dải tần số vô tuyến 2.4 GHz
-B. Đều hỗ trợ tốc độ truyền tải dữ liệu tối đa là 11 Mbps
-*C. Đều sử dụng kỹ thuật điều chế phân chia theo tần số thẳng góc (OFDM) lớp vật lý và hỗ trợ tốc độ tối đa 54 Mbps
-D. Đều bắt buộc phải sử dụng cơ chế bảo mật khóa dòng WEP
-
-Câu 100: Trong mô hình Infrastructure mạng WLAN, thiết bị Access Point thực hiện chức năng nào sau đây đối với hệ thống mạng có dây?
-*A. Làm cầu nối (Bridge) chuyển đổi định dạng khung dữ liệu vô tuyến 802.11 sang định dạng khung có dây Ethernet 802.3 và ngược lại
-B. Cung cấp nguồn điện xoay chiều trực tiếp cho các máy trạm Client không dây
-C. Thay thế hoàn toàn vai trò của máy chủ Core Router toàn cầu
-D. Quét virus nội dung gói tin lớp ứng dụng của người dùng
-
-Câu 101: Khi cấu hình ẩn định danh SSID trên Access Point, hành động này thực chất là gì?
+Câu 38: Khi cấu hình ẩn định danh SSID trên Access Point, hành động này thực chất là gì?
 A. AP sẽ ngắt hoàn toàn việc phát sóng vô tuyến ra không trung
-*B. AP sẽ xóa tên chuỗi ký tự SSID khỏi các gói tin quảng bá Beacon định kỳ, buộc người dùng phải nhập thủ công tên mạng khi muốn kết nối
+*B. AP xóa tên chuỗi ký tự SSID khỏi các gói tin quảng bá Beacon định kỳ, buộc người dùng nhập thủ công tên mạng
 C. AP sẽ mã hóa tên mạng bằng thuật toán đối xứng khối nâng cao AES
 D. AP tự động chặn toàn bộ các Client chạy hệ điều hành Android
 
-Câu 102: Cơ chế mã hóa CCMP áp dụng trong chuẩn bảo mật WPA2 sử dụng thuật toán mã hóa khối nào với độ dài khóa mặc định là bao nhiêu bit?
+Câu 39: Cơ chế mã hóa CCMP áp dụng trong chuẩn bảo mật WPA2 sử dụng thuật toán mã hóa khối nào với độ dài khóa mặc định là bao nhiêu bit?
 A. Thuật toán RC4 với độ dài khóa 64 bit
 *B. Thuật toán AES với độ dài khóa 128 bit
 C. Thuật toán Triple DES với độ dài khóa 192 bit
 D. Thuật toán RSA với độ dài khóa 1024 bit
 
-Câu 103: Giao thức định tuyến phản ứng (Reactive Routing) trong mạng di động tự tổ chức MANET mang lại lợi ích cốt lõi nào so với nhóm định tuyến chủ động?
-A. Đảm bảo gói tin dữ liệu luôn được gửi đi ngay lập tức không có độ trễ tìm đường
-*B. Giảm thiểu lượng băng thông tiêu tốn cho việc truyền tải các gói tin cập nhật trạng thái liên kết toàn mạng khi chưa cần thiết
-C. Không yêu cầu các thiết bị di động phải xử lý các thuật toán định tuyến
-D. Giúp tăng dung lượng lưu trữ ổ cứng của nút mạng lên nhiều lần
+Câu 40: Trong mô hình xác thực 802.1X, đối tượng Client gửi yêu cầu truy cập mạng và chạy phần mềm xác thực được gọi tên kỹ thuật là gì?
+A. Authenticator
+*B. Supplicant
+C. Authentication Server
+D. Proxy Gateway
 
-Câu 104: Trong giao thức định tuyến AODV, khi nút đích nhận được nhiều gói tin yêu cầu tìm đường RREQ từ các đường đi khác nhau, nó sẽ chọn phản hồi gói tin RREQ nào?
-A. Gói tin RREQ đến muộn nhất
-*B. Gói tin RREQ có số thứ tự đích lớn nhất hoặc có số chặng truyền (Hop count) nhỏ nhất nhằm tối ưu đường đi
-C. Gói tin RREQ chứa địa chỉ IP nguồn lớn nhất
-D. Gói tin RREQ phát ra từ nút mạng có mức pin thấp nhất
+Câu 41: Giao thức định tuyến nào sau đây thuộc nhóm định tuyến chủ động (Proactive/Table-driven) trong mạng di động ad-hoc MANET?
+A. AODV
+B. DSR
+*C. DSDV (Destination-Sequenced Distance-Vector)
+D. TORA
 
-Câu 105: Cơ chế bảo mật dựa trên "Mã xác thực thông điệp" (Message Authentication Code - MAC) hoặc hàm băm trong mạng MANET nhằm đảm bảo mục tiêu an ninh nào cho gói tin?
-A. Tính sẵn sàng không bị nghẽn mạng
-*B. Tính toàn vẹn (Integrity), chống việc gói tin bị chỉnh sửa nội dung trái phép trên đường truyền bởi các nút trung gian độc hại
-C. Tính nặc danh hoàn toàn của người gửi
-D. Tốc độ chuyển tiếp gói tin qua các nút mạng
+Câu 42: Điểm đặc trưng của nhóm giao thức định tuyến phản ứng (Reactive/On-Demand) như AODV trong mạng MANET là gì?
+A. Liên tục cập nhật và duy trì bảng định tuyến toàn mạng theo chu kỳ định sẵn
+*B. Chỉ thiết lập và tìm đường đi khi có nhu cầu gửi dữ liệu nhằm tiết kiệm băng thông và năng lượng
+C. Bắt buộc phải sử dụng định vị GPS tại tất cả các nút mạng
+D. Chỉ cho phép các nút mạng đứng yên liên lạc với nhau
 
-Câu 106: Thách thức về "Tắc nghẽn kênh truyền vô tuyến" (Wireless Congestion) ảnh hưởng đến chỉ số QoS nào của mạng không dây rõ rệt nhất?
-*A. Làm tăng độ trễ truyền gói tin và tăng tỷ lệ rơi rớt gói tin (Packet Loss) do đụng độ tín hiệu xảy ra liên tục
-B. Làm giảm dung lượng pin vật lý của các thiết bị di động đứng yên
-C. Làm thay đổi cấu trúc địa chỉ IPv6 của nút mạng lõi
-D. Loại bỏ hoàn toàn lớp liên kết dữ liệu khỏi mô hình OSI
+Câu 43: Trong giao thức định tuyến phản ứng DSR (Dynamic Source Routing), thông tin về toàn bộ đường đi (route) được lưu trữ ở đâu?
+*A. Được đặt ngay trong phần tiêu đề (header) của mỗi gói tin dữ liệu
+B. Chỉ được lưu tại một nút Gateway cố định
+C. Được phân tán tại tất cả các nút trung gian trên mạng
+D. Lưu trữ tập trung tại máy chủ RADIUS
 
-Câu 107: Hiện tượng "Nút mạng bị cô lập" (Isolated node) trong mạng cảm biến không dây WSN xảy ra khi nào?
-A. Khi nút cảm biến được bọc trong lớp vỏ bảo vệ chống nước
-*B. Khi tất cả các nút láng giềng xung quanh nó đã cạn kiệt năng lượng pin, khiến nó không thể chuyển tiếp dữ liệu về phía Sink
-C. Khi nút cảm biến tự động nâng cấp thuật toán mã hóa lên chuẩn AES
-D. Khi nút cảm biến được đặt trực tiếp cạnh nút Sink trung tâm
+Câu 44: Kiểu tấn công bảo mật nào trong mạng MANET xảy ra khi một nút độc hại cố tình tuyên bố nó có đường đi ngắn nhất đến đích để thu hút dữ liệu, sau đó lặng lẽ hủy bỏ (drop) các gói tin?
+A. Tấn công Sybil
+*B. Tấn công hố đen (Blackhole attack)
+C. Tấn công mạo danh địa chỉ MAC
+D. Tấn công phần mềm độc hại Ransomware
 
-Câu 108: Trong cấu trúc mạng WSN, các ứng dụng giám sát môi trường (như phát hiện cháy rừng) yêu cầu cấu hình truyền dữ liệu từ nút cảm biến về Sink theo dạng nào?
-A. Truyền liên tục từng mili giây không ngừng nghỉ suốt 24/7
-*B. Truyền dựa trên sự kiện (Event-driven), chỉ phát dữ liệu khẩn cấp khi tham số đo đạc vượt ngưỡng quy định để tiết kiệm tối đa năng lượng pin
-C. Chỉ truyền dữ liệu thông qua việc điều khiển thủ công bằng dây cáp
-D. Truyền dữ liệu thoại analog truyền thống
+Câu 45: Hình thức tấn công 'Sybil attack' trong mạng MANET được định nghĩa là gì?
+*A. Một nút độc hại tạo ra nhiều danh tính giả (hoặc mạo danh nhiều nút khác nhau) cùng một lúc để thao túng hệ thống
+B. Kẻ tấn công thu giữ phần cứng nút mạng và trích xuất khóa bí mật
+C. Gửi liên tục các gói tin nhiễu tần số lớp vật lý
+D. Tạo liên kết đường ống tốc độ cao giữa hai vùng mạng từ xa
 
-Câu 109: Kiểu tấn công bảo mật "Selective Forwarding" (Chuyển tiếp chọn lọc) trong mạng WSN được thực hiện bởi một nút độc hại như thế nào?
-A. Nút độc hại chuyển tiếp toàn bộ các gói tin dữ liệu nhận được nhanh nhất có thể
-*B. Nút độc hại lặng lẽ hủy bỏ một số gói tin quan trọng (ví dụ gói tin cảnh báo thiên tai) nhưng vẫn chuyển tiếp các gói tin điều khiển khác để tránh bị phát hiện
-C. Nút độc hại gửi liên tục các gói tin nhiễu công suất lớn lớp vật lý
-D. Nút độc hại tự động sạc pin từ các nút mạng lân cận
+Câu 46: Khi thiết kế giải pháp nâng cao chất lượng dịch vụ (QoS) trong mạng MANET, thách thức lớn nhất đến từ đặc điểm nào?
+A. Băng thông có dây quá lớn
+B. Độ lợi anten cố định
+*C. Tô-pô mạng thay đổi liên tục do tính di động của các nút và tài nguyên năng lượng hạn chế
+D. Các nút mạng luôn có cấu hình phần cứng đồng nhất
 
-Câu 110: Mạng VANET sử dụng tần số vô tuyến thuộc băng tần chuyên dụng nào sau đây cho các ứng dụng an toàn giao thông?
-*A. Băng tần 5.9 GHz (thuộc hệ thống DSRC - Dedicated Short-Range Communications)
-B. Băng tần ISM 2.4 GHz của mạng Wi-Fi dân dụng
-C. Băng tần sóng dài AM của hệ thống phát thanh tầm xa
-D. Băng tần siêu cao 60 GHz của chuẩn WiGig
+Câu 47: Đâu là một giải pháp cải tiến định tuyến trong MANET nhằm tối ưu hóa năng lượng tiêu thụ của hệ thống?
+A. Tăng tối đa công suất phát sóng của tất cả các nút trong mọi chu kỳ
+*B. Áp dụng các thuật toán tối ưu hoặc định tuyến dựa trên mức năng lượng còn lại của nút (Energy-Aware Routing)
+C. Ép buộc các nút mạng không được di chuyển
+D. Chuyển đổi toàn bộ mạng MANET sang sử dụng cấu trúc cáp quang
 
-Câu 111: Trong mạng VANET, thông điệp CAM (Cooperative Awareness Message) phát quảng bá định kỳ từ mỗi xe chứa các thông tin cốt lõi nào?
-A. Danh sách nhạc yêu thích và thông tin cá nhân của hành khách
-*B. Trạng thái động học của xe bao gồm vị trí hiện tại, vận tốc di chuyển, hướng lái và thời gian thực
-C. Lịch sử sửa chữa bảo dưỡng của phương tiện tại các đại lý
-D. Mật khẩu kết nối Wi-Fi của thiết bị OBU tích hợp trên xe
+Câu 48: Giao thức định tuyến phân cấp (Hybrid Routing) như ZRP (Zone Routing Protocol) trong MANET kết hợp các đặc tính nào?
+A. Định tuyến tĩnh và định tuyến động có dây
+*B. Sử dụng định tuyến chủ động trong phạm vi vùng (zone) cận kề và định tuyến phản ứng ngoài vùng
+C. Chỉ định tuyến bằng định vị vệ tinh và sóng radio ngắn
+D. Kết nối trực tiếp giữa lớp ứng dụng và lớp vật lý không qua lớp mạng
 
-Câu 112: Cơ chế định tuyến "Chứa - Mang và Chuyển tiếp" (Store-Carry-and-Forward) ứng dụng trong mạng VANET đô thị khi cấu trúc mạng gặp tình trạng gì?
-A. Khi mật độ phương tiện giao thông quá dày đặc gây nghẽn mạng
-*B. Khi mạng bị phân mảnh thưa thớt, không có sẵn liên kết vô tuyến đến xe tiếp theo, buộc xe phải lưu giữ dữ liệu trong bộ nhớ và mang đi cho đến khi gặp nút khác
-C. Khi tất cả các phương tiện giao thông đồng loạt dừng đỗ tại bãi xe
-D. Khi hạ tầng ven đường RSU sử dụng kết nối cáp quang tốc độ cao
+Câu 49: Một mạng di động ad-hoc (MANET) không phụ thuộc vào thành phần hạ tầng nào sau đây?
+A. Định tuyến đa chặng (Multi-hop)
+B. Các nút mạng di động
+*C. Cơ sở hạ tầng trạm gốc cố định
+D. Giao thức cấu hình tự động
 
-Câu 113: Để ngăn chặn tấn công mạo danh hoặc chỉnh sửa thông điệp an toàn trong mạng VANET, mỗi gói tin phát ra từ OBU của xe bắt buộc phải được đính kèm thành phần nào?
-*A. Chữ ký số tạo ra từ khóa bí mật của xe và chứng thư số nặc danh hợp lệ tương ứng
-B. Địa chỉ nhà riêng và số căn cước công dân của chủ sở hữu xe
-C. Toàn bộ mã nguồn của hệ thống điều hành tích hợp trên phương tiện
-D. Một chuỗi mật khẩu chia sẻ trước PSK dùng chung cho toàn mạng
+Câu 50: Giao thức định tuyến DSDV trong mạng MANET giải quyết vấn đề vòng lặp định tuyến (routing loops) bằng cách sử dụng chỉ số nào?
+A. Địa chỉ IP nguồn
+*B. Số thứ tự đích (Destination Sequence Number)
+C. Độ trễ gói tin
+D. Số lượng nút trung gian
 
-Câu 114: Công nghệ di động 5G sử dụng kỹ thuật anten tiên tiến nào với hàng trăm phần tử anten tại trạm gNodeB để tập trung năng lượng sóng vô tuyến về phía người dùng?
-A. Anten định hướng đơn hướng cố định
-*B. Massive MIMO kết hợp kỹ thuật tạo búp sóng (Beamforming)
-C. Anten dây đơn giản lớp vật lý
-D. Anten gương cầu hội tụ tín hiệu quang
+Câu 51: Trong giao thức AODV, khi một nút nguồn muốn tìm đường đến một nút đích, nó sẽ phát tán gói tin điều khiển nào toàn mạng?
+*A. RREQ (Route Request)
+B. RREP (Route Reply)
+C. RERR (Route Error)
+D. HELLO
 
-Câu 115: Thành phần mạng lõi 5G đảm nhận vai trò quản lý và thiết lập các phiên kết nối dữ liệu (Session management) cũng như cấp phát địa chỉ IP cho UE là:
-A. AMF
-B. UPF
-*C. SMF (Session Management Function)
-D. UDM
+Câu 52: Khi một nút trung gian trong mạng MANET phát hiện liên kết đến nút tiếp theo bị đứt gãy, nó sẽ gửi gói tin nào về phía nút nguồn?
+A. RREQ
+B. RREP
+*C. RERR (Route Error)
+D. DATA
 
-Câu 116: Trong mạng 5G, kiến trúc mạng "Khảo sát độc lập" (5G Standalone - 5G SA) có đặc điểm gì?
-*A. Sử dụng hoàn toàn trạm phát sóng thế hệ mới gNodeB kết hợp với mạng lõi 5G Core (5GC) độc lập không phụ thuộc vào hạ tầng 4G cũ
-B. Bắt buộc phải mượn mạng lõi EPC và trạm phát eNodeB của mạng 4G để hoạt động
-C. Chỉ hỗ trợ kết nối Internet qua hệ thống dây cáp quang cố định
-D. Không hỗ trợ các dịch vụ URLLC và mMTC của Internet vạn vật
+Câu 53: Điểm khác biệt chính giữa giao thức DSR và AODV là gì?
+A. AODV là định tuyến chủ động, DSR là phản ứng
+*B. DSR lưu toàn bộ thông tin đường đi trong tiêu đề gói tin, còn AODV lưu trong bảng định tuyến của các nút trung gian
+C. DSR chỉ chạy trên mạng có dây
+D. AODV yêu cầu định vị GPS còn DSR thì không
 
-Câu 117: Tầng thích ứng 6LoWPAN thực hiện phân đoạn (Fragmentation) gói tin IPv6 khi nào?
-A. Khi gói tin IPv6 có kích thước nhỏ hơn 40 byte
-*B. Khi kích thước gói tin IPv6 vượt quá kích thước khung dữ liệu tối đa (MTU) 127 byte của lớp vật lý chuẩn IEEE 802.15.4
-C. Khi mạng gặp hiện tượng tấn công hố đen độc hại
-D. Khi các nút cảm biến hoạt động trong môi trường nhiệt độ quá cao
+Câu 54: Giao thức định tuyến chủ động (Proactive) trong mạng MANET có nhược điểm lớn nào sau đây?
+A. Mất nhiều thời gian tìm đường khi cần gửi dữ liệu
+*B. Tiêu tốn nhiều băng thông để liên tục cập nhật và duy trì bảng định tuyến ngay cả khi mạng không có lưu lượng dữ liệu
+C. Không hỗ trợ định tuyến đa chặng
+D. Chỉ chạy được trên thiết bị của hãng Cisco
 
-Câu 118: Hàm mục tiêu (Objective Function) trong giao thức định tuyến RPL của mạng 6LoWPAN được sử dụng nhằm mục đích gì?
-A. Để tính toán dung lượng bộ nhớ còn trống của nút cảm biến
-*B. Định nghĩa cách thức nút cảm biến lựa chọn nút cha tối ưu (Parent) trong đồ thị DODAG dựa trên các chỉ số như số chặng, chất lượng liên kết (ETX) hoặc năng lượng pin
-C. Để tự động bẻ khóa các gói tin bảo mật của chuẩn WPA2
-D. Để điều khiển tốc độ di chuyển của các nút mạng ad-hoc
+Câu 55: Mạng MANET sử dụng kiến trúc định tuyến phẳng (Flat routing) khi nào?
+A. Khi số lượng nút mạng lên tới hàng triệu nút
+*B. Khi quy mô mạng nhỏ và tất cả các nút mạng có vai trò cũng như năng lực phần cứng tương đương
+C. Khi bắt buộc phải định tuyến qua vệ tinh
+D. Khi mạng có cấu trúc phân cụm nghiêm ngặt
 
-Câu 119: Trong kiến trúc mạng FANET phục vụ giám sát môi trường trên cao, thành phần GCS (Ground Control Station) đóng vai trò gì?
-A. Là một UAV đóng vai trò trưởng nhóm trên không trung
-*B. Là trạm điều khiển đặt dưới mặt đất dùng để vận hành, giám sát quỹ đạo bay và thu nhận dữ liệu trung tâm từ phi đội UAV
-C. Là một vệ tinh quỹ đạo thấp cung cấp dịch vụ định vị GPS
-D. Là card mạng không dây gắn ngoài của thiết bị Client di động
+Câu 56: Trong giao thức định tuyến phản ứng DSR, cơ chế 'Route Maintenance' được kích hoạt khi nào?
+A. Khi một nút có nhu cầu gửi gói tin mới đến đích chưa biết
+*B. Khi có sự cố đứt gãy liên kết trên tuyến đường đang sử dụng để truyền dữ liệu
+C. Định kỳ theo chu kỳ thời gian cố định 5 phút một lần
+D. Khi nút nguồn được cắm nguồn điện sạc
 
-Câu 120: Mục tiêu cốt lõi của việc nghiên cứu nâng cao các giải pháp Quality of Service (QoS) đa mục tiêu trong các mạng không dây ad-hoc thế hệ mới là gì?
-A. Loại bỏ hoàn toàn sự di động của các nút mạng để mạng ổn định như mạng có dây
-*B. Đảm bảo sự cân bằng tối ưu giữa việc tiết kiệm năng lượng, giảm độ trễ, tăng độ tin cậy và băng thông truyền tải phù hợp với điều kiện thực tế của môi trường vô tuyến
-C. Tăng kích thước vật lý của các thiết bị phần cứng không dây lên nhiều lần
-D. Ép buộc tất cả các mạng không dây phải chuyển sang sử dụng thuật toán mã hóa lỗi thời WEP-24bit
+Câu 57: Kỹ thuật tối ưu hóa định tuyến MANET sử dụng thuật toán tối ưu hóa bầy đàn hay thuật toán trọng lực (GSA) giúp giải quyết mục tiêu nào?
+A. Tăng kích thước tiêu đề gói tin
+*B. Tìm kiếm đường đi tối ưu đa mục tiêu (năng lượng tối thiểu, độ trễ thấp nhất, độ ổn định cao nhất)
+C. Ngăn chặn tuyệt đối mã độc tống tiền
+D. Tự động tăng tần số phát sóng của thiết bị
+
+Câu 58: Trong mạng MANET, gói tin HELLO được các nút mạng phát định kỳ nhằm mục đích gì?
+A. Để truyền dữ liệu đa phương tiện độ nét cao
+*B. Để phát hiện và duy trì thông tin về các nút hàng xóm trực tiếp (Neighbor Discovery)
+C. Để yêu cầu cấp phát dải IP mới
+D. Để kích hoạt chế độ mã hóa CCMP
+
+Câu 59: Kiểu tấn công 'Wormhole attack' (Tấn công lỗ sâu) trong mạng MANET được thực hiện như thế nào?
+A. Kẻ tấn công gửi hàng triệu gói tin rác lớp ứng dụng
+*B. Hai nút độc hại kết hợp tạo một đường liên kết ngầm tốc độ cao để chuyển tiếp gói tin, làm sai lệch nghiêm trọng thông tin cấu trúc mạng
+C. Nút độc hại tự tắt nguồn để tiết kiệm pin
+D. Mạo danh địa chỉ Gateway có dây
+
+Câu 60: Để bảo vệ mạng định tuyến MANET chống lại tấn công Blackhole, giải pháp nào sau đây thường được đề xuất nghiên cứu?
+*A. Sử dụng giao thức định tuyến bảo mật tích hợp cơ chế đánh giá độ tin cậy nút (Trust-based Routing) hoặc kiểm tra số Sequence Number bất thường
+B. Hạ thấp hoàn toàn băng thông của toàn mạng
+C. Loạt bỏ hoàn toàn lớp mạng (Network Layer) trong mô hình OSI
+D. Chỉ sử dụng thuật toán mã hóa WEP cổ điển
+
+Câu 61: Mạng cảm biến không dây WSN (Wireless Sensor Network) được cấu thành chủ yếu từ các thành phần đặc trưng nào?
+A. Các siêu máy tính kết nối cáp quang
+*B. Một tập hợp các nút cảm biến thu thập thông tin phân tán quy mô lớn và kết nối không dây đa chặng
+C. Các trạm thu phát di động 5G cỡ lớn
+D. Các thiết bị định tuyến lõi của nhà mạng
+
+Câu 62: Trong cấu trúc mạng WSN, nút có nhiệm vụ thu thập toàn bộ dữ liệu từ các nút cảm biến thành viên để xử lý hoặc chuyển tiếp về mạng trung tâm bên ngoài được gọi là gì?
+A. Cluster Head
+*B. Sink node (Nút gốc / Nút thu hoạch)
+C. Relay node
+D. End Device
+
+Câu 63: Ràng buộc kỹ thuật lớn nhất và quan trọng nhất khi thiết kế và triển khai hệ thống mạng cảm biến WSN là gì?
+A. Thiếu địa chỉ IP công cộng
+*B. Tài nguyên năng lượng (Pin) của các nút cảm biến cực kỳ hạn chế và khó thay thế
+C. Kích thước vật lý của thiết bị quá lớn
+D. Tốc độ truyền dẫn bắt buộc phải trên 1Gbps
+
+Câu 64: Giao thức LEACH (Low-Energy Adaptive Clustering Hierarchy) trong mạng WSN hoạt động theo nguyên lý cốt lõi nào?
+A. Định tuyến phẳng dựa trên địa chỉ IP
+*B. Phân chia mạng thành các cụm (Cluster), bầu chọn nút trưởng cụm (Cluster Head) theo chu kỳ để luân phiên gánh vác trách nhiệm tiêu tốn năng lượng
+C. Duy trì kết nối liên tục không bao giờ cho các nút ngủ
+D. Định tuyến dựa trên tọa độ vị trí GPS toàn cầu
+
+Câu 65: Chuẩn công nghệ lớp vật lý và lớp liên kết dữ liệu (MAC) tiêu chuẩn được thiết kế cho các mạng không dây tầm ngắn, tốc độ thấp, tiêu thụ năng lượng cực thấp như WSN / WPAN là chuẩn nào?
+A. IEEE 802.11g
+*B. IEEE 802.15.4
+C. IEEE 802.16
+D. IEEE 802.3
+
+Câu 66: Công nghệ 6LoWPAN được thiết kế nhằm mục đích cốt lõi nào sau đây trong hệ thống IoT?
+*A. Cho phép truyền tải các khung dữ liệu IPv6 qua các mạng không dây công suất thấp dựa trên chuẩn IEEE 802.15.4 thông qua cơ chế nén tiêu đề và phân mảnh
+B. Thay thế hoàn toàn sóng Wi-Fi bằng sóng ánh sáng
+C. Tăng tốc độ truyền tải dữ liệu lớp vật lý lên mức Terabyte
+D. Bắt buộc mạng không dây phải dùng kết nối có dây
+
+Câu 67: Giao thức định tuyến tiêu chuẩn được thiết kế bởi IETF dành riêng cho các mạng không dây công suất thấp và tổn hao nhiều (LLNs) như WSN chạy 6LoWPAN là giao thức nào?
+A. OSPFv3
+*B. RPL (Routing Protocol for Low-Power and Lossy Networks)
+C. BGP-4
+D. RIPv2
+
+Câu 68: Trong mạng WSN, chức năng hợp nhất dữ liệu (Data Aggregation) tại các nút trưởng cụm nhằm mục đích gì?
+A. Mã hóa dữ liệu chống tấn công mạng
+*B. Loại bỏ thông tin dư thừa, giảm kích thước dữ liệu cần truyền về Sink, từ đó tiết kiệm năng lượng kênh truyền
+C. Tăng độ trễ truyền dẫn gói tin
+D. Thay đổi địa chỉ nguồn của gói tin
+
+Câu 69: Chuẩn IEEE 802.15.4 hoạt động chủ yếu ở dải tần toàn cầu nào và hỗ trợ tốc độ truyền tải tối đa là bao nhiêu ở dải tần đó?
+*A. Dải tần 2.4 GHz với tốc độ tối đa 250 kbps
+B. Dải tần 5.0 GHz với tốc độ tối đa 54 Mbps
+C. Dải tần 60 GHz với tốc độ tối đa 1 Gbps
+D. Dải tần 900 MHz với tốc độ tối đa 11 Mbps
+
+Câu 70: Trong giao thức RPL, cấu trúc tô-pô định tuyến được xây dựng dựa trên mô hình đồ thị có hướng không chu trình nào?
+A. Mesh Grid Topology
+*B. DODAG (Destination-Oriented Directed Acyclic Graph)
+C. Star Topology
+D. Ring Topology
+
+Câu 71: Mạng VANET (Vehicular Ad-hoc Network) là một nhánh ứng dụng đặc thù của mạng MANET, trong đó các nút mạng di động chính là:
+A. Các vệ tinh quỹ đạo thấp
+*B. Các phương tiện giao thông di chuyển trên đường và các thiết bị hạ tầng ven đường
+C. Các cảm biến đo địa chấn cố định dưới lòng đất
+D. Các thiết bị đeo tay theo dõi sức khỏe
+
+Câu 72: Thành phần hạ tầng cố định được lắp đặt dọc theo các tuyến đường để giao tiếp kết nối với phương tiện trong mạng VANET được gọi tắt là gì?
+A. OBU (On-Board Unit)
+*B. RSU (Road-Side Unit)
+C. AU (Application Unit)
+D. TA (Trusted Authority)
+
+Câu 73: Thiết bị phần cứng được tích hợp trực tiếp trên ô tô hoặc phương tiện giao thông để xử lý và truyền nhận dữ liệu không dây vô tuyến trong VANET gọi là gì?
+A. RSU
+*B. OBU (On-Board Unit)
+C. Sink Node
+D. Gateway Core
+
+Câu 74: Mô hình giao tiếp V2V trong mạng VANET đại diện cho hình thức truyền thông nào?
+A. Từ phương tiện giao thông đến hạ tầng ven đường (Vehicle-to-Infrastructure)
+*B. Giữa các phương tiện giao thông trực tiếp với nhau (Vehicle-to-Vehicle)
+C. Từ phương tiện đến mạng lưới điện đám mây
+D. Từ phương tiện đến người đi bộ đường phố
+
+Câu 75: Đặc điểm vận hành nào sau đây tạo nên thách thức định tuyến lớn nhất trong mạng di động xe hơi VANET?
+*A. Các nút mạng di chuyển với tốc độ rất cao theo các lộ trình ràng buộc hình học (đường sá), gây đứt gãy liên kết liên tục
+B. Nguồn năng lượng pin của xe hơi quá yếu
+C. Không thể tích hợp anten vô tuyến lên xe
+D. Kích thước gói tin quá nhỏ
+
+Câu 76: Mạng FANET (Flying Ad-hoc Network) được định nghĩa là gì?
+A. Mạng kết nối các tàu ngầm dưới đại dương
+*B. Mạng tự tổ chức không dây giữa các thiết bị bay không người lái (UAVs/Drones) hoạt động trên không trung
+C. Mạng cáp quang kết nối các sân bay cố định
+D. Hệ thống định vị rada của quân đội
+
+Câu 77: So với mạng MANET và VANET truyền thống, mạng FANET có đặc điểm khác biệt cốt lõi nào về không gian di động?
+A. Các nút mạng đứng yên tuyệt đối
+*B. Các nút mạng di chuyển trong không gian 3 chiều (3D) với tốc độ cực cao, làm thay đổi tô-pô mạng nhanh chóng
+C. Chỉ hoạt động trong môi trường có dây
+D. Không sử dụng sóng vô tuyến để liên lạc
+
+Câu 78: Ứng dụng quan trọng và phổ biến nhất của mạng FANET trong thực tế hiện nay là gì?
+*A. Giám sát nông nghiệp, cứu hộ cứu nạn khu vực thiên tai, trinh sát quân sự nâng cao
+B. Thay thế hoàn toàn mạng internet cáp quang xuyên đại dương
+C. Quản lý hệ thống máy tính văn phòng tập trung
+D. Cấp phát địa chỉ IP tĩnh cho hộ gia đình
+
+Câu 79: Chuẩn kết nối không dây nào thường được tối ưu hóa cho ứng dụng truyền thông tầm ngắn chuyên dụng (DSRC) trong mạng VANET?
+A. IEEE 802.11a
+*B. IEEE 802.11p (WAVE)
+C. IEEE 802.15.1
+D. IEEE 802.3
+
+
+Câu 80: Trong mạng FANET, việc đứt gãy liên kết truyền thông giữa các UAV thường được khắc phục bằng phương pháp định tuyến nào?
+A. Định tuyến tĩnh cố định
+*B. Định tuyến dựa trên vị trí địa lý không gian (Geographic/Position-based Routing)
+C. Sử dụng lại giao thức RIPv1 cổ điển
+D. Tắt hoàn toàn tính năng định tuyến
+
+Câu 81: Chuẩn mạng không dây tầm ngắn cá nhân WPAN Bluetooth hoạt động dựa trên tiêu chuẩn gốc nào của IEEE?
+A. IEEE 802.11
+*B. IEEE 802.15.1
+C. IEEE 802.16
+D. IEEE 802.3
+
+Câu 82: Trong tiến trình thiết lập kết nối của công nghệ Bluetooth, trạng thái 'Inquiry' được sử dụng nhằm mục đích gì?
+A. Truyền tải gói tin dữ liệu âm thanh định dạng cao
+*B. Phát chuỗi quảng bá để tìm kiếm và phát hiện các thiết bị Bluetooth lân cận
+C. Đồng bộ hóa đồng hồ chính xác tuyệt đối
+D. Ngắt kết nối phiên làm việc hiện tại
+
+Câu 83: Trong tiến trình kết nối Bluetooth, sau khi phát hiện thiết bị lân cận, trạng thái nào được kích hoạt để thiết lập liên kết?
+A. Inquiry state
+*B. Page state
+C. Park state
+D. Hold state
+
+Câu 84: Gói tin đặc biệt nào chứa thông tin địa chỉ thiết bị và cấu trúc đồng hồ xung nhịp được gửi đi trong tiến trình của Bluetooth?
+A. Gói tin ACK
+*B. Gói tin FHS (Frequency Hop Synchronization)
+C. Gói tin TCP SYN
+D. Gói tin Beacon 802.11
+
+Câu 85: Một mạng Bluetooth cơ sở gồm một thiết bị điều khiển (Master) và tối đa 7 thiết bị thành viên hoạt động tích cực gọi là gì?
+A. Scatternet
+*B. Piconet
+C. Mesh Net
+D. VLAN Wireless
+
+Câu 86: Môi trường truyền dẫn LOS (Line-of-Sight) trong công nghệ truyền dẫn mạng phát sóng WiMAX được hiểu là gì?
+A. Tín hiệu bị che khuất hoàn toàn bởi tòa nhà cao tầng
+*B. Đường truyền thẳng góc trực diện, không gặp bất kỳ vật cản nào giữa anten phát và thu
+C. Truyền tín hiệu xuyên lòng đất
+D. Truyền dẫn thông qua cáp sợi quang ngầm
+
+Câu 87: Mạng di động thế hệ thứ năm (5G NR) định nghĩa 3 nhóm dịch vụ cốt lõi, trong đó dịch vụ băng thông di động siêu tốc độ được viết tắt là gì?
+A. URLLC
+*B. eMBB (Enhanced Mobile Broadband)
+C. mMTC
+D. D2D
+
+Câu 88: Nhóm dịch vụ 5G đáp ứng yêu cầu độ trễ cực thấp (dưới 1ms) và độ tin cậy siêu cao phục vụ điều khiển công nghiệp là gì?
+A. eMBB
+*B. URLLC
+C. mMTC
+D. VoLTE
+
+Câu 89: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 90: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 91: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 92: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 93: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 94: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 95: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 96: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 97: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 98: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 99: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 100: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 101: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 102: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 103: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 104: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 105: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 106: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 107: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 108: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 109: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 110: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 111: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 112: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 113: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 114: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 115: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 116: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 117: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 118: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 119: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 120: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 121: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 122: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 123: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 124: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 125: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 126: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 127: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 128: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 129: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 130: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 131: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 132: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 133: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 134: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 135: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 136: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 137: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 138: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 139: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 140: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 141: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 142: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 143: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 144: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 145: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 146: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 147: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 148: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 149: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 150: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 151: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 152: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 153: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 154: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 155: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 156: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 157: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 158: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 159: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 160: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 161: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 162: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 163: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
+
+Câu 164: Trong kiến trúc mạng 6LoWPAN, tầng thích ứng (Adaptation Layer) nằm ở vị trí nào giữa các tầng mạng tiêu chuẩn?
+A. Giữa tầng ứng dụng và tầng giao vận
+*B. Giữa tầng mạng IPv6 và tầng liên kết dữ liệu (MAC) IEEE 802.15.4
+C. Dưới cùng lớp vật lý
+D. Trên cùng lớp ứng dụng
+
+Câu 165: Mô hình giao tiếp V2I trong công nghệ mạng phương tiện di động VANET đại diện cho kết nối giữa các đối tượng nào?
+A. Giữa các ô tô di chuyển với nhau
+*B. Giữa phương tiện giao thông và cơ sở hạ tầng ven đường (Road-Side Unit)
+C. Giữa xe máy và vệ tinh không gian
+D. Giữa hành khách và tổng đài viễn thông
+
+Câu 166: Trong cấu trúc gói tin của chuẩn IEEE 802.11, trường nào chứa thông tin kiểm tra lỗi sai hỏng của toàn bộ khung dữ liệu?
+A. Duration
+*B. FCS (Frame Check Sequence)
+C. Sequence Control
+D. SSID Header
+
+Câu 167: Mạng không dây hoạt động ở tần số 5GHz có ưu điểm lớn nào so với tần số 2.4GHz?
+A. Khả năng đâm xuyên tường tốt hơn nhiều
+*B. Băng thông rộng hơn, ít bị nhiễu do ít thiết bị gia dụng hoạt động cùng tần số
+C. Vùng phủ sóng xa gấp mười lần
+D. Không cần sử dụng anten
+
+Câu 168: Trong chuẩn bảo mật WPA3, cơ chế bảo vệ chống tấn công dò mật khẩu trực tuyến liên tục bằng cách khóa tài khoản tạm thời gọi là gì?
+A. SAE Handshake
+*B. Natural Lockout Mechanism
+C. Crypto Shield
+D. CCMP Guard
+
+Câu 169: Giao thức định tuyến phản ứng AODV lưu trữ thông tin trạng thái đường đi tại vị trí nào trên mạng mạng di động?
+*A. Trong bảng định tuyến tại các nút trung gian trên tuyến đường
+B. Chỉ lưu tại thiết bị đích
+C. Đặt trực tiếp trong phần tiêu đề gói tin
+D. Lưu tập trung tại máy chủ đám mây
+
+Câu 170: Thuật toán tối ưu hóa bầy đàn áp dụng cải tiến giao thức định tuyến WSN giúp thực hiện mục tiêu cốt lõi nào?
+*A. Cân bằng tải năng lượng giữa các nút cảm biến, kéo dài tối đa tuổi thọ vận hành toàn mạng
+B. Tăng kích thước phần cứng của thiết bị
+C. Xóa bỏ địa chỉ MAC vật lý
+D. Chuyển đổi tín hiệu vô tuyến sang tín hiệu có dây
