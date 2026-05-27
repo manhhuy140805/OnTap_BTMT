@@ -908,9 +908,7 @@ function generateAndStartRandomQuiz(count, allQuestions) {
   );
   const subject = subjects[currentSubjectId];
   const quizGroup = getSelectedQuizGroup();
-  // Shuffle and pick random questions from selected exam
-  const shuffled = shuffleArray([...allQuestions]);
-  const selectedQuestions = shuffled.slice(0, count);
+  const selectedQuestions = selectBalancedRandomQuestions(allQuestions, count);
 
   // Create temporary random quiz
   quizzes.random = {
@@ -922,6 +920,39 @@ function generateAndStartRandomQuiz(count, allQuestions) {
 
   closeRandomQuizModal();
   startQuiz("random");
+}
+
+function selectBalancedRandomQuestions(allQuestions, count) {
+  const obviousByLength = shuffleArray(
+    allQuestions.filter(hasUniquelyLongestCorrectOption),
+  );
+  const balanced = shuffleArray(
+    allQuestions.filter((question) => !hasUniquelyLongestCorrectOption(question)),
+  );
+
+  // Keep length from becoming a dependable hint, while filling from the
+  // original bank when too few balanced questions are available.
+  const preferredObviousCount = Math.ceil(count * 0.35);
+  const requiredObviousCount = Math.max(0, count - balanced.length);
+  const obviousCount = Math.min(
+    obviousByLength.length,
+    Math.max(preferredObviousCount, requiredObviousCount),
+  );
+  const balancedCount = Math.min(balanced.length, count - obviousCount);
+
+  return shuffleArray([
+    ...balanced.slice(0, balancedCount),
+    ...obviousByLength.slice(0, count - balancedCount),
+  ]);
+}
+
+function hasUniquelyLongestCorrectOption(question) {
+  const correctOption = question.options.find((option) => option.correct);
+  if (!correctOption) return false;
+
+  return question.options
+    .filter((option) => !option.correct)
+    .every((option) => correctOption.text.length > option.text.length);
 }
 
 function getRandomQuizTimeLimitSeconds(subjectId, count) {
